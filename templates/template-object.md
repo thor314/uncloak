@@ -3,4 +3,5 @@ publish: true
 category: object
 ---
 # Object: 
-stub 
+
+## Originating Source(s)

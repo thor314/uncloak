@@ -2,7 +2,7 @@
 publish: false
 ---
 # Uncloak: A Community Maintained Cryptography Resource (WIP)
-The site is hosted https://publish.obsidian.md/uncloak/.
+The site is hosted https://uncloak.org.
 
 Contributions are invited. 
 - Discuss the site on our [Discord](https://discord.gg/TYwr4pMS2h) 
