@@ -1,5 +1,5 @@
-
 ---
+publish: true
 category: topic
 ---
 # Topic: 

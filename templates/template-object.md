@@ -1,4 +1,5 @@
 ---
+publish: true
 category: object
 ---
 # Object: 

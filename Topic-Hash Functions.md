@@ -1,4 +1,5 @@
 ---
+publish: true
 category: topic
 ---
 # Topic: Hash Functions 
