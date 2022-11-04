@@ -2,7 +2,7 @@
 publish: true
 ---
 # Uncloak: A Community Maintained Cryptography Resource (WIP)
-Welcome to Uncloak, an experiment in building a community-maintained knowledge wiki-like thing, aiming to increase the accessibility of cryptography for developers, researchers, and everyone else. 
+Welcome to Uncloak, an community-maintained knowledge wiki experiment, aiming to increase the accessibility of cryptography for developers, researchers, and everyone else. 
 
 Our approach to knowledge organization attempts to incorporate basic ideas about how knowledge is constructed, representing content as nodes in a dependency graph. We believe this approach may help to clarify how to approach cryptography as a field for readers of all levels, while aiming to maintain a high standard for what information is relevant for different audiences.
 

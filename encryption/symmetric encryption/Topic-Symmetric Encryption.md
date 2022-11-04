@@ -1,8 +1,12 @@
 ---
 publish: true
 category: topic
+audience: all
 ---
-# Topic: Encryption
+# Topic: Symmetric Encryption
 ## Intro
 
 ## Subtopics
+
+## Related
+- [Wikipedia Article](https://en.wikipedia.org/wiki/Symmetric-key_algorithm)
