@@ -1,5 +1,5 @@
 ---
-publish: true
+publish: false
 category: attack-type
 ---
 # Attack Type: 
