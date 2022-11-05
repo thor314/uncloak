@@ -13,7 +13,19 @@ What follows is an enumeration of the different node categories and subcategorie
 - How this node differs for All/Developer/Researcher Audiences
 - What sections should all nodes of this category have?
 
-## Statement
+## working list of node types:
+This list is subject to change. The node categorization system has grown to include examples of:
+- topic
+- object
+- algorithm
+- property
+- term
+- aphorism
+- attack-type
+- security model
+- theorem
+- lemma
+But should incorporate 
 
 ## Object Types
 Likely sections:

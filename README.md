@@ -6,7 +6,7 @@ Welcome to Uncloak, a community-maintained knowledge wiki experiment, aiming to 
 
 Our approach to knowledge organization attempts to incorporate basic ideas about how knowledge is constructed by representing links between concepts as connections between nodes in a graph. We believe this approach may help to clarify how to approach cryptography as a field for readers of all levels, while aiming to maintain a high standard for what information is relevant for different audiences.
 
-The site will initially focus on generating content directed at cryptography learners and developers in cryptography engineering and zero knowledge, as we see these fields as most lacking in resources. Where there are already decent existing resources (wikipedia pages, blog posts, etc.), the site will aim to link to them, while we expand content in the target areas.
+The site will initially focus on generating content directed at cryptography learners and developers in cryptography engineering and zero knowledge, as we see these fields as most lacking in resources. Where there are already decent existing resources (wikipedia pages, blog posts, etc.), the site will aim to link to them, while we expand content in target areas where the need is greater. These stubs are great candidates for first-time-contributions.
 
 Work on site content began in November 2022; the site graph is sparse at the moment, but growing. If you see an area you might like to improve, we appreciate contributions to the site. Currently the best way to do so is by opening an issue or pull request on our [Github](https://github.com/thor314/uncloak).  If you're reading this from Github, the site is hosted at https://uncloak.org. Though the site is hosted via Obsidian Publish, you don't need to use Obsidian to contribute to the site; all files are pure Markdown. We're currently working on resources for site contributors. 
 
@@ -17,7 +17,13 @@ The Obsidian-Publish mobile site is unfortunately unable to display the desktop-
 [[Topic-Cryptography|Click here, or on the graph, to continue to the site root node on cryptography]].
 
 ## Tips for making best use of the site
-(todo) 
+If you've ever rabbit-holed on Wikipedia and thought, "oh that went pretty well, but the relationship between those concepts is still a little unclear" then you already know how to use the site. This site attempts to address the complaint that it can be difficult to know where a particular concept or tool fits in context. The graph is an attempt at generating that context.
+
+To see this in action, take a look at the path from [[Topic-Number Theory]] to the [[Algorithm-Extended Euclidean Algorithm]]. If you're viewing this from the website, you can see the path traverses three other nodes: on the [[Object-Integers]], [[Property-Divisibility]], and [[Algorithm-Euclidean Algorithm]]. The path containing these 4 nodes is how the site attempts to put the Extended Euclidean Algorithm in context.
+
+The *global graph* feature on the website is buggier than the desktop *global graph*, sometimes refusing to render. If you clone the [Github](https://github.com/thor314/uncloak) and open the graph as an Obsidian vault (requires downloading Obsidian, which is free), you can even see the entire graph structure by calling the function `Graph view: Open Graph View`. 
+
+Optionally, for more on using Obsidian, consult the Uncloak Obsidian Usage guide (todo).
 
 ## Contributor Guide
 For more on contributing, see [[Topic-Meta]] (todo).
@@ -26,7 +32,7 @@ For more on contributing, see [[Topic-Meta]] (todo).
 Note that the site is limited to 4GB of image content. Prefer using markdown tools like [mermaid](https://mermaid-js.github.io) to including images where possible. Convert all images to SVG before including them in files. Changes to this git repository do not automatically push to the site. This has to be done manually, until we get around to automating it.
 
 ## How to give
-The site would not be possible without the support of grants and donations. The site maintainer works full time on improving site content, alongside several volunteer contributors.
+The site would not be possible without the support of grants and donations. The site maintainer works full time on improving site content, alongside volunteer contributors.
 
 If you would like to support the continued growth of the site, consider donating. Some addresses are managed through Kraken, which may include a minimum deposit. 
 
