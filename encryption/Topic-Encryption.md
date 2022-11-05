@@ -31,7 +31,7 @@ Asymmetric Key encryption is a significantly more recent invention: it was simul
 - [[Topic-Asymmetric Encryption]]
 
 ## Related
-- [Wikipedia Article](https://en.wikipedia.org/wiki/Encryption)(j)
+- [Wikipedia Article](https://en.wikipedia.org/wiki/Encryption)
 
 ## References
 [^1]: [Suetonius, Vita Divi Julii](http://thelatinlibrary.com/suetonius/suet.caesar.html#56)

@@ -6,9 +6,10 @@ audience: all
 # Topic: Historical Ciphers
 
 
-## Objects
+## Nodes
 - [[Algorithm-Caesar Cipher]]
 - [[Algorithm-Substitution Cipher]]
+- [[Algorithm-Vignère cipher]]
 
 ## Related
 - [Wikipedia Article](https://en.wikipedia.org/wiki/Cipher)

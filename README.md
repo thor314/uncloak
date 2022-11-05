@@ -4,9 +4,9 @@ publish: true
 # Uncloak: A Community Maintained Cryptography Resource
 Welcome to Uncloak, a community-maintained knowledge wiki experiment, aiming to increase the accessibility of cryptography for developers, researchers, and everyone else. 
 
-Our approach to knowledge organization attempts to incorporate basic ideas about how knowledge is constructed, representing content as nodes in a graph. We believe this approach may help to clarify how to approach cryptography as a field for readers of all levels, while aiming to maintain a high standard for what information is relevant for different audiences.
+Our approach to knowledge organization attempts to incorporate basic ideas about how knowledge is constructed by representing links between concepts as connections between nodes in a graph. We believe this approach may help to clarify how to approach cryptography as a field for readers of all levels, while aiming to maintain a high standard for what information is relevant for different audiences.
 
-The site will initially focus on generating content directed at cryptography learners and developers in cryptography engineering and zero knowledge, as we see these fields as most lacking in resources.
+The site will initially focus on generating content directed at cryptography learners and developers in cryptography engineering and zero knowledge, as we see these fields as most lacking in resources. Where there are already decent existing resources (wikipedia pages, blog posts, etc.), the site will aim to link to them, while we expand content in the target areas.
 
 Work on site content began in November 2022; the site graph is sparse at the moment, but growing. If you see an area you might like to improve, we appreciate contributions to the site. Currently the best way to do so is by opening an issue or pull request on our [Github](https://github.com/thor314/uncloak).  If you're reading this from Github, the site is hosted at https://uncloak.org. Though the site is hosted via Obsidian Publish, you don't need to use Obsidian to contribute to the site; all files are pure Markdown. We're currently working on resources for site contributors. 
 

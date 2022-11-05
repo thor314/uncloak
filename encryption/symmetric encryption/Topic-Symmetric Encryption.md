@@ -6,10 +6,6 @@ audience: all
 # Topic: Symmetric Encryption
 ## Intro
 
-
-## Objects
-- 
-
 ## Subtopics
 - [[Topic-Historical Ciphers]]
 - [[Topic-Block Ciphers]]

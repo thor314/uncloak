@@ -12,3 +12,6 @@ audience: all
 - [[Topic-Group Theory]]
 - [[Topic-Probability Theory]]
 - [[Topic-Information Theory]]
+- [[Topic-Elliptic Curves]]
+- [[Topic-Complexity Theory]]
+- [[Topic-Lattices]]

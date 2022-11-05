@@ -15,7 +15,8 @@ Cryptography comes from the Greek root words *kryptos*, meaning hidden, and *gra
 - [[Topic-Cryptanalysis]]
 - [[Topic-Zero Knowledge]]
 - [[Topic-Cryptography Engineering]]
+- [[Topic-Cryptography Aphorisms]]
 - [[Topic-Cryptography Related Topics]]
-
+- [[Topic-Post Quantum Cryptography]]
 ## Related
 - [Wikipedia Article](https://en.wikipedia.org/wiki/Cryptography)

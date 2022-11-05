@@ -4,12 +4,11 @@ category: topic
 audience: all
 ---
 # Topic: Hash Functions 
-stub 
+## Intro
 
-
-
-## Highlighted nodes:
+## Nodes
 - [[Term-Cryptographic Hash Function]]
 - [[Algorithm-MD5 Hash]]
+- [[Security Model-Random Oracle Model]]
 
 ## Subtopics: 
