@@ -1,10 +1,14 @@
 ---
 publish: true
-category: topic
 audience: all
 ---
+#topic 
 # Topic: Number Theory
 ## Intro 
+
+
+## Highlighted objects
+- [[Set-Integers]]
 
 ## Subtopics
 

@@ -1,10 +1,10 @@
 ---
 publish: true
-category: algorithm
 audience: all
 date-origin: ?
 date-broken: ?
 ---
+#object/algorithm 
 # Algorithm: Substitution Cipher
 ## Intro
 

@@ -1,10 +1,9 @@
 ---
 publish: true
-category: topic
 audience: all
 ---
+#topic
 # Topic: Historical Ciphers
-
 
 ## Nodes
 - [[Algorithm-Caesar Cipher]]

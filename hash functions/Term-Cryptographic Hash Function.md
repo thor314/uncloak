@@ -1,8 +1,8 @@
 ---
 publish: true
-category: term
 audience: all
 ---
+#term
 # Term: Cryptographic Hash Function
 
 

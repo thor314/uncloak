@@ -1,8 +1,8 @@
 ---
 publish: true
-category: topic
 audience: all
 ---
+#topic 
 # Topic: Encryption
 ## Intro
 **Encryption** and decryption is process of algorithmically hiding and unhiding information. Cryptography terms the original message the [plaintext](https://en.wikipedia.org/wiki/Plaintext), and the encrypted message [ciphertext](https://en.wikipedia.org/wiki/Ciphertext), [cipher](https://en.wikipedia.org/wiki/Cipher) being the historical word for a [[Topic-Symmetric Encryption|symmetric encryption algorithm]]. Encryption is often described in a message passing context between two parties, but includes the hiding of static information, as in the case of [Disk Encryption](https://en.wikipedia.org/wiki/Disk_encryption) .

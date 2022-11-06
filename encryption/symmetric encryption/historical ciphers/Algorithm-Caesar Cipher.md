@@ -1,11 +1,11 @@
 ---
 publish: true
-category: algorithm
 audience: all
 date-origin: ~69 BCE
 date-broken: ?
 ---
-# Algorithm: 
+#object/algorithm 
+# Algorithm: Caesar Cipher
 ## Intro
 
 ## Relation to Similar Algorithms

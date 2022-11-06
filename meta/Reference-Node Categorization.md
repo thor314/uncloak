@@ -1,9 +1,8 @@
 ---
 publish: true
-category: meta
-documentation-type: reference
 audience: contributors
 ---
+#documentation/categorization
 # Reference: Node Categorization
 *this note gives a [reference](https://documentation.divio.com/reference/) to the node categorization system, as applied in cryptography. [[Explanation-Node Categorization|See explanation instead]]. Terms used here are still evolving, and may change. Last updated 2022-11-04, this note is rapidly changing*.
 

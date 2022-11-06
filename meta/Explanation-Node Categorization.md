@@ -1,9 +1,8 @@
 ---
 publish: true
-category: meta
-documentation-type: explanation
 audience: contributors
 ---
+#documentation/explanation 
 # Explanation: Node Categorization 
 *this note gives [discursive explanation](https://documentation.divio.com/explanation/) of the node categorization system. For the category [reference](https://documentation.divio.com/reference/), consult [[Reference-Node Categorization]]. Terms used here are still evolving, and may change. Last updated 2022-11-04, this note is subject to change*.
 

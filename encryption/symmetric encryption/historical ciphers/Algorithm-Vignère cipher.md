@@ -1,10 +1,10 @@
 ---
 publish: true
-category: algorithm
 audience: all
 date-origin: 1500s
 date-broken: 1863
 ---
+#object/algorithm
 # Algorithm: Vignère Cipher
 ## Intro
 

@@ -1,8 +1,8 @@
 ---
 publish: true
-category: topic
 audience: all
 ---
+#topic 
 # Topic: Complexity Theory
 ## Intro 
 

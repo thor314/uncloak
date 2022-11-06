@@ -1,8 +1,8 @@
 ---
 publish: true
-category: statement
 audience: all
 ---
+#statement/lemma
 # Lemma: Natural Properties of Divisibility
 ### Proposition 1
 For $a,b,c\in \mathbb Z$, the following hold:

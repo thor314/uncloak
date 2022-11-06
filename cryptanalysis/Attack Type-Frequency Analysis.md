@@ -1,8 +1,8 @@
 ---
 publish: true
-category: attack-type
 audience: all
 ---
+#object/attack-type 
 # Attack Type: Frequency Analysis
 
 

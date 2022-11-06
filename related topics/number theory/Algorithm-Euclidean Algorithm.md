@@ -1,9 +1,9 @@
 ---
 publish: true
-category: algorithm
 audience: all
 date-origin: ?
 ---
+#object/algorithm 
 # Algorithm: Euclidean Algorithm
 ## Intro
 The **Euclidean Algorithm** obtains the [[Property-Greatest-Common-Divisor|greatest common divisor]] of a pair of integers, $a,b$. 

@@ -1,10 +1,10 @@
 ---
 publish: true
-category: algorithm
 audience: all
 date-origin: 1992-04
 date-broken: 2008-12
 ---
+#object/algorithm 
 # Algorithm: MD5 Hash Function
 ## Intro
 MD5 is a broken (since 2008), but widely used [[Term-Cryptographic Hash Function|cryptographic hash function]] with a 128-bit [[Term-Digest|digest]]. MD5 is vulnerable to [[Attack Type-Collision Attack|collision]] and [[Attack Type-Length Extension Attack|length extension]] attacks. 

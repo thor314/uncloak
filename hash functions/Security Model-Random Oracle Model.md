@@ -1,8 +1,8 @@
 ---
 publish: true
-category: security-model
 audience: all
 ---
+#model/security-model
 # Security Model: Random Oracle Model
 ## Intro 
 
