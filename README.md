@@ -1,18 +1,17 @@
 ---
 publish: true
 ---
+#documentation
 # Uncloak: A Community Maintained Cryptography Resource
 Welcome to Uncloak, a community-maintained knowledge wiki experiment, aiming to increase the accessibility of cryptography for developers, researchers, and everyone else. 
 
 Our approach to knowledge organization attempts to incorporate basic ideas about how knowledge is constructed by representing links between concepts as connections between nodes in a graph. We believe this approach may help to clarify how to approach cryptography as a field for readers of all levels, while aiming to maintain a high standard for what information is relevant for different audiences.
 
-The site will initially focus on generating content directed at cryptography learners and developers in cryptography engineering and zero knowledge, as we see these fields as most lacking in resources. Where there are already decent existing resources (wikipedia pages, blog posts, etc.), the site will aim to link to them, while we expand content in target areas where the need is greater. These stubs are great candidates for first-time-contributions.
+The site will initially focus on generating content directed at cryptography learners and developers in cryptography engineering and zero knowledge, as we see these fields as most lacking in resources. Where there are already decent existing resources (wikipedia pages, blog posts, etc.), the site will aim to link to them, while we expand content in target areas where the need is greater. These stubs are great candidates for first-time-contributions. 
 
 Work on site content began in November 2022; the site graph is sparse at the moment, but growing. If you see an area you might like to improve, we appreciate contributions to the site. Currently the best way to do so is by opening an issue or pull request on our [Github](https://github.com/thor314/uncloak).  If you're reading this from Github, the site is hosted at https://uncloak.org. Though the site is hosted via [Obsidian Publish](https://obsidian.md/publish), you don't need to use [Obsidian](https://obsidian.md/) to contribute to the site; all files are pure Markdown. We're currently working on resources for site contributors. 
 
-Our [Discord](https://discord.gg/TYwr4pMS2h) is a good place to ask questions and connect with other contributors. We also have a [Twitter](https://twitter.com/uncloakcrypto) account for site-related announcements. Questions for the site maintainer should be directed at thorck a-squiggle pm dot me.
-
-The Obsidian-Publish mobile site is unfortunately unable to display the desktop-only interactive graph.
+Our [Discord](https://discord.gg/TYwr4pMS2h) is a good place to ask questions and connect with contributors. We also have a [Twitter](https://twitter.com/uncloakcrypto) account for site-related announcements.
 
 [[Topic-Cryptography|Click here, or on the graph, to continue to the site root node on cryptography]].
 
@@ -21,7 +20,7 @@ If you've ever rabbit-holed on Wikipedia and thought, "oh that went pretty well,
 
 To see this in action, take a look at the path from [[Topic-Number Theory]] to the [[Algorithm-Extended Euclidean Algorithm]]. If you're viewing this from the website, you can see the path traverses [[Set-Integers]] and [[Algorithm-Euclidean Algorithm]]. The path between nodes and the system of node categorization is how the site attempts to put these concepts in context. 
 
-*Nit-pickers: yes, the extended euclidean algorithm can be applied to objects other than integers, and no, the structure of the graph is not final. Open a PR to propose updates to nodes and alternative organizing structures. Pedantry and nitpicking are welcome, we would appreciate your help.*
+*Nit-pickers: yes, the extended euclidean algorithm can be applied to objects other than integers, and no, the structure of the graph is not final! Open a PR to propose updates to nodes and alternative organizing structures. Pedantry and nitpicking are welcome, we would appreciate your help.*
 
 Each page includes **forward-links** and **backlinks** (you can find backlinks at the bottom of the page in the section titled "Links to this page"). The prior paragraph contains 5 forward links; no other page in the wiki links to the README, so there are no backlinks for this page, but *every other node* in the wiki is linked to by at least one other node. 
 
