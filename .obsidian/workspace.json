@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "meta/meta-Node Type List.md",
+                "file": "cryptanalysis/Topic-Cryptanalysis.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "templates/theorem.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#note/reference",
+                "query": "tag:#topic",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -155,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "meta/meta-Node Type List.md",
+                "file": "templates/theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,24 +201,24 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
-  "active": "236aa06fb8c69f65",
+  "active": "1487360017d2c8e7",
   "lastOpenFiles": [
-    "README.md",
-    "meta/meta-Related Pages Edge Types List.md",
-    "meta/meta-Node Type List.md",
-    "property.md",
+    "templates/software.md",
     "templates/statement.md",
-    "model.md",
-    "proverbial.md",
-    "meta/archive/Reference-Node Categorization.md",
-    "empirical.md",
-    "security-assumption.md"
+    "templates/set.md",
+    "templates/security-assumption.md",
+    "templates/proverbial.md",
+    "templates/proven-statement.md",
+    "templates/proposition.md",
+    "templates/property.md",
+    "templates/proof.md",
+    "templates/physical-object.md"
   ]
 }

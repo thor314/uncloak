@@ -4,7 +4,8 @@ publish: true
 audience: developers
 completion: .1
 tags: type/object/software
-tags: topic/<% tp.file.cursor(1) %>
+tags: topic/
+<% tp.file.cursor(1) %>
 ---
 # software
 *last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*

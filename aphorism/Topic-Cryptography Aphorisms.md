@@ -7,7 +7,7 @@ audience: all
 ## Intro 
 
 ## Objects
-- [[Aphorism-Don't Roll Your Own Crypto]]
+- [[Aphorism Don't Roll Your Own Crypto]]
 - [[Aphorism-Kerckhoffs's Principle]]
 - [[Aphorism-Shannon's Maxim]]
 

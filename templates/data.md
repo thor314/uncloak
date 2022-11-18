@@ -4,7 +4,8 @@ publish: true
 audience: all
 completion: .1
 tags: type/data
-tags: topic/<% tp.file.cursor(1) %>
+tags: topic/
+<% tp.file.cursor(1) %>
 source-link: <% tp.file.cursor(2) %>
 ---
 *last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*

@@ -4,7 +4,8 @@ publish: true
 audience: all
 completion: .1
 tags: type/object/physical/manmade/hardware
-tags: topic/<% tp.file.cursor(1) %>
+tags: topic/
+<% tp.file.cursor(1) %>
 ---
 # hardware
 *last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*

@@ -4,7 +4,8 @@ publish: true
 audience: all
 completion: .1
 tags: type/statement/proven/proposition
-tags: topic/<% tp.file.cursor(1) %>
+tags: topic/
+<% tp.file.cursor(1) %>
 degree-of-support: <% tp.file.cursor(2) %> # between 0.0 and 1.0
 ---
 *last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*

@@ -2,7 +2,7 @@
 publish: true
 audience: all
 ---
-#aphorism 
+#aphorism
 # Aphorism: Don't Roll Your Own Crypto
 ## Intro
 

@@ -4,7 +4,8 @@ publish: true
 audience: all
 completion: .1
 tags: type/statement
-tags: topic/<% tp.file.cursor(1) %>
+tags: topic/
+<% tp.file.cursor(1) %>
 # Delete the degree-of-support line if the statement is (dis)proven.
 provable: <% tp.file.cursor(2) %> # choices: 0 for unprovable or unproven, 1 for proven
 degree-of-support: <% tp.file.cursor(3) %> # between 0.0 and 1.0
