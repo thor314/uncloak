@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "meta/meta-Related Pages Edge Types List.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -210,15 +210,15 @@
   },
   "active": "236aa06fb8c69f65",
   "lastOpenFiles": [
+    "README.md",
+    "meta/meta-Related Pages Edge Types List.md",
+    "meta/meta-Node Type List.md",
     "property.md",
     "templates/statement.md",
     "model.md",
-    "meta/meta-Node Type List.md",
-    "meta/meta-Related Pages Edge Types List.md",
     "proverbial.md",
     "meta/archive/Reference-Node Categorization.md",
     "empirical.md",
-    "security-assumption.md",
-    "proposition.md"
+    "security-assumption.md"
   ]
 }
