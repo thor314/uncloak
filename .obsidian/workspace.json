@@ -20,24 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "69085d5efac2c9b5",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4c86df52b0901fe1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "meta/archive/Reference-Node Categorization.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -157,30 +139,6 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
-          },
-          {
-            "id": "04766d428d1465c8",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_nodes",
-              "state": {}
-            }
-          },
-          {
-            "id": "c0114b47fc5590ba",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {}
-            }
-          },
-          {
-            "id": "78db66fc08d35ec2",
-            "type": "leaf",
-            "state": {
-              "type": "BC-matrix",
-              "state": {}
-            }
           }
         ]
       }
@@ -190,13 +148,13 @@
   },
   "active": "236aa06fb8c69f65",
   "lastOpenFiles": [
-    "meta/meta-Obsidian Setup Choices.md",
+    "meta/archive/Reference-Node Categorization.md",
     "meta/meta-Uncloak Contributor Guide.md",
+    "meta/meta-Obsidian Setup Choices.md",
     "meta/topic-Meta.md",
     "meta/meta-Related Pages Edge Types List.md",
     "meta/meta-Node Type List.md",
     "templates/meta.md",
-    "meta/archive/Reference-Node Categorization.md",
     "meta/archive/Explanation-Node Categorization.md",
     "templates/object.md",
     "templates/proof.md"

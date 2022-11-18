@@ -34,7 +34,6 @@
   "obsidian-tikzjax",
   "copy-as-latex",
   "obsidian-hover-editor",
-  "juggl",
   "quickadd",
   "workspaces-plus",
   "metaedit",
@@ -46,6 +45,5 @@
   "dbfolder",
   "obsidian-tagfolder",
   "dataview",
-  "obsidian-languagetool-plugin",
-  "breadcrumbs"
+  "obsidian-languagetool-plugin"
 ]
