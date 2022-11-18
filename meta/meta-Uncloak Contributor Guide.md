@@ -4,7 +4,7 @@ tags: type/meta
 completion: .7
 ---
 # meta-Uncloak Contributor Guide
-This document is intended to help contributors get up to speed on where and how to contribute.
+This document is intended to help contributors get up to speed on where and how to contribute. Press `F12` at any time to open this page from within Obisidan.
 
 ## Getting started
 Clone or [fork](https://github.com/thor314/uncloak/fork) the [repo](https://github.com/thor314/uncloak) and edit in a Markdown editor of your choosing. Obsidian is the recommended choice for extensive editing. Open a pull request when your contribution is ready for review, and is easy to start with.
@@ -95,10 +95,13 @@ The Related Pages section at the bottom of each page is where we explicitly labe
 
 See [[meta-Related Pages Edge Types List]] for a working list of all edge-types.
 
-## On Using Obsidian
-This will be a short guide on using Obsidian. The `.obsidian` directory in the Uncloak repo contains a default setup that you may use.
+## On addressing different audiences with different needs
+TODO, document the audience metadata tag
 
-Todo. See [thor314/obsidian-setup: A template repo, with instructions for getting started with Obsidian](https://github.com/thor314/obsidian-setup) until I get around to writing it.
+## On Using Obsidian
+This will be a short guide on using Obsidian. The `.obsidian` directory in the Uncloak repo contains a default setup that you may use. If you would like to customize the
+
+Todo. Just kidding on short, see the long version until I get around to it. [thor314/obsidian-setup: A template repo, with instructions for getting started with Obsidian](https://github.com/thor314/obsidian-setup) until I get around to writing it.
 Also todo: [[meta-Obsidian Setup Choices]].
 
 
