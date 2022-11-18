@@ -656,5 +656,38 @@
       ],
       "key": "L"
     }
+  ],
+  "workspace:split-horizontal": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "\\"
+    }
+  ],
+  "obsidian-hotkeys-for-specific-files:Topic-Cryptography.md": [
+    {
+      "modifiers": [],
+      "key": "F9"
+    }
+  ],
+  "obsidian-hotkeys-for-specific-files:meta/meta-Uncloak Contributor Guide.md": [
+    {
+      "modifiers": [],
+      "key": "F12"
+    }
+  ],
+  "obsidian-hotkeys-for-specific-files:meta/meta-Related Pages Edge Types List.md": [
+    {
+      "modifiers": [],
+      "key": "F11"
+    }
+  ],
+  "obsidian-hotkeys-for-specific-files:meta/meta-Node Type List.md": [
+    {
+      "modifiers": [],
+      "key": "F10"
+    }
   ]
 }

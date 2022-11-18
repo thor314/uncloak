@@ -39,7 +39,9 @@
     "frontmatter",
     "Templater",
     "filesystem",
-    "Breadcrumbs"
+    "Breadcrumbs",
+    "TODO",
+    "Dataview"
   ],
   "autoPairMarkdown": false,
   "showInlineTitle": false

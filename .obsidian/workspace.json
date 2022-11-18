@@ -13,13 +13,74 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "meta/meta-Uncloak Contributor Guide.md",
+                "file": "meta/meta-Node Type List.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ]
+      },
+      {
+        "id": "f790451993c1eb99",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1487360017d2c8e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "meta/meta-Related Pages Edge Types List.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "64ce8f9b1480aa90",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7956279d5051bb2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/statement.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e83ee36ae1b9ab18",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "9478137a710fd47c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "076772cf952a45ef",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "meta/meta-Uncloak Contributor Guide.md",
+                "file": "meta/meta-Node Type List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,19 +205,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "236aa06fb8c69f65",
   "lastOpenFiles": [
-    "meta/archive/Reference-Node Categorization.md",
-    "meta/meta-Uncloak Contributor Guide.md",
-    "meta/meta-Obsidian Setup Choices.md",
-    "meta/topic-Meta.md",
-    "meta/meta-Related Pages Edge Types List.md",
+    "property.md",
+    "templates/statement.md",
+    "model.md",
     "meta/meta-Node Type List.md",
-    "templates/meta.md",
-    "meta/archive/Explanation-Node Categorization.md",
-    "templates/object.md",
-    "templates/proof.md"
+    "meta/meta-Related Pages Edge Types List.md",
+    "proverbial.md",
+    "meta/archive/Reference-Node Categorization.md",
+    "empirical.md",
+    "security-assumption.md",
+    "proposition.md"
   ]
 }
