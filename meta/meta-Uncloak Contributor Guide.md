@@ -3,6 +3,7 @@ creation-date: 2022-11-16
 tags: type/meta
 completion: .7
 ---
+*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # meta-Uncloak Contributor Guide
 This document is intended to help contributors get up to speed on where and how to contribute. Press `F12` at any time to open this page from within Obisidan.
 

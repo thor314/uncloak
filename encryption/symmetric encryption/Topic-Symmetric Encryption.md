@@ -3,8 +3,7 @@ creation-date: 2022-11-03
 publish: true
 audience: all
 completion: .1
-tags: type/topic
-tags: encryption/symmetric
+tags: type/topic, encryption/symmetric
 ---
 *last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # Topic-Symmetric Encryption

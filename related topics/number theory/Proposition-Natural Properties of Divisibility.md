@@ -3,8 +3,7 @@ creation-date: 2022-11-04
 publish: true
 audience: all
 completion: .3
-tags: type/statement/proven/proposition
-tags: related/number-theory, 
+tags: type/statement/proven/proposition, related/number-theory, 
 ---
 *last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # Proposition-Natural Properties of Divisibility

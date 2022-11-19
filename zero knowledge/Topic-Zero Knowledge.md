@@ -3,8 +3,7 @@ creation-date: 2022-11-03
 publish: true
 audience: all
 completion: .2
-tags: type/topic
-tags: related/zero-knowledge
+tags: type/topic, related/zero-knowledge
 ---
 *last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # Topic-Zero Knowledge

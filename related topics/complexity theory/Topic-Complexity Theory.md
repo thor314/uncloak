@@ -3,8 +3,7 @@ creation-date: 2022-11-03
 publish: true
 audience: all
 completion: .1
-tags: type/topic
-tags: related/complexity-theory
+tags: type/topic, related/complexity-theory
 ---
 *last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # Topic-Complexity Theory
