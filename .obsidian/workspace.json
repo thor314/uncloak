@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#encryption/symmetric/block",
+                "query": "tag:#related",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -159,7 +160,7 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "1796245384399bf8",
+  "active": "f414bfe7c5145547",
   "lastOpenFiles": [
     "cryptography engineering/Aphorism-Shannon's Maxim.md",
     "cryptography engineering/Topic-Cryptography Engineering.md",

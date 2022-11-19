@@ -39,7 +39,7 @@ With just a basic language for organizing the structure of knowledge, we can alr
 
 There are two ways that we typically investigate whether a statement might be true: 
 - we may prove the statement from first principles (a priori reasoning)
-- we may collect evidence about the statement, do experiments, and consider it's probability of being true (empirical reasoning)
+- we may collect evidence about the statement, do experiments, and consider its probability of being true (empirical reasoning)
 
 We can represent these two approaches to knowledge construction with a few new node types. In the a priori approach, we may add:
 - **Proof**: nodes containing a proof of an a priori statement. For statements possessing only a single proof, an extending proof node is generally unnecessary, though there are statements possessing dozens or even hundreds of independent proofs. For these, the statement itself should highlight the most important proof or proofs and categorize the others while the proofs themselves are moved out to independent nodes.
