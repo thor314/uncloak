@@ -3,8 +3,7 @@ creation-date: <% tp.file.creation_date("YYYY-MM-DD") %>
 publish: true
 audience: all
 completion: .1
-tags: type/model
-tags: 
+tags: type/model, 
 <% tp.file.cursor(1) %>
 ---
 *last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*

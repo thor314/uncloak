@@ -3,8 +3,7 @@ creation-date: <% tp.file.creation_date("YYYY-MM-DD") %>
 publish: true
 audience: developers
 completion: .1
-tags: type/object/software
-tags: 
+tags: type/object/software, 
 <% tp.file.cursor(1) %>
 ---
 # software

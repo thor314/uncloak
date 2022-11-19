@@ -3,8 +3,7 @@ creation-date: 2022-11-04
 publish: true
 audience: all
 completion: .5
-tags: type/proverbial
-tags: engineering
+tags: type/proverbial, engineering
 ---
 *last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # Aphorism-Don't Roll Your Own Crypto

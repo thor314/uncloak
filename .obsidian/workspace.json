@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "meta/meta-Uncloak Contributor Guide.md",
+                "file": "related topics/Topic-Cryptography Related Topics.md",
                 "mode": "source",
                 "source": false
               }
@@ -57,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#type/meta",
+                "query": "tag:#post-quantum",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -83,7 +83,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "meta/meta-Uncloak Contributor Guide.md",
+                "file": "related topics/Topic-Cryptography Related Topics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,17 +156,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "1796245384399bf8",
+  "active": "f414bfe7c5145547",
   "lastOpenFiles": [
+    "zero knowledge/Topic-Zero Knowledge.md",
+    "cryptography engineering/Topic-Cryptography Engineering.md",
+    "cryptography engineering/Aphorism-Shannon's Maxim.md",
+    "cryptography engineering/Aphorism-Don't Roll Your Own Crypto.md",
+    "cryptanalysis/Topic-Cryptanalysis.md",
+    "meta/meta-Uncloak Contributor Guide.md",
     "meta/meta-Related Pages Edge Types List.md",
     "meta/meta-Obsidian Setup Choices.md",
     "meta/meta-Node Type List.md",
-    "templates/meta.md",
-    "meta/meta-Uncloak Contributor Guide.md",
-    "encryption/asymmetric encryption/Topic-Asymmetric Encryption.md",
-    "README.md",
-    "meta/topic-Meta.md",
-    "hash functions/Algorithm-MD5 Hash.md",
-    "cryptography engineering/Aphorism-Don't Roll Your Own Crypto.md"
+    "templates/meta.md"
   ]
 }

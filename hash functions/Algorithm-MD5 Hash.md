@@ -3,8 +3,7 @@ creation-date: 2022-11-04
 publish: true
 audience: all
 completion: .2
-tags: type/object/math/algorithm
-tags: hash
+tags: type/object/math/algorithm, hash
 date-origin: 1992-04
 date-broken: 2008-12
 ---
