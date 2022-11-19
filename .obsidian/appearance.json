@@ -1,0 +1,10 @@
+{
+  "accentColor": "#d2c08e",
+  "cssTheme": "Minimal",
+  "monospaceFontFamily": "Fira Code",
+  "textFontFamily": "Atkinson Hyperlegible",
+  "interfaceFontFamily": "Atkinson Hyperlegible",
+  "theme": "obsidian",
+  "nativeMenus": false,
+  "baseFontSize": 14
+}
