@@ -5,7 +5,6 @@ audience: all
 completion: .1
 tags: type/topic, related/coding-theory
 ---
-*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # Topic-Coding Theory
 
 ## Sections of your choosing start here

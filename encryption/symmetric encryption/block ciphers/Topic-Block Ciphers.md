@@ -5,7 +5,6 @@ audience: all
 completion: .1
 tags: type/topic, encryption/symmetric/block
 ---
-*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # Topic-Block Ciphers
 
 ## Sections of your choosing start here

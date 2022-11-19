@@ -6,7 +6,6 @@ completion: .1
 tags: type/context/term,
 <% tp.file.cursor(1) %>
 ---
-*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 
 Term: a short (<300 word) page giving just the definition of a term
 <% tp.file.cursor(2) %> *Prepend `term-TITLE` to your title. Don't forget to refile this file to the correct location with Alt-R.*

@@ -5,7 +5,6 @@ audience: all
 completion: .1
 tags: type/statement/property, related/number-theory
 ---
-*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # Property-Divisibility
 For two [[Set-Integers|integers]], $a$ and $b$, we say $b$ *divides* $a$ (written: $b\mid a$) if there exists some integer $c\ne1$ such that:
 $$a-bc=0$$

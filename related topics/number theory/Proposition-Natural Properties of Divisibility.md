@@ -5,7 +5,6 @@ audience: all
 completion: .3
 tags: type/statement/proven/proposition, related/number-theory, 
 ---
-*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # Proposition-Natural Properties of Divisibility
 For $a,b,c\in \mathbb Z$, the following hold:
 - $a\mid b \land b\mid c \implies a\mid c$

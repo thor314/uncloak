@@ -7,7 +7,6 @@ tags: type/object/math/algorithm, hash
 date-origin: 1992-04
 date-broken: 2008-12
 ---
-*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # Algorithm-MD5 Hash
 MD5 is a broken (since 2008), but widely used Cryptographic Hash Function with a 128-bit [[Term-Digest|digest]]. MD5 is vulnerable to collision and length extension attacks.
 

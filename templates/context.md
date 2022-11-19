@@ -6,7 +6,6 @@ completion: .1
 tags: type/context,
 <% tp.file.cursor(1) %>
 ---
-*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 
 <% tp.file.cursor(2) %> *Prepend `context-TITLE` to your title. Don't forget to refile this file to the correct location with Alt-R.*
 *Press Enter after you are satisfied with your title to jump to the topic tag, then `Alt-'` to jump farther down the document. Start with an introduction at the top.*

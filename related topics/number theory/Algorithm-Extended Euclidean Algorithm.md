@@ -7,7 +7,6 @@ tags: type/object/math/algorithm, related/number-theory
 date-origin: 
 date-broken: 
 ---
-*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # Algorithm-Extended Euclidean Algorithm
 For positive integers $a,b$, the **Extended Euclidean Algorithm** obtains values for $u,v$ satisfying:
 $$au+bv=\gcd(a,b)$$
