@@ -4,7 +4,7 @@ publish: true
 audience: all
 completion: .1
 tags: type/topic
-tags: topic/
+tags: 
 <% tp.file.cursor(1) %>
 ---
 *last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
@@ -21,8 +21,6 @@ tags: topic/
 - primary-topic:: \[\[topic\]\]
 - secondary-topic:: \[\[topic\]\]
 - context:: \[\[context\]\]
-- comparison:: \[\[comparison\]\]
-- pedagogical:: \[\[pedagogical\]\]
 
 ## External Resources
 *The sources section is for recommending resources on other sites*.

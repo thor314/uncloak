@@ -2,14 +2,18 @@
 creation-date: 2022-11-17
 publish: true
 audience: all
-completion: .1
-tags: type/object/math/set
-tags: related/number-theory
+completion: .3
+tags: type/statement/property
+tags: related/number-theory 
 ---
 *last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
-# Set-Integers
+# Property-Greatest Common Divisor
+For $a,b\in \mathbb Z$, if there exists some positive integer $d$ such that $d\mid a$ and $d\mid b$, then we call $d$ a **common divisor**. The **greatest common divisor** of $a,b$ is the largest value $d$ dividing $a$ and $b$. This is written $d=\gcd(a,b)$.
 
-## Sections of your choosing start here
+It is typical to define $\gcd(0,a)=a$.
+
+## Remarks (optional)
+
 
 ---
 ## Related Pages
@@ -18,8 +22,7 @@ tags: related/number-theory
 
 ## External Resources
 *The sources section is for recommending resources on other sites*.
-- Wikipedia: [Integer](https://en.wikipedia.org/wiki/Integer)
-- source:: \[source\](link)
+- Wikipedia:: [Greatest Common Divisor](https://en.wikipedia.org/wiki/Greatest_common_divisor)
 
 ## References
 *This section is for citations of any claims made in the page*.

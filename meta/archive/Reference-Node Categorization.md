@@ -1,6 +1,7 @@
 ---
 creation-date: 2022-11-04
 publish: false
+archived: true
 ---
 # Reference-Node Categorization
 This page is out of date, and will be removed soon.

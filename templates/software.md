@@ -4,7 +4,7 @@ publish: true
 audience: developers
 completion: .1
 tags: type/object/software
-tags: topic/
+tags: 
 <% tp.file.cursor(1) %>
 ---
 # software

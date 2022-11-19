@@ -1,7 +1,11 @@
 ---
+creation-date: 2022-11-03
 publish: true
+audience: all
+completion: .8
+tags: root
 ---
-#documentation
+*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # README
 Welcome to Uncloak, a community-maintained knowledge wiki experiment, aiming to increase the accessibility of cryptography for developers, researchers, and everyone else.
 
@@ -18,7 +22,7 @@ Our [Discord](https://discord.gg/TYwr4pMS2h) is a good place to ask questions an
 ## Tips for making best use of the site
 If you've ever rabbit-holed on Wikipedia and thought, "oh that went pretty well, but the relationship between those concepts is still a little unclear" then you basically already know what the site is about. This site aims to address the issue that it can be difficult to know where a particular concept or tool fits in context. Hyperlinks between typical wiki pages demonstrate connections between concepts, but without much context. The graph is an attempt at generating that context.
 
-To see this in action, take a look at the path from [[Topic-Number Theory]] to the [[Algorithm-Extended Euclidean Algorithm]]. If you're viewing this from the website, you can see the path traverses [[Set-Integers]] and [[Algorithm-Euclidean Algorithm]]. The path between nodes and the system of node categorization is how the site attempts to put these concepts in context.
+To see this in action, take a look at the path from [[related topics/number theory/Topic-Number Theory]] to the [[Algorithm-Extended Euclidean Algorithm]]. If you're viewing this from the website, you can see the path traverses [[Set-Integers]] and [[Algorithm-Euclidean Algorithm]]. The path between nodes and the system of node categorization is how the site attempts to put these concepts in context.
 
 *Nit-pickers: yes, the extended euclidean algorithm can be applied to objects other than integers, and no, the structure of the graph is not final! Open a PR to propose updates to nodes and alternative organizing structures. Pedantry and nitpicking are welcome, we would appreciate your help.*
 

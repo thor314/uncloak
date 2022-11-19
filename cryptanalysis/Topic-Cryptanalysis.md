@@ -2,24 +2,23 @@
 creation-date: 2022-11-03
 publish: true
 audience: all
-completion: .1
+completion: .2
 tags: type/topic
-tags: topic/cryptanalysis
+tags: cryptanalysis
 ---
-# Topic-Cryptanalysis
 *last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
+# Topic-Cryptanalysis
 
-todo
+## Sections of your choosing start here
 
 ---
 ## Related Pages
 *The related pages section is for linking this page other the rest of the graph, press F11 for details. If applicable, replace the following dummy links.*
 - primary-topic:: [[Topic-Cryptography]]
 - context:: \[\[context\]\]
-- comparison:: \[\[comparison\]\]
-- pedagogical:: \[\[pedagogical\]\]
 
 ## External Resources
+*The sources section is for recommending resources on other sites*.
 - wikipedia:: [Cryptanalysis](https://en.wikipedia.org/wiki/Cryptanalysis)
 
 ## References

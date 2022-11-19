@@ -1,6 +1,5 @@
 ---
 creation-date: 2022-11-17
-tags: type/meta
 publish: false
 archived: true
 ---

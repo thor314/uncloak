@@ -4,7 +4,7 @@ publish: true
 audience: all
 completion: .1
 tags: type/object/physical/manmade/hardware
-tags: topic/
+tags:
 <% tp.file.cursor(1) %>
 ---
 # hardware

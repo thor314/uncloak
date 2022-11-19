@@ -4,7 +4,7 @@ publish: true
 audience: all
 completion: .1
 tags: type/statement/proven/proposition
-tags: topic/
+tags: 
 <% tp.file.cursor(1) %>
 degree-of-support: <% tp.file.cursor(2) %> # between 0.0 and 1.0
 ---

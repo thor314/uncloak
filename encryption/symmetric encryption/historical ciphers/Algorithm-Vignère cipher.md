@@ -1,19 +1,30 @@
 ---
+creation-date: 2022-11-04
 publish: true
 audience: all
-date-origin: 1500s
-date-broken: 1863
+completion: .1
+tags: type/object/math/algorithm
+tags: encryption/symmetric/historical
+date-origin: ~69 BCE
+date-broken: ?
 ---
-#object/algorithm
-# Algorithm: Vignère Cipher
-## Intro
+*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
+# Algorithm-Vignère cipher
 
 ## Relation to Similar Algorithms
 
 ## Attacks
 
-## Related
-- [Wikipedia Article](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher)
-- [[Attack Type-Frequency Analysis]]
+## Sections of your choosing start here
 
-## References 
+---
+## Related Pages
+*The related pages section is for linking this page other the rest of the graph, press F11 for details. If applicable, replace the following dummy links.*
+- primary-topic:: [[Topic-Historical Ciphers]]
+
+## External Resources
+*The sources section is for recommending resources on other sites*.
+- Wikipedia:: [Vignere Cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher)
+
+## References
+*This section is for citations of any claims made in the page*.

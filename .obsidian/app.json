@@ -41,8 +41,10 @@
     "filesystem",
     "Breadcrumbs",
     "TODO",
-    "Dataview"
+    "Dataview",
+    "cryptosystem"
   ],
   "autoPairMarkdown": false,
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "newFileLocation": "current"
 }

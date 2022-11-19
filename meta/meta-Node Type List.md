@@ -60,7 +60,7 @@ This is the growing list of node types with short descriptions, and their subtyp
 - Data: supporting or rejecting evidence of a statement
 
 ## Context: putting the graph and its contents in clearer light
-- Term: a short (<300 word) page giving just the definition of a term (todo)
+- Term: a short (<300 word) page giving just the definition of a term
 - Comparison (todo)
     - Table (todo)
     - List (todo)

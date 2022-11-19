@@ -4,7 +4,7 @@ publish: true
 audience: all
 completion: .1
 tags: type/data
-tags: topic/
+tags:
 <% tp.file.cursor(1) %>
 source-link: <% tp.file.cursor(2) %>
 ---

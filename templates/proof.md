@@ -4,7 +4,7 @@ publish: true
 audience: mathers
 completion: .1
 tags: type/proof
-tags: topic/
+tags: 
 <% tp.file.cursor(1) %>
 ---
 *last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
