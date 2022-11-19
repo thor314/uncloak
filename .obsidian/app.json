@@ -46,5 +46,6 @@
   ],
   "autoPairMarkdown": false,
   "showInlineTitle": false,
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "showFrontmatter": false
 }

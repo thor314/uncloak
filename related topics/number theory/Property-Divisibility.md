@@ -3,8 +3,7 @@ creation-date: 2022-11-04
 publish: true
 audience: all
 completion: .1
-tags: type/statement/property
-tags: related/number-theory
+tags: type/statement/property, related/number-theory
 ---
 *last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # Property-Divisibility

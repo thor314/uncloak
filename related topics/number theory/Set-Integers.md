@@ -3,8 +3,7 @@ creation-date: 2022-11-17
 publish: true
 audience: all
 completion: .1
-tags: type/object/math/set
-tags: related/number-theory
+tags: type/object/math/set, related/number-theory
 ---
 *last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # Set-Integers

@@ -11,12 +11,8 @@
             "id": "6b8287b0dfb9de6d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/hash.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -25,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cryptography engineering/Aphorism-Don't Roll Your Own Crypto.md",
+                "file": "related topics/Topic-Cryptography Related Topics.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#related",
+                "query": "tag:#post-quantum",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cryptography engineering/Aphorism-Don't Roll Your Own Crypto.md",
+                "file": "related topics/Topic-Cryptography Related Topics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,15 +158,15 @@
   },
   "active": "f414bfe7c5145547",
   "lastOpenFiles": [
-    "cryptography engineering/Aphorism-Shannon's Maxim.md",
+    "zero knowledge/Topic-Zero Knowledge.md",
     "cryptography engineering/Topic-Cryptography Engineering.md",
-    "encryption/asymmetric encryption/Topic-Asymmetric Encryption.md",
-    "encryption/symmetric encryption/block ciphers/Topic-Block Ciphers.md",
-    "encryption/symmetric encryption/historical ciphers/Algorithm-Caesar Cipher.md",
-    "encryption/symmetric encryption/historical ciphers/Algorithm-Substitution Cipher.md",
-    "encryption/symmetric encryption/historical ciphers/Algorithm-Vignère cipher.md",
-    "encryption/symmetric encryption/historical ciphers/Topic-Historical Ciphers.md",
-    "encryption/symmetric encryption/stream ciphers/Topic-Stream Cipher.md",
-    "encryption/symmetric encryption/Topic-Symmetric Encryption.md"
+    "cryptography engineering/Aphorism-Shannon's Maxim.md",
+    "cryptography engineering/Aphorism-Don't Roll Your Own Crypto.md",
+    "cryptanalysis/Topic-Cryptanalysis.md",
+    "meta/meta-Uncloak Contributor Guide.md",
+    "meta/meta-Related Pages Edge Types List.md",
+    "meta/meta-Obsidian Setup Choices.md",
+    "meta/meta-Node Type List.md",
+    "templates/meta.md"
   ]
 }

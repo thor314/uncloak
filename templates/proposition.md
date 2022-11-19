@@ -3,8 +3,7 @@ creation-date: <% tp.file.creation_date("YYYY-MM-DD") %>
 publish: true
 audience: all
 completion: .1
-tags: type/statement/proven/proposition
-tags: 
+tags: type/statement/proven/proposition, 
 <% tp.file.cursor(1) %>
 degree-of-support: <% tp.file.cursor(2) %> # between 0.0 and 1.0
 ---

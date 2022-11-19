@@ -3,8 +3,7 @@ creation-date: 2022-11-03
 publish: true
 audience: all
 completion: .1
-tags: type/topic
-tags: related
+tags: type/topic, related
 ---
 *last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # Topic-Cryptography Related Topics

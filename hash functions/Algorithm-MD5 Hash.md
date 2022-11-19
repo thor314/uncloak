@@ -3,8 +3,7 @@ creation-date: 2022-11-04
 publish: true
 audience: all
 completion: .2
-tags: type/object/math/algorithm
-tags: hash
+tags: type/object/math/algorithm, hash
 date-origin: 1992-04
 date-broken: 2008-12
 ---
@@ -21,7 +20,7 @@ MD5 is a broken (since 2008), but widely used Cryptographic Hash Function with a
 ---
 ## Related Pages
 *The related pages section is for linking this page other the rest of the graph, press F11 for details. If applicable, replace the following dummy links.*
-- primary-topic:: [[Topic-Cryptographic Hash Function]] 
+- primary-topic:: [[Topic-Cryptographic Hash Function]]
 
 ## External Resources
 *The sources section is for recommending resources on other sites*.
@@ -33,4 +32,3 @@ MD5 is a broken (since 2008), but widely used Cryptographic Hash Function with a
 *This section is for citations of any claims made in the page*.
 - Source: [RFC 1321 - The MD5 Message-Digest Algorithm](https://datatracker.ietf.org/doc/html/rfc1321)
 - 2008-12 Vulnerability Notice: [VU#836068 - MD5 vulnerable to collision attacks](https://www.kb.cert.org/vuls/id/836068)
-

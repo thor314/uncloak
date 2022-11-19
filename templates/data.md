@@ -3,8 +3,7 @@ creation-date: <% tp.file.creation_date("YYYY-MM-DD") %>
 publish: true
 audience: all
 completion: .1
-tags: type/data
-tags:
+tags: type/data,
 <% tp.file.cursor(1) %>
 source-link: <% tp.file.cursor(2) %>
 ---

@@ -3,8 +3,7 @@ creation-date: <% tp.file.creation_date("YYYY-MM-DD") %>
 publish: true
 audience: all
 completion: .1
-tags: type/statement
-tags: 
+tags: type/statement, 
 <% tp.file.cursor(1) %>
 # Delete the degree-of-support line if the statement is (dis)proven.
 provable: <% tp.file.cursor(2) %> # choices: 0 for unprovable or unproven, 1 for proven

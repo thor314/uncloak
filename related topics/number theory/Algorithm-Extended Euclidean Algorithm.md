@@ -3,8 +3,7 @@ creation-date: 2022-11-04
 publish: true
 audience: all
 completion: .1
-tags: type/object/math/algorithm
-tags: related/number-theory
+tags: type/object/math/algorithm, related/number-theory
 date-origin: 
 date-broken: 
 ---

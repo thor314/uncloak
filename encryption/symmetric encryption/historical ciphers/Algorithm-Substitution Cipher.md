@@ -3,8 +3,7 @@ creation-date: 2022-11-04
 publish: true
 audience: all
 completion: .1
-tags: type/object/math/algorithm
-tags: encryption/symmetric/historical
+tags: type/object/math/algorithm, encryption/symmetric/historical
 date-origin: 
 date-broken: 
 ---
