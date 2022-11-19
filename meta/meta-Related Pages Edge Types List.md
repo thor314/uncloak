@@ -3,6 +3,7 @@ creation-date: 2022-11-17
 tags: type/meta
 completion: .9
 ---
+*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # meta-Related Pages Edge Types List
 The following is a list of all currently accepted edge types between nodes. If you think a new edge type should be proposed, open a PR. The double-colon syntax is a feature of the [dataview](https://github.com/blacksmithgu/obsidian-dataview) Obsidian plugin to declare inline metadata. Press `F11` to open this page within Obsidian.
 

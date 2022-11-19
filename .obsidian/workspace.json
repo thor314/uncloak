@@ -11,12 +11,8 @@
             "id": "6b8287b0dfb9de6d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/hash.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -25,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cryptography engineering/Aphorism-Don't Roll Your Own Crypto.md",
+                "file": "meta/meta-Uncloak Contributor Guide.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#related",
+                "query": "tag:#type/meta",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +83,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -107,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cryptography engineering/Aphorism-Don't Roll Your Own Crypto.md",
+                "file": "meta/meta-Uncloak Contributor Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,17 +156,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "f414bfe7c5145547",
+  "active": "1796245384399bf8",
   "lastOpenFiles": [
-    "cryptography engineering/Aphorism-Shannon's Maxim.md",
-    "cryptography engineering/Topic-Cryptography Engineering.md",
+    "meta/meta-Related Pages Edge Types List.md",
+    "meta/meta-Obsidian Setup Choices.md",
+    "meta/meta-Node Type List.md",
+    "templates/meta.md",
+    "meta/meta-Uncloak Contributor Guide.md",
     "encryption/asymmetric encryption/Topic-Asymmetric Encryption.md",
-    "encryption/symmetric encryption/block ciphers/Topic-Block Ciphers.md",
-    "encryption/symmetric encryption/historical ciphers/Algorithm-Caesar Cipher.md",
-    "encryption/symmetric encryption/historical ciphers/Algorithm-Substitution Cipher.md",
-    "encryption/symmetric encryption/historical ciphers/Algorithm-Vignère cipher.md",
-    "encryption/symmetric encryption/historical ciphers/Topic-Historical Ciphers.md",
-    "encryption/symmetric encryption/stream ciphers/Topic-Stream Cipher.md",
-    "encryption/symmetric encryption/Topic-Symmetric Encryption.md"
+    "README.md",
+    "meta/topic-Meta.md",
+    "hash functions/Algorithm-MD5 Hash.md",
+    "cryptography engineering/Aphorism-Don't Roll Your Own Crypto.md"
   ]
 }

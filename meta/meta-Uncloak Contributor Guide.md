@@ -3,6 +3,7 @@ creation-date: 2022-11-16
 tags: type/meta
 completion: .7
 ---
+*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # meta-Uncloak Contributor Guide
 This document is intended to help contributors get up to speed on where and how to contribute. Press `F12` at any time to open this page from within Obisidan.
 
@@ -15,7 +16,7 @@ If you'd like to make a larger contribution to an area of site content that does
 - PR $N=1$: propose new stub nodes (**stub** means with little or no content), and their connections to one another. Opening an issue to discuss this structure before the first PR helps us avoid wasting your time.
 - PRs $N>1$: Add content updates to your stub nodes. It's alright if your subsequent PRs continue to introduce new nodes and edges that you hadn't yet considered, but we continue to recommend first proposing stub nodes for discussion in PR $N=n-1$ before fleshing out contributions in PRs $N\ge n$.
 
-You are free to use whatever Markdown editor you would like. The Obsidian application comes with convenient tools for creating new pages from templates, linking pages together, and generally working with Markdown documents. We include a short guide on using Obsidian with Uncloak at the bottom of this document. A more extensive guide on Obsidian for personal use can be found [here](https://github.com/thor314/obsidian-setup).
+You are free to use whatever Markdown editor you would like. The Obsidian application comes with convenient tools for creating new pages from templates, linking pages together, and generally working with Markdown documents. We include a short guide on using Obsidian with Uncloak at the bottom of this document. A more extensive guide on Obsidian for personal use can be found [here](https://github.com/thor314/obsidian-setup). 
 
 ## On Node Types
 Uncloak's primary difference from other wikis and knowledge vectors is the emphasis on **communicating the dependency structure of knowledge** via the graph. To achieve this, we have developed a categorization typology for nodes and edges. Each node type has a [template](https://github.com/thor314/uncloak/tree/main/templates), specifying what to include in each type of node. Our node typology attempts to cover all concepts that may arise in the study of cryptography. We have attempted to allow our system to be flexible enough to be encompassing, while remaining legibly obvious to a casual user.

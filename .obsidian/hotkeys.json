@@ -689,5 +689,14 @@
       "modifiers": [],
       "key": "F10"
     }
+  ],
+  "publish:view-changes": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Enter"
+    }
   ]
 }

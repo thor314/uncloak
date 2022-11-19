@@ -14,7 +14,7 @@ tags: type/meta
 
 ---
 ## Topic
-- primary-topic:: [[topic-Meta]]
+- primary-topic:: \[\[topic-Meta]]
 
 ## External Resources
 *The sources section is for recommending resources on other sites*.
