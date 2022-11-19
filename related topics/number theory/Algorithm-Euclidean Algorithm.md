@@ -7,7 +7,6 @@ tags: type/object/math/algorithm, related/number-theory
 date-origin: 
 date-broken: 
 ---
-*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # Algorithm-Euclidean Algorithm
 ## Intro
 The **Euclidean Algorithm** obtains the [[Property-Greatest Common Divisor|greatest common divisor]] of a pair of integers, $a,b$. 

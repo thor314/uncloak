@@ -5,7 +5,6 @@ audience: all
 completion: .5
 tags: type/proverbial, engineering
 ---
-*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # Aphorism-Don't Roll Your Own Crypto
 "One sweeping recommendation applies to every use of cryptography. Unfortunately, it's one that is very often ignored by software developers -- _never roll your own cryptography_."
 

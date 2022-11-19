@@ -7,7 +7,6 @@ tags: type/object/math/algorithm, encryption/symmetric/historical
 date-origin: 
 date-broken: 
 ---
-*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # Algorithm-Substitution Cipher
 
 ## Relation to Similar Algorithms

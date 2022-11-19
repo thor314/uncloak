@@ -5,7 +5,6 @@ audience: all
 completion: .2
 tags: type/topic, post-quantum
 ---
-*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # Topic-Post Quantum Cryptography
 
 ## Sections of your choosing start here

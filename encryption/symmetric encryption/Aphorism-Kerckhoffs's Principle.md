@@ -5,7 +5,6 @@ audience: all
 completion: .5
 tags: type/proverbial, encryption/symmetric, engineering 
 ---
-*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # Aphorism-Kerckhoffs's Principle
 A cryptosystem should be secure, even if everything about the system, except the key, is public knowledge.
 

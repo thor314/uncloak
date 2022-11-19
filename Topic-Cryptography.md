@@ -5,7 +5,6 @@ audience: all
 completion: .2
 tags: type/topic, root
 ---
-*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # Topic-Cryptography
 **Cryptography** (also cryptology) is the practice and study of secure techniques for private communication, authentication, and computation in the presence of adversarial behavior. Press `F9` at any time to open this page within Obsidian.
 

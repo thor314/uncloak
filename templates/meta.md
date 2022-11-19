@@ -5,7 +5,6 @@ audience: all
 completion: .1
 tags: type/meta
 ---
-*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 
 <% tp.file.cursor(1) %> *Prepend `meta-TITLE` to your title. Don't forget to refile this file to the correct location with Alt-R.*
 

@@ -7,7 +7,6 @@ tags: type/object/math/algorithm, encryption/symmetric/historical
 date-origin: ~69 BCE
 date-broken: ?
 ---
-*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # Algorithm-Vignère cipher
 
 ## Relation to Similar Algorithms
