@@ -5,7 +5,6 @@ audience: all
 completion: .2
 tags: type/topic, cryptanalysis
 ---
-*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # Topic-Cryptanalysis
 
 ## Sections of your choosing start here

@@ -5,7 +5,6 @@ audience: all
 completion: .8
 tags: root
 ---
-*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # README
 Welcome to Uncloak, a community-maintained knowledge wiki experiment, aiming to increase the accessibility of cryptography for developers, researchers, and everyone else.
 

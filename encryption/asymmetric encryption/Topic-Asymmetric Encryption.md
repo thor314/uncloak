@@ -5,7 +5,6 @@ audience: all
 completion: .1
 tags: type/topic, encryption/asymmetric
 ---
-*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # Topic-Asymmetric Encryption
 
 ## Sections of your choosing start here

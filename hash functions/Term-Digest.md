@@ -5,7 +5,6 @@ audience: all
 completion: .5
 tags: type/context/term, hash 
 ---
-*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # Term-Digest
 A **digest** is the output of a hash function.
 

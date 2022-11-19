@@ -5,7 +5,6 @@ audience: all
 completion: .2
 tags: type/topic, related/lattice
 ---
-*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # Topic-Lattice
 
 ## Sections of your choosing start here

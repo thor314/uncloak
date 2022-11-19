@@ -5,7 +5,6 @@ audience: all
 completion: .1
 tags: type/object/math/set, related/number-theory
 ---
-*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # Set-Integers
 
 ## Sections of your choosing start here

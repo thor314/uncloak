@@ -5,7 +5,6 @@ audience: all
 completion: .3
 tags: type/statement/property, related/number-theory 
 ---
-*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # Property-Greatest Common Divisor
 For $a,b\in \mathbb Z$, if there exists some positive integer $d$ such that $d\mid a$ and $d\mid b$, then we call $d$ a **common divisor**. The **greatest common divisor** of $a,b$ is the largest value $d$ dividing $a$ and $b$. This is written $d=\gcd(a,b)$.
 

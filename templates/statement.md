@@ -9,7 +9,6 @@ tags: type/statement,
 provable: <% tp.file.cursor(2) %> # choices: 0 for unprovable or unproven, 1 for proven
 degree-of-support: <% tp.file.cursor(3) %> # between 0.0 and 1.0
 ---
-*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 
 <% tp.file.cursor(4) %> *Prepend `statement-TITLE` to your title. Don't forget to refile this file to the correct location with Alt-R.*
 *Press Enter after you are satisfied with your title to jump to the topic tag, then `Alt-'` to jump farther down the document. **Do not include an introduction**, get straight to the statement.*
