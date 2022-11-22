@@ -3,9 +3,9 @@ creation-date: 2022-11-16
 tags: type/meta
 completion: .7
 ---
-
+*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # meta-Uncloak Contributor Guide
-This document is intended to help contributors get up to speed on where and how to contribute. If using the Obsidian Vault, press `F12` at any time to open this page.
+This document is intended to help contributors get up to speed on where and how to contribute. Press `F12` at any time to open this page from within Obisidan.
 
 ## Getting started
 Clone or [fork](https://github.com/thor314/uncloak/fork) the [repo](https://github.com/thor314/uncloak) and edit in a Markdown editor of your choosing. Obsidian is the recommended choice for extensive editing. Open a pull request when your contribution is ready for review, and is easy to start with.
