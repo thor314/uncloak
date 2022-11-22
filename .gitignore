@@ -3,7 +3,7 @@ workspace.json
 *~Stashed\ changes
 # comment this when updating settings, on-by-default to avoid users changing default settings
 .obsidian/*
-# allow private api keys
+# hide api keys
 .obsidian/plugins/obsidian-languagetool-plugin/data.json
 *.swp
 

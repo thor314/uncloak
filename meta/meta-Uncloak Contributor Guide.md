@@ -103,6 +103,8 @@ The `.obsidian` directory in the Uncloak repo contains a preconfigured setup tha
 
 To create a new note, `Ctrl-N` to choose a template, and `Alt-R` to refile it to the correct location.
 
+While writing, try to cite your sources. An easy way to do this is with footnotes. An inline footnote looks like this (without the grave quotes):`[^2]`. Drop them anywhere into the text, and append under references the text `[^2]: <a link to your source>`. You can do this automatically with `Alt-F`, which inserts a footnote for you, drops you to the end, and jumps back to where you were when you press `Alt-F` again. If footnotes become unsorted, use `Alt+Shift+F` to tidy the footnotes.
+
 I've written a longer guide on getting started with Obsidian for personal use elsewhere: [A template repo, with instructions for getting started with Obsidian](https://github.com/thor314/obsidian-setup).
 
 To be expanded.
