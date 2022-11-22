@@ -1,6 +1,11 @@
 .trash/*
-.obsidian/workspace.json
 *~Stashed\ changes
+*.swp
+# comment this when updating settings, on-by-default to avoid users changing default settings
+.obsidian/*
+# hide api keys
+.obsidian/plugins/obsidian-languagetool-plugin/data.json
+.obsidian/workspace.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
