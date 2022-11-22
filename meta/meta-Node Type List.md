@@ -3,11 +3,12 @@ creation-date: 2022-11-17
 tags: type/meta
 completion: .9
 ---
-*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
+
 # meta-Node Type List
-This is the growing list of node types with short descriptions, and their subtypes. The list anticipates node types that may be useful in the future but do not yet exist. Those that do not yet have templates are marked todo. Press `F10` at any time to open this page within Obsidian.
+This is the growing list of node types with short descriptions, and their subtypes. The list anticipates node types that may be useful in the future but do not yet exist. Those that do not yet have templates are marked todo. If using the Obsidian Vault, press `F10` at any time to open this page.
 
 ##  Topic: a container of nodes
+*this section is intentionally empty, topic contains no subtypes*
 
 ## Object: a concept or idea about which we may make statements
 - Mathematics: Platonic, often mathematical concepts
