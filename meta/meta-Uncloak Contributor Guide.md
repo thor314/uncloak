@@ -8,15 +8,17 @@ completion: .7
 This document is intended to help contributors get up to speed on where and how to contribute. Press `F12` at any time to open this page from within Obisidan.
 
 ## Getting started
-Clone or [fork](https://github.com/thor314/uncloak/fork) the [repo](https://github.com/thor314/uncloak) and edit in a Markdown editor of your choosing. Obsidian is the recommended choice for extensive editing. Open a pull request when your contribution is ready for review, and is easy to start with.
+[Fork](https://github.com/thor314/uncloak/fork) the [repo](https://github.com/thor314/uncloak) and edit in a Markdown editor of your choosing. Open a pull request when your contribution is ready for review.
 
 **Contributions of all sizes are welcome**. Easy areas for first contributions include suggesting resource links, citations, and fixing typos. Many pages are empty stubs with a link to another resource, often Wikipedia. Suggesting content for stub pages is a great way to help out. We don't currently have the resources to check your suggestion for plagiarism, but **please don't copy-paste from another site**.
+
+If your intended contribution is small-to-medium (fixing a typo, suggesting a resource, adding content to a page), you already have everything you need to start, the rest of the guide is directed at how we think about structuring site content.
 
 If you'd like to make a larger contribution to an area of site content that doesn't yet exist, you **might consider opening an issue first** to describe the contribution you intend to make so that we can discuss how we can structure your contribution into the graph.[^1] If you intend to propose **more than one new node addition** to the graph, we prefer that you structure your contribution into several pull requests:
 - PR $N=1$: propose new stub nodes (**stub** means with little or no content), and their connections to one another. Opening an issue to discuss this structure before the first PR helps us avoid wasting your time.
 - PRs $N>1$: Add content updates to your stub nodes. It's alright if your subsequent PRs continue to introduce new nodes and edges that you hadn't yet considered, but we continue to recommend first proposing stub nodes for discussion in PR $N=n-1$ before fleshing out contributions in PRs $N\ge n$.
 
-You are free to use whatever Markdown editor you would like. The Obsidian application comes with convenient tools for creating new pages from templates, linking pages together, and generally working with Markdown documents. We include a short guide on using Obsidian with Uncloak at the bottom of this document. A more extensive guide on Obsidian for personal use can be found [here](https://github.com/thor314/obsidian-setup).
+You are free to use whatever Markdown editor you would like. The Obsidian application is easy to start with, and comes with convenient tools for creating new pages from templates, linking pages together, and generally working with Markdown documents. The github includes a pre-configured Obsidian set-up (see the `.obsidian` directory) that you may use.
 
 ## On Node Types
 Uncloak's primary difference from other wikis and knowledge vectors is the emphasis on **communicating the dependency structure of knowledge** via the graph. To achieve this, we have developed a categorization typology for nodes and edges. Each node type has a [template](https://github.com/thor314/uncloak/tree/main/templates), specifying what to include in each type of node. Our node typology attempts to cover all concepts that may arise in the study of cryptography. We have attempted to allow our system to be flexible enough to be encompassing, while remaining legibly obvious to a casual user.
@@ -96,22 +98,26 @@ The Related Pages section at the bottom of each page is where we explicitly labe
 
 See [[meta-Related Pages Edge Types List]] for a working list of all edge-types.
 
-## On addressing different audiences with different needs
-TODO, document the audience metadata tag
-
 ## On Using Obsidian
-This will be a short guide on using Obsidian. The `.obsidian` directory in the Uncloak repo contains a default setup that you may use. If you would like to customize the
+The `.obsidian` directory in the Uncloak repo contains a preconfigured setup that you may use. If you aren't comfortable with vim keybindings, press `Ctrl-,` and disable the setting at the bottom of the editor section.
 
-Todo. Just kidding on short, see the long version until I get around to it. [thor314/obsidian-setup: A template repo, with instructions for getting started with Obsidian](https://github.com/thor314/obsidian-setup) until I get around to writing it.
-Also todo: [[meta-Obsidian Setup Choices]].
+To create a new note, `Ctrl-N` to choose a template, and `Alt-R` to refile it to the correct location.
 
+I've written a longer guide on getting started with Obsidian for personal use elsewhere: [A template repo, with instructions for getting started with Obsidian](https://github.com/thor314/obsidian-setup).
 
-### Plugins
+To be expanded.
 
-[^1]: We care a lot about the structure of connections between the atoms of knowledge! We've chosen to use Obsidian Publish for our site to demonstrate the dependency graph of concepts, as we believe that communicating structure is as important for a wiki as the individual node content.
+## Rest of contributor guide is under construction!
+Hopefully that's enough to get you started. We intend to expand this guide in the future as the site grows. Feel free to drop us feedback on how to improve this guide.
+- document the metadata
+- outline approach for different audiences
+- more on using obsidian
+- [[meta-Obsidian Setup Choices]].
 
 ## Related Pages
 - primary-topic:: [[topic-Meta]]
 - related:: [[meta-Node Type List]]
 - related:: [[meta-Related Pages Edge Types List]]
 - related:: [[meta-Obsidian Setup Choices]]
+
+[^1]: We care a lot about the structure of connections between the atoms of knowledge! We've chosen to use Obsidian Publish for our site to demonstrate the dependency graph of concepts, as we believe that communicating structure is as important for a wiki as the individual node content.
