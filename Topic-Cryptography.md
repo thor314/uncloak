@@ -3,24 +3,23 @@ creation-date: 2022-11-03
 publish: true
 audience: all
 completion: .2
-tags: type/topic, root
+tags: type/topic,
 ---
 # Topic-Cryptography
-**Cryptography** (also cryptology) is the practice and study of secure techniques for private communication, authentication, and computation in the presence of adversarial behavior. Press `F9` at any time to open this page within Obsidian.
+**Cryptography** (also cryptology) is the practice and study of [[Term-Cryptographically Secure|secure]] techniques for communication, [[Term-Authentication|authentication]], and computation in the presence of a malicious or interfering [[Term-Adversary, Security Model|adversary]]. [[Term-Cryptographer|Cryptographers]] and [[Term-Cryptography Engineer|cryptography engineers]] draw on techniques from a wide range of fields (mathematics, information theory, computer science, electrical engineering, distributed systems, physics, and beyond) to construct protocols.
 
-Cryptography comes from the Greek root words *kryptos*, meaning hidden, and *graphikos*, meaning writing.
+## Recommended Paths through this topic
 
-## Sections of your choosing start here
+## Applications
+
+## History
+The word cryptography comes from the Greek root words *kryptos*, meaning hidden, and *graphikos*, meaning writing. Prior to 1976, cryptography was limited to the study of [[Topic-Symmetric Encryption]] techniques: techniques for encrypting from [[Term-Plaintext and Ciphertext|unhidden plaintext to inscrutible ciphertext]], and decrypting ciphertext to plaintext.
+
+The field of cryptography
 
 ---
-## Related Pages
-*The related pages section is for linking this page other the rest of the graph, press F11 for details. If applicable, replace the following dummy links.*
-- context:: \[\[context\]\]
-
 ## External Resources
-*The sources section is for recommending resources on other sites*.
-- source:: \[source\](link)
-- wikipedia:: [Cryptography](https://en.wikipedia.org/wiki/Cryptography)
+- Wikipedia:: [Cryptography](https://en.wikipedia.org/wiki/Cryptography)
 
 ## References
 *This section is for citations of any claims made in the page*.

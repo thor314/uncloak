@@ -3,7 +3,7 @@ creation-date: 2022-11-03
 publish: true
 audience: all
 completion: .8
-tags: root
+tags: type/meta
 ---
 # README
 Welcome to Uncloak, a community-maintained knowledge wiki experiment, aiming to increase the accessibility of cryptography for developers, researchers, and everyone else.
@@ -21,11 +21,8 @@ Our [Discord](https://discord.gg/TYwr4pMS2h) is a good place to ask questions an
 ## Tips for making best use of the site
 If you've ever rabbit-holed on Wikipedia and thought, "oh that went pretty well, but the relationship between those concepts is still a little unclear" then you basically already know what the site is about. This site aims to address the issue that it can be difficult to know where a particular concept or tool fits in context. Hyperlinks between typical wiki pages demonstrate connections between concepts, but without much context. The graph is an attempt at generating that context.
 
-To see this in action, take a look at the path from [[related topics/number theory/Topic-Number Theory]] to the [[Algorithm-Extended Euclidean Algorithm]]. If you're viewing this from the website, you can see the path traverses [[Set-Integers]] and [[Algorithm-Euclidean Algorithm]]. The path between nodes and the system of node categorization is how the site attempts to put these concepts in context.
-
-*Nit-pickers: yes, the extended euclidean algorithm can be applied to objects other than integers, and no, the structure of the graph is not final! Open a PR to propose updates to nodes and alternative organizing structures. Pedantry and nitpicking are welcome, we would appreciate your help.*
-
-Each page includes **forward-links** and **backlinks** (you can find backlinks at the bottom of the page in the section titled "Links to this page"). The prior paragraph contains 5 forward links; no other page in the wiki links to the README, so there are no backlinks for this page, but *every other node* in the wiki is linked to by at least one other node.
+To see this in action, take a look at the path from [Topic-Number Theory](https://uncloak.org/related+topics/number+theory/Topic-Number+Theory) to the [Algorithm-Extended Euclidean Algorithm](https://uncloak.org/related+topics/number+theory/Algorithm-Extended+Euclidean+Algorithm). If you're viewing this from the website, you can see the path traverses [Set-Integers](https://uncloak.org/related+topics/number+theory/Set-Integers) and [Algorithm-Euclidean Algorithm](https://uncloak.org/related+topics/number+theory/Algorithm-Euclidean+Algorithm). Each page includes an interactive graph component, allowing the user to see and explore connections between pages. Clicking the amoeba-looking icon at the top right allows you to see the entire site graph. The site graph can sometimes be a bit messy, try expanding the graph (button in the top right of the graph), zooming in or dragging nodes around to get a clearer view.
+*Mobile users: there is unfortunately no way to render the site graph on mobile, but you can still use the search bar and explore the site directory organization.
 
 The site graph can sometimes be a bit messy; pages are also organized by folders, representing what primary topics the page falls under. Folders can be navigated in the left sidebar. The sidebar also contains a search bar, for readers who already have some idea of what information they're trying to find.
 

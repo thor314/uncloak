@@ -11,24 +11,15 @@
             "id": "6b8287b0dfb9de6d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "1796245384399bf8",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "related topics/Topic-Cryptography Related Topics.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -83,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -98,23 +89,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2422ab14f30cdc44",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "related topics/Topic-Cryptography Related Topics.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "a42d182d72c51ff9",
             "type": "leaf",
             "state": {
@@ -122,6 +96,23 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "fd065420444f5c74",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -134,7 +125,7 @@
             }
           },
           {
-            "id": "3f4a21b64c4fa247",
+            "id": "7d36bb5599c26612",
             "type": "leaf",
             "state": {
               "type": "graph-analysis",
@@ -154,19 +145,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "f414bfe7c5145547",
+  "active": "6b8287b0dfb9de6d",
   "lastOpenFiles": [
-    "zero knowledge/Topic-Zero Knowledge.md",
-    "cryptography engineering/Topic-Cryptography Engineering.md",
-    "cryptography engineering/Aphorism-Shannon's Maxim.md",
-    "cryptography engineering/Aphorism-Don't Roll Your Own Crypto.md",
-    "cryptanalysis/Topic-Cryptanalysis.md",
+    "misc-root/Term-Adversary, Security Model.md",
+    "misc-root/Term-Cryptographically Secure.md",
+    "Topic-Cryptography.md",
     "meta/meta-Uncloak Contributor Guide.md",
-    "meta/meta-Related Pages Edge Types List.md",
-    "meta/meta-Obsidian Setup Choices.md",
-    "meta/meta-Node Type List.md",
-    "templates/meta.md"
+    "zero knowledge/Topic-Zero Knowledge.md",
+    "templates/term.md",
+    "templates/topic.md",
+    "templates/algorithm.md",
+    "templates/object.md",
+    "misc-root/Term-Plaintext and Ciphertext.md"
   ]
 }
