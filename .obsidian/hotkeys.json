@@ -250,6 +250,13 @@
         "Shift"
       ],
       "key": "W"
+    },
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "K"
     }
   ],
   "darlal-switcher-plus:switcher-plus:open-workspaces": [

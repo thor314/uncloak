@@ -7,6 +7,8 @@ completion: .9
 # meta-Node Type List
 This is the growing list of node types with short descriptions, and their subtypes. The list anticipates node types that may be useful in the future but do not yet exist. Those that do not yet have templates are marked todo. Press `F10` at any time to open this page within Obsidian.
 
+Note that this ontology is growing and changing. I find the current separation and term selection for "mathematical objects" and "software objects" to be particularly inelegant. The system has no natural place for certain types of objects like networks, and underrepresents the application space. But it seems worthwhile to begin, even with an imperfect system.
+
 ##  Topic: a container of nodes
 
 ## Object: a concept or idea about which we may make statements
