@@ -89,7 +89,7 @@ Tags can also be included with a hashtag \#like/this, but we will prefer to keep
 ## On Edge Types
 Edge types are much simpler than node types. Links within a page imply an undirected relationship between nodes.
 - Link to nodes within the graph with double square brackets: \[\[A link to a node with this name\]\]. This is particularly useful when linking to terms--pages giving concise definitions--thereby allowing the user to **hover over the link to get a preview of the page** without clicking away.
-- Change the description of a link with a pipe: \[\[name-of-node|display-this-text\]\]. Prefer to avoid renaming nodes links, but you have it as an option.
+- Change the description of a link with a pipe: \[\[name-of-node|display-this-text\]\]. This is especially useful when linking to terms for quick definitions, allowing the user to hover to see the definition of the term.
 - Link to external pages with normal Markdown links: \[some human descriptor\]\(some link\)
 
 Links are assumed to be undirected edges. Obsidian does not yet provide flexible tools for manipulating link directions. On the local Obsidian client, link direction is recognized by the graph; but on the website, all links in the graph are undirected edges.

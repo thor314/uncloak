@@ -9,7 +9,7 @@ tags: type/topic, encryption
 
 **Encryption** and decryption is process of algorithmically hiding and unhiding information. Cryptography terms the original message the [plaintext](https://en.wikipedia.org/wiki/Plaintext), and the encrypted message [ciphertext](https://en.wikipedia.org/wiki/Ciphertext), [cipher](https://en.wikipedia.org/wiki/Cipher) being the historical word for a [[Topic-Symmetric Encryption|symmetric encryption algorithm]]. Encryption is often described in a message passing context between two parties, but includes the hiding of static information, as in the case of [Disk Encryption](https://en.wikipedia.org/wiki/Disk_encryption) .
 
-Encryption can be broadly categorized into two categories: symmetric encryption and [[encryption/asymmetric encryption/Topic-Asymmetric Encryption|asymmetric encryption]] (public key encryption). Symmetric encryption algorithms require both the encrypter and decrypter to have access to the same information, a shared key. In asymmetric key cryptography, the receiving decrypter holds a secret key (known only to the decrypter), while the encrypter uses the receiving party's public key (which may be published online, or distributed in any way). 
+Encryption can be broadly categorized into two categories: symmetric encryption and [[Topic-Asymmetric Encryption, Public Key Encryption|asymmetric encryption]] (public key encryption). Symmetric encryption algorithms require both the encrypter and decrypter to have access to the same information, a shared key. In asymmetric key cryptography, the receiving decrypter holds a secret key (known only to the decrypter), while the encrypter uses the receiving party's public key (which may be published online, or distributed in any way). 
 
 ```mermaid
 sequenceDiagram

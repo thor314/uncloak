@@ -5,7 +5,7 @@ audience: all
 completion: .1
 tags: type/topic, encryption/asymmetric
 ---
-# Topic-Asymmetric Encryption
+# Topic-Asymmetric Encryption, Public Key Encryption
 
 ## Sections of your choosing start here
 
@@ -13,7 +13,6 @@ tags: type/topic, encryption/asymmetric
 ## Related Pages
 *The related pages section is for linking this page other the rest of the graph, press F11 for details. If applicable, replace the following dummy links.*
 - primary-topic:: [[Topic-Encryption]]
-- context:: \[\[context\]\]
 
 ## External Resources
 *The sources section is for recommending resources on other sites*.

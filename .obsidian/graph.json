@@ -15,10 +15,38 @@
       }
     },
     {
+      "query": "tags: meta",
+      "color": {
+        "a": 1,
+        "rgb": 3222309
+      }
+    },
+    {
+      "query": "file: term",
+      "color": {
+        "a": 1,
+        "rgb": 3237341
+      }
+    },
+    {
       "query": "file: topic",
       "color": {
         "a": 1,
-        "rgb": 15840988
+        "rgb": 16249531
+      }
+    },
+    {
+      "query": "file: algorithm",
+      "color": {
+        "a": 1,
+        "rgb": 9716964
+      }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
       }
     }
   ],
@@ -29,9 +57,9 @@
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
   "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "repelStrength": 14.3807994289793,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.2620207666427838,
-  "close": true
+  "linkDistance": 86,
+  "scale": 0.3748719901563604,
+  "close": false
 }
