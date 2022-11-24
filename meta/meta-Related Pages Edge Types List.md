@@ -3,9 +3,8 @@ creation-date: 2022-11-17
 tags: type/meta
 completion: .9
 ---
-*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # meta-Related Pages Edge Types List
-The following is a list of all currently accepted edge types between nodes. If you think a new edge type should be proposed, open a PR. The double-colon syntax is a feature of the [dataview](https://github.com/blacksmithgu/obsidian-dataview) Obsidian plugin to declare inline metadata. Press `F11` to open this page within Obsidian.
+The following is a list of all currently accepted edge types between nodes. If you think a new edge type should be proposed, open a PR. The double-colon syntax is a feature of the [dataview](https://github.com/blacksmithgu/obsidian-dataview) Obsidian plugin to declare inline metadata. Press `F11` to open this page while within Obsidian.
 
 ## Topics
 Each node **must** have a single primary topic and **may** include additional secondary topics:
@@ -42,7 +41,7 @@ If a particular proof or piece of evidence is particularly relevant, statements 
 - primary-proof:: \[\[proof\]\]
 - primary-data:: \[\[data\]\]
 
-Proverbial statements generally point at topics, though may also point at objects. 
+Aphorism statements generally point at topics, though may also point at objects. 
 
 A model **must** link to the statements that compose it. The statements **should not** link to one another, or the model:
 - contains:: \[\[statement\]\]
@@ -72,6 +71,3 @@ If it seems there should be a link, but none of the above types match the connec
 - primary-topic:: [[topic-Meta]]
 - related:: [[meta-Uncloak Contributor Guide]]
 - related:: [[meta-Node Type List]]
-
-## Misc
-last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`

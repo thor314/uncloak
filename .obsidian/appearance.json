@@ -6,5 +6,8 @@
   "interfaceFontFamily": "Atkinson Hyperlegible",
   "theme": "obsidian",
   "nativeMenus": false,
-  "baseFontSize": 14
+  "baseFontSize": 14,
+  "enabledCssSnippets": [
+    "mermaid"
+  ]
 }
