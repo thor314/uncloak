@@ -16,7 +16,7 @@ Ch 1:
 Ch 2:
 - Q3. Consider a group of 30 people who wish to establish pair-wise secure communications using symmetric-key cryptography. How many keys need to be exchanged in total?
     - 435 keys would need to be exchanged.($N(N-1)/2$)) where $N$ = 30. If you aren't familiar with this formula, try deriving it yourself, and proving it with induction. Look up the Handshake Lemma or [Triangular numbers](https://en.wikipedia.org/wiki/Triangular_number) for more details.
-- Q4. Suppose Bob receives a messages signed using a digital signature scheme with Alice's secret signing key. Does it prove that Alice saw the message and chose to sign.
+- Q4. Suppose Bob receives a message signed using a digital signature scheme with Alice's secret signing key. Does it prove that Alice saw the message and chose to sign.
     - No,  $K_a$ is long and difficult to remember, much less compute with. If a malicious party takes over Alice's PC, they might be able to forge Alice's signature.
 - Q6. Suppose a chosen-ciphertext attacker cannot recover the secret decryption key for an encryption scheme. Does this mean the encryption scheme is secure?
     - No. The attacker may still recover information about the message (broken diffusion), even if they cannot recover information about the key (successful confusion). See [Confusion and diffusion](https://en.wikipedia.org/wiki/Confusion_and_diffusion). For example, AES in ECB mode does not leak information about the key, but is still obviously broken; you can [see the penguin](https://words.filippo.io/the-ecb-penguin/).
