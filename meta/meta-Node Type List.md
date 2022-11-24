@@ -3,9 +3,8 @@ creation-date: 2022-11-17
 tags: type/meta
 completion: .9
 ---
-*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # meta-Node Type List
-This is the growing list of node types with short descriptions, and their subtypes. The list anticipates node types that may be useful in the future but do not yet exist. Those that do not yet have templates are marked todo. Press `F10` at any time to open this page within Obsidian.
+This is the growing list of node types with short descriptions, and their subtypes. The list anticipates node types that may be useful in the future but do not yet exist. Those that do not yet have templates are marked todo. Press `F10` at any time to open this page while within Obsidian.
 
 Note that this ontology is growing and changing. I find the current separation and term selection for "mathematical objects" and "software objects" to be particularly inelegant. The system has no natural place for certain types of objects like networks, and underrepresents the application space. But it seems worthwhile to begin, even with an imperfect system.
 
@@ -50,7 +49,7 @@ Note that this ontology is growing and changing. I find the current separation a
     - Proposition: similar to Lemma, without implied use in a theorem
 - Empirical: a falsifiable statement with some degree of evidence
     - Security Assumption: an assumption on which the security of algorithms depend
-- Proverbial: a commonly repeated idea or piece of advice
+- Aphorism: a commonly repeated idea or piece of advice
 - Model: a grouping of statements
     - Security Model: a model that protocols may be proven secure in (todo)
     - Simulation: a model implemented in software, often for empirical test results (todo)
@@ -63,7 +62,7 @@ Note that this ontology is growing and changing. I find the current separation a
 - Data: supporting or rejecting evidence of a statement
 
 ## Context: putting the graph and its contents in clearer light
-- Term: a short (<300 word) page giving just the definition of a term
+- Term: a short (<300 word) page giving just the definition of a term; todo: this is a main node type, promote this
 - Comparison (todo)
     - Table (todo)
     - List (todo)
