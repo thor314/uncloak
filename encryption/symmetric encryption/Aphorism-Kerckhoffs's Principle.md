@@ -3,7 +3,7 @@ creation-date: 2022-11-04
 publish: true
 audience: all
 completion: .5
-tags: type/proverbial, encryption/symmetric, engineering 
+tags: type/aphorism, encryption/symmetric, engineering 
 ---
 # Aphorism-Kerckhoffs's Principle
 A cryptosystem should be secure, even if everything about the system, except the key, is public knowledge.

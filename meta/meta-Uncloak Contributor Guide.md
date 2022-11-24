@@ -3,9 +3,8 @@ creation-date: 2022-11-16
 tags: type/meta
 completion: .7
 ---
-*last-modified (only renders within Obsidian with Dataview installed): `$= dv.current().file.mtime`*
 # meta-Uncloak Contributor Guide
-This document is intended to help contributors get up to speed on where and how to contribute. Press `F12` at any time to open this page from within Obisidan.
+This document is intended to help contributors get up to speed on where and how to contribute. Press `F12` at any time to open this page while within Obisidan.
 
 ## Getting started
 [Fork](https://github.com/thor314/uncloak/fork) the [repo](https://github.com/thor314/uncloak) and edit in a Markdown editor of your choosing. Open a pull request when your contribution is ready for review.
@@ -37,7 +36,7 @@ These are several primary node types in our graph:
     - **Provable** statements have proofs (or disproofs). Theorems, propositions, lemmas, and conjectures are common characters in mathematical cryptography. Conjectures in this system are treated as empirical statements. Also see **proof** in the next section.
     - **Empirical** statements have some degree of supporting or rejecting evidence. They may also be lacking evidence in any direction. Also see **data** in the next section.
     - A **Model** groups together a *set of statement nodes* (typically empirical statements) into a coherent structure. Security models and simulations are examples of models.
-    - **Proverbial** statements are commonly known truisms or advice, e.g. "don't roll your own crypto" and Kerckhoffs's Principle.
+    - **Aphorism** statements are commonly known truisms or advice, e.g. "don't roll your own crypto" and Kerckhoffs's Principle.
     - **Property** statements describe significant features of some object, e.g. the divisibility of the integers.
     - You might observe that we make statements all the time, on all types of nodes! Not every statement deserves its own node, though our bar for what deserves a statement node is not high. Much of mathematics is constructed from a towering architecture of relatively trivial statements, stacking on top of one another. That it is not already common practice to represent this structure with a graph is a colossally wasted opportunity!
 
@@ -88,8 +87,8 @@ Tags can also be included with a hashtag \#like/this, but we will prefer to keep
 
 ## On Edge Types
 Edge types are much simpler than node types. Links within a page imply an undirected relationship between nodes.
-- Link to nodes within the graph with double square brackets: \[\[A link to a node with this name\]\]. This is particularly useful when linking to terms--pages giving concise definitions--thereby allowing the user to **hover over the link to get a preview of the page** without clicking away.
-- Change the description of a link with a pipe: \[\[name-of-node|display-this-text\]\]. This is especially useful when linking to terms for quick definitions, allowing the user to hover to see the definition of the term.
+- Link to nodes within the graph with double square brackets: \[\[A link to a node with this name\]\]. Links allow the user to **hover over the link to get a preview of the page** without clicking away.
+- Change the description of a link with a pipe: \[\[name of node|display this text\]\]. Prefer to use piped descriptions when linking to other-pages inline within a the body of a page. Don't use piped descriptors the Related Pages section, do use them when writing inline links.
 - Link to external pages with normal Markdown links: \[some human descriptor\]\(some link\)
 
 Links are assumed to be undirected edges. Obsidian does not yet provide flexible tools for manipulating link directions. On the local Obsidian client, link direction is recognized by the graph; but on the website, all links in the graph are undirected edges.
@@ -98,12 +97,26 @@ The Related Pages section at the bottom of each page is where we explicitly labe
 
 See [[meta-Related Pages Edge Types List]] for a working list of all edge-types.
 
+## Norms
+This section is a work in progress.
+The following list of norms outlines some site norms we ask contributors to follow.
+- Please do not plagiarize. We do not have the resources to check your contribution against the rest of the internet.
+- Follow the templates outlined in the template directory. Templates exist to suggest structure for each page, and to be extended. You are welcome to extend them.
+- While writing, try to cite your sources with footnotes. An inline footnote looks like this (without the grave quotes):`[^2]`. Drop them anywhere into the text, and append under references the text `[^2]: <a link to your source>`. See [Topic-Encryption](https://uncloak.org/encryption/Topic-Encryption) for examples.
+- Note that the site is limited to 4GB of image content. Take advantage of native markdown features like LaTeX and [Mermaid](https://mermaid-js.github.io/) to create pages with rich examples in preference to including images, though you may include images if the situation justifies. If you would like to include an image from a tool that is not yet supported by the site (eg. Tikz), take a screenshot of the output, and include the code for the image in a footnote.
+- Don't link to external pages within the body. The External Resources section is the right place to include external links. If the site should describe some concept, but the concept doesn't yet exist, link to it as a sort of todo indicator like this: \[\[Term-TERMNAME|TERMNAME\]\]
+- Terms and topic pages are your structure friends.
+    - Terms are short notes giving a couple sentence description of a technical term, so that a page's flow may continue uninterrupted. Users may hover over terms if they are unfamiliar. Terms may eventually be upgraded to another page type with more detail, but term pages tend to be the easiest type of page to to write, maintain, and link to.
+    - Topic pages are the primary way site content is organized. Topics are isomorphic to the directory structure: for every topic, there is a directory, and vice versa. Topic pages are also *Map of Contents* pages, backlinked to by every page within the topic. Topic pages should help readers understand some order to the topic area, how to approach the topic, what pages to visit and in what order. As a topic area grows, so should it's topic page. A topic that becomes unwieldy may be worth splitting into sub-topics.
+- Changes to this git repository do not automatically push to the site. This has to be done manually, until we get around to automating it.
+
 ## On Using Obsidian
+This section is a work in progress.
 The `.obsidian` directory in the Uncloak repo contains a preconfigured setup that you may use. If you aren't comfortable with vim keybindings, press `Ctrl-,` and disable the setting at the bottom of the editor section.
 
 To create a new note, `Ctrl-N` to choose a template, and `Alt-R` to refile it to the correct location.
 
-While writing, try to cite your sources. An easy way to do this is with footnotes. An inline footnote looks like this (without the grave quotes):`[^2]`. Drop them anywhere into the text, and append under references the text `[^2]: <a link to your source>`. You can do this automatically with `Alt-F`, which inserts a footnote for you, drops you to the end, and jumps back to where you were when you press `Alt-F` again. If footnotes become unsorted, use `Alt+Shift+F` to tidy the footnotes.
+You can do this automatically create footnotes with `Alt-F`, which inserts a footnote for you, drops you to the end, and jumps back to where you were when you press `Alt-F` again. If footnotes become unsorted, use `Alt+Shift+F` to tidy the footnotes.
 
 I've written a longer guide on getting started with Obsidian for personal use elsewhere: [A template repo, with instructions for getting started with Obsidian](https://github.com/thor314/obsidian-setup).
 
