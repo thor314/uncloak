@@ -9,7 +9,7 @@ tags: type/context/course
 ## What
 A 4-month, open to the public, Rust Cryptography Engineering weekly study group, covering topics in [*Cryptography Engineering: Design Principles and Practical Applications*](https://drive.google.com/drive/folders/1506sz7G5o6ATeGObP1AEwMV4msaLK3HD?usp=sharing), and other materials as necessary. The group will have optional weekly programming assignments for practice. We will meet in the [Uncloak Discord](https://discord.gg/TYwr4pMS2h) and record lectures weekly on [Youtube](https://www.youtube.com/@uncloakcrypto).
 
-[Practical Cryptography for Developers](https://cryptobook.nakov.com/) and [Number Theory Explained From First Principles](https://explained-from-first-principles.com/number-theory/) are recommended as supplemental resources.
+[Practical Cryptography for Developers](https://cryptobook.nakov.com/) and [Number Theory Explained From First Principles](https://explained-from-first-principles.com/number-theory/), and [Cryptography in Rust for Hackers](https://cryptographyinrustforhackers.com/index.html) are recommended as supplemental resources.
 
 ## Why
 Learning materials on cryptography engineering are scattered, out of date, or generally inaccessible for most developers. Rust has taken the cryptography world by storm, but resources on Rust-based cryptography engineering are few and far between. Training in cryptography does not belong behind closed doors. Learn cryptography with a community of enthusiasts and practitioners. Experience with Rust will be helpful but not required. See the [Uncloak Discord Rust Channel](https://discord.gg/TYwr4pMS2h) for some recommended starting resources on Rust.
