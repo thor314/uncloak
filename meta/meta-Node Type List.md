@@ -11,11 +11,12 @@ Note that this ontology is growing and changing. I find the current separation a
 ##  Topic: a container of nodes
 
 ## Object: a concept or idea about which we may make statements
-- Mathematics: Platonic, often mathematical concepts
+- Mathematical: 
     - Function
         - Cryptographic Hash Function
         - Elliptic Curve
     - Algorithm
+        - Attack - an algorithm to attack another algorithm or structure.
         - Encryption Scheme
         - Signature Scheme (todo)
         - Commitment Scheme (todo)
@@ -32,15 +33,13 @@ Note that this ontology is growing and changing. I find the current separation a
     - Programming Language (todo)
         - Compiler (todo)
         - DSL (todo)
-- Physical: stuff that physically exists
-    - Man-made
-        - Hardware
+- Physical: stuff that physically exists 
+    - Man-made 
+        - Hardware 
     - Natural: something a physicist might study. Is this even needed for cryptography? (todo)
-- Phenomena: stuff that happens
+- Phenomena: stuff that happens 
 - Other Objects
-    - Methodology: doesn't fit neatly elsewhere, nodes describing particular practices (todo)
-    - Network: where do networks fit into this system? It's not yet clear. (todo)
-        - Blockchain: Ditto, networks.
+    - Methodology: nodes describing methods (todo)
 
 ## Statement: a statement about an object
 - Proven: a statement with a (dis)proof
