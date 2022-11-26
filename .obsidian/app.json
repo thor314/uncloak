@@ -47,5 +47,6 @@
   "autoPairMarkdown": false,
   "showInlineTitle": false,
   "newFileLocation": "current",
-  "showFrontmatter": false
+  "showFrontmatter": false,
+  "autoPairBrackets": false
 }

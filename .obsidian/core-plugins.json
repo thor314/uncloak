@@ -9,6 +9,5 @@
   "command-palette",
   "workspaces",
   "file-recovery",
-  "publish",
-  "sync"
+  "publish"
 ]

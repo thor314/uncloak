@@ -17,3 +17,5 @@ Term: a short (<300 word) page giving just the definition of a term
 - primary-topic:: \[\[topic\]\]
 - secondary-topic:: \[\[topic\]\]
 
+## External Resources
+- Wikipedia:: 

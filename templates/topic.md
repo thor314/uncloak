@@ -18,8 +18,6 @@ tags: type/topic,
 
 ## History
 
-## Sections of your choosing start here
-
 
 ---
 ## Related Pages
