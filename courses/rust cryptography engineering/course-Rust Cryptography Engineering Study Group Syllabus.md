@@ -9,7 +9,7 @@ tags: type/context/course
 ## What
 A 4-month, open to the public, Rust Cryptography Engineering weekly study group, covering topics in [*Cryptography Engineering: Design Principles and Practical Applications*](https://drive.google.com/drive/folders/1506sz7G5o6ATeGObP1AEwMV4msaLK3HD?usp=sharing), and other materials as necessary. The group will have optional weekly programming assignments for practice. We will meet in the [Uncloak Discord](https://discord.gg/TYwr4pMS2h) and record lectures weekly on [Youtube](https://www.youtube.com/@uncloakcrypto).
 
-[Practical Cryptography for Developers](https://cryptobook.nakov.com/) and [Number Theory Explained From First Principles](https://explained-from-first-principles.com/number-theory/) are recommended as supplemental resources.
+[Practical Cryptography for Developers](https://cryptobook.nakov.com/) and [Number Theory Explained From First Principles](https://explained-from-first-principles.com/number-theory/), and [Cryptography in Rust for Hackers](https://cryptographyinrustforhackers.com/index.html) are recommended as supplemental resources.
 
 ## Why
 Learning materials on cryptography engineering are scattered, out of date, or generally inaccessible for most developers. Rust has taken the cryptography world by storm, but resources on Rust-based cryptography engineering are few and far between. Training in cryptography does not belong behind closed doors. Learn cryptography with a community of enthusiasts and practitioners. Experience with Rust will be helpful but not required. See the [Uncloak Discord Rust Channel](https://discord.gg/TYwr4pMS2h) for some recommended starting resources on Rust.
@@ -34,52 +34,52 @@ Sessions will be recorded and posted to [youtube](https://www.youtube.com/@unclo
 - W1
   - Discussion: course structure, and cryptography engineering at a high level, as presented in chapters 1 and 2. Optional pre-study group reading: Chapter 1
   - Reading (assigned reading for before week 2's meeting on 2022-11-25): Chapter 2, bird's eye view of Cryptography, and chapter 23: Involving experts
-  - Notes: [[course-2022-11-18 Session 1 Notes]]
+  - Exercises: [[course-2022-11-18 Session 1 Notes]]
 - W2
   - Reading: Ch 3-4 on block ciphers
-  - Exercises: TBA
+  - Exercises: [[course-2022-11-25 Session 2 Notes]]
 - W3
   - Reading: Ch 5-6: Hash Functions and MACs
-  - Exercises: TBA
+  - Exercises: [[course-2022-12-02 Session 3 Notes]]
 - W4:
   - Reading: Ch 7 Secure Channels
-  - Exercises: TBA
+  - Exercises: [[course-2022-12-09 Session 4 Notes]]
 - W5:
   - Discussion: scheduled Code Review
   - Reading: Ch 8 Implementation Issues
-  - Exercises: TBA
+  - Exercises: [[course-2022-12-16 Session 5 Notes]]
 - W6
   - Reading: Chapter 9-10 Randomness and Primes
-  - Exercises: TBA
+  - Exercises: [[course-2022-12-23 Session 6 Notes]]
 - W7
   - Reading: Ch 11 Diffie Helman
-  - Exercises: TBA
+  - Exercises: [[course-2023-01-06 Session 7 Notes]]
 - W8
   - Reading: Ch 12 RSA
-  - Exercises: TBA
+  - Exercises: [[course-2023-01-13 Session 8 Notes]]
 - W9
   - Reading: Ch 13-14 Cryptographic Protocols and Key Negotiation
-  - Exercises: TBA
+  - Exercises: [[course-2023-01-20 Session 9 Notes]]
 - W10
   - Discussion: scheduled Code Review
   - Reading: Ch 15 Implementation Issues II
-  - Exercises: TBA
+  - Exercises: [[course-2023-01-27 Session 10 Notes]]
 - W11
   - Reading: ch 16-17, 21 Clocks, Key Servers, and Secret Sharing
-  - Exercises: TBA
+  - Exercises: [[course-2023-02-03 Session 11 Notes]]
 - W12
   - Reading: Miscellaneous Topics (Zero Knowledge)
-  - Exercises: TBA
+  - Exercises: [[course-2023-02-10 Session 12 Notes]]
 - W13
   - Reading: Miscellaneous Topics (Multi Party Computation)
-  - Exercises: TBA
+  - Exercises: [[course-2023-02-17 Session 13 Notes]]
 - W14
   - Reading: Miscellaneous Topics: (Fully Homomorphic Encryption)
-  - Exercises: TBA
+  - Exercises: [[course-2023-02-23 Session 14 Notes]]
 - W15
   - scheduled Code Review
   - Reading: Miscellaneous Topics
-  - Exercises: TBA
+  - Exercises: [[course-2023-02-30 Session 15 Notes]]
 - W16
   - Course Review
 

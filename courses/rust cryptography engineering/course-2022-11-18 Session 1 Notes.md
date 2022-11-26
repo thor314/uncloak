@@ -53,7 +53,3 @@ General:
 - Implement the [Vignère cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher) in 100 lines or less.
 - What is a side channel attack? Is your cipher implementation constant time?
 - Extra: Read [New Directions in Cryptography](https://toreini.github.io/reading/security/6%20-%20New%20directions%20in%20cryptography.pdf).
-
----
-## Topic(s)
-- primary-topic:: [[course-Rust Cryptography Engineering Study Group Syllabus]]

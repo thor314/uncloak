@@ -16,7 +16,15 @@
       "key": "N"
     }
   ],
-  "file-explorer:new-file": [],
+  "file-explorer:new-file": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "N"
+    }
+  ],
   "editor:toggle-fold": [
     {
       "modifiers": [
@@ -704,6 +712,24 @@
         "Shift"
       ],
       "key": "Enter"
+    }
+  ],
+  "editor:focus-bottom": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "J"
+    }
+  ],
+  "editor:focus-top": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "K"
     }
   ]
 }

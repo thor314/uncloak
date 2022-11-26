@@ -16,4 +16,6 @@ Alice and Bob are commonly used stand-in parties for describing cryptographic sy
 ## External Resources
 - Wikipedia:: [Alice and Bob](https://en.wikipedia.org/wiki/Alice_and_Bob)
 
+## References
+
 [^1]: [A Method for Obtaining Digital Signatures and Public-Key Cryptosystems](https://people.csail.mit.edu/rivest/Rsapaper.pdf)

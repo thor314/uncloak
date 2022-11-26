@@ -12,4 +12,4 @@ tags: type/context/course
 
 ---
 ## Topic(s)
-- primary-topic:: [[course-Rust Cryptography Engineering Study Group Syllabus]]
+- primary-topic:: [[course-Rust Cryptography Engineering Study Group Syllabus

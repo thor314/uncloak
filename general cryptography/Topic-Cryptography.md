@@ -6,7 +6,7 @@ completion: .5
 tags: type/topic,
 ---
 # Topic-Cryptography
-**Cryptography** (also cryptology) is the practice and study of [[Term-Cryptographically Secure|secure]] techniques for communication, [[Term-Authentication|authentication]], and computation in the presence of a malicious or interfering [[Term-Adversary, Security Model|adversary]]. [[Term-Cryptographer|Cryptographers]] and [[Term-Cryptography Engineer|cryptography engineers]] draw on techniques from a wide range of fields (mathematics, information theory, computer science, computer security, electrical engineering, distributed systems, physics, and beyond) to construct protocols.
+**Cryptography** (also cryptology) is the practice and study of [[Term-Cryptographically Secure|secure]] techniques for communication, [[Topic-Authentication|authentication]], and computation in the presence of a malicious or interfering [[Term-Adversary, Security Model|adversary]]. [[Term-Cryptographer|Cryptographers]] and [[Term-Cryptography Engineer|cryptography engineers]] draw on techniques from a wide range of fields (mathematics, information theory, computer science, computer security, electrical engineering, distributed systems, physics, and beyond) to construct protocols.
 
 Cryptographic protocols are designed in mathematical [[Term-Adversary, Security Model|security models]] based on [[Term-Computational Hardness Assumptions|computational hardness assumptions]]. In order to "break" a cryptographic scheme, an adversary must be able to either:
 - break the computational hardness assumption by performing computation thought to be effectively impossible
