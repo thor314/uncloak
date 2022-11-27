@@ -20,7 +20,7 @@ todo
 
 ---
 ## Related Pages
-- primary-topic:: [[general cryptography/Topic-Cryptography]]
+- primary-topic:: [[Topic-Cryptography]]
 
 ## External Resources
 - Wikipedia:: [Blockchain](https://en.wikipedia.org/wiki/Blockchain)

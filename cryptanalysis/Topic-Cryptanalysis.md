@@ -11,7 +11,7 @@ tags: type/topic, cryptanalysis
 
 ---
 ## Related Pages
-- primary-topic:: [[general cryptography/Topic-Cryptography]]
+- primary-topic:: [[Topic-Cryptography]]
 
 ## External Resources
 - wikipedia:: [Cryptanalysis](https://en.wikipedia.org/wiki/Cryptanalysis)

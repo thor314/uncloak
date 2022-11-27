@@ -49,7 +49,7 @@ Todo: [[Attack-Man In The Middle (MITM)]]
 
 ---
 ## Related Pages
-- primary-topic:: [[general cryptography/Topic-Cryptography]]
+- primary-topic:: [[Topic-Cryptography]]
 
 ## External Resources
 - Wikipedia:: [Authentication](https://en.wikipedia.org/wiki/Authentication)
