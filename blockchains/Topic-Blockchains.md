@@ -6,6 +6,8 @@ completion: .1
 tags: type/topic, blockchains
 ---
 # Topic-Blockchains
+*Note to potential contributors that this area should discuss blockchains through the lens of cryptography.*
+todo
 
 ## Recommended Paths through this topic
 

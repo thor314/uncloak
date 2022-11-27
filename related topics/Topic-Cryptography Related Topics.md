@@ -11,7 +11,7 @@ tags: type/topic, related
 
 ---
 ## Related Pages
-- primary-topic:: [[Topic-Cryptography]]
+- primary-topic:: [[general cryptography/Topic-Cryptography]]
 
 ## External Resources
 *The sources section is for recommending resources on other sites*.

@@ -11,7 +11,7 @@ tags: type/topic,
 Cryptographic protocols are designed in mathematical [[Term-Adversary, Security Model|security models]] based on [[Term-Computational Hardness Assumptions|computational hardness assumptions]]. In order to "break" a cryptographic scheme, an adversary must be able to either:
 - break the computational hardness assumption by performing computation thought to be effectively impossible
 - exploit any flaws in the security proof, or take advantage of a weak security model
-- beyond the protocol, cryptographic implementations may be insecure to any of a variety of [[Term-Side Channel Attacks|side channel attacks]], or inaccurately implement the protocol
+- beyond the protocol, cryptographic implementations may be insecure to any of a variety of [[Topic-Side-Channel Attacks|side channel attacks]], or inaccurately implement the protocol
 
 Even a cryptographically-secure system is not necessarily invulnerable. Adversaries in the real world are capable of attacking non-cryptographic parts of a system, including insecure elements of the system beyond the cryptography, or attacking individuals themselves, who may (unintentionally or by force) release secure information. But an attacker who breaks the cryptographic components of a system is more difficult to detect. Attacks external to the cryptographic system typically leave some trace, analogous to a broken window next to the door. A successful cryptographic attack is akin to picking a lock: [[Term-Vulnerability|vulnerabilities]] in the cryptography may allow an attacker to repeatedly attack the system without detection until the vulnerability is patched.
 

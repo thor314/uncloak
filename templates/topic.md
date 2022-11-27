@@ -7,7 +7,7 @@ tags: type/topic,
 <% tp.file.cursor(1) %>
 ---
 
-<% tp.file.cursor(2) %> *Prepend `topic-TITLE` to your title. Don't forget to refile this file to the correct location with Alt-R.*
+<% tp.file.cursor(2) %> *Prepend `Topic-TITLE` to your title. Don't forget to refile this file to the correct location with Alt-R.*
 *Press Enter after you are satisfied with your title to jump to the topic tag, then `Alt-'` to jump farther down the document. Start with an introduction of the topic at the top. Suggest main nodes and trails in the graph within the discussion.*
 
 ## Alice and Bob write a Template
@@ -17,8 +17,6 @@ tags: type/topic,
 ## Applications
 
 ## History
-
-## Sections of your choosing start here
 
 
 ---

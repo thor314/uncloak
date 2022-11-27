@@ -21,7 +21,6 @@ tags: type/statement/property,
 
 ## External Resources
 *The sources section is for recommending resources on other sites*.
-- source:: \[source\](link)
 
 ## References
 *This section is for citations of any claims made in the page*.

@@ -10,7 +10,7 @@ Alice and Bob are commonly used stand-in parties for describing cryptographic sy
 
 ---
 ## Related Pages
-- primary-topic:: [[Topic-Cryptography]]
+- primary-topic:: [[general cryptography/Topic-Cryptography]]
 - secondary-topic:: [[Topic-Encryption]]
 
 ## External Resources

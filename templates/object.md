@@ -16,7 +16,6 @@ tags: type/object,
 
 ---
 ## Related Pages
-*The related pages section is for linking this page other the rest of the graph, press F11 for details. If applicable, replace the following dummy links.*
 - primary-topic:: \[\[topic\]\]
 - secondary-topic:: \[\[topic\]\]
 - extends:: \[\[object\]\]

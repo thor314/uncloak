@@ -6,7 +6,7 @@ completion: .6
 tags: type/context/term, related/security
 ---
 # Term-Defense in Depth
-In security, a system with defense is a system that requires an attacker to break through several layers of security measures before the system is compromised. Examples include doubly-encrypting messages in different cryptosystems, routing packages through many [[Term-Onion Layer|onion layers]] in a mixnet, or using [[Topic-Secure Enclave|secure enclaves]] to perform private computation on a machine with other security  security measures.
+In security, a system with defense is a system that requires an attacker to break through several layers of security measures before the system is compromised. Examples include doubly-encrypting messages in different cryptosystems, routing packages through many [[Term-Onion Layer|onion layers]] in a mixnet, or using [[Hardware-Secure Enclave, Software Guard Extensions (SGX)|secure enclaves]] to perform private computation on a machine with other security  security measures.
 
 ```mermaid
 flowchart LR

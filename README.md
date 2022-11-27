@@ -20,7 +20,7 @@ Site content is licensed under the Unlicense and will remain free and open.
 
 Our [Discord](https://discord.gg/TYwr4pMS2h) is a good place to ask questions and connect with contributors. We also have a [Twitter](https://twitter.com/uncloakcrypto) account for site-related announcements.
 
-[[Topic-Cryptography|Click here, or on the graph, to continue to the site root node on cryptography]].
+[[general cryptography/Topic-Cryptography|Click here, or on the graph, to continue to the site root node on cryptography]].
 
 ## Tips for making best use of the site
 If you've ever rabbit-holed on Wikipedia and thought, "oh that went pretty well, but the relationship between those concepts is still a little unclear" then you basically already know what the site is about. This site aims to address the issue that it can be difficult to know where a particular concept or tool fits in context. Hyperlinks between typical wiki pages demonstrate connections between concepts, but without much context. The graph is an attempt at generating that context.
