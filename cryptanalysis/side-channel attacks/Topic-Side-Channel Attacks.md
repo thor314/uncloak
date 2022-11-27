@@ -6,7 +6,7 @@ completion: .1
 tags: type/context/topic, cryptanalysis/side-channel, 
 ---
 # Topic-Side-Channel Attacks
-A **side-channel** attack is any attack based on the implementation details of an algorithm, rather than the design of the algorithm. Side-channel attacks typically operate in a [[Term-Grey-box Model|grey-box]] or [[Term-White-box Model|white-box]] model, where the attacker has access to system internals. Side-channel attacks typically do not include [[Term-Social Engineering|social engineering]] or interrogation techniques.
+A **side-channel** attack is any attack based on the implementation details of an algorithm, rather than the design of the algorithm. Side-channel attacks typically operate in a [[Security Model-Grey-box Model|grey-box]] or [[Security Model-White-box Model|white-box]] model, where the attacker has access to system internals. Side-channel attacks typically do not include [[Term-Social Engineering|social engineering]] or interrogation techniques.
 
 Todo: This section needs a ton of work :)
 

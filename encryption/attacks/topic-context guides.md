@@ -1,11 +1,11 @@
 ---
-creation-date: <% tp.file.creation_date("YYYY-MM-DD") %>
+creation-date: 2022-11-26
 publish: true
 audience: all
 completion: .1
 tags: type/topic, 
-<% tp.file.cursor(1) %>
 ---
+# topic-context guides
 
 <% tp.file.cursor(2) %> *Prepend `Topic-TITLE` to your title. Don't forget to refile this file to the correct location with Alt-R.*
 *Press Enter after you are satisfied with your title to jump to the topic tag, then `Alt-'` to jump farther down the document. Start with an introduction of the topic at the top. Suggest main nodes and trails in the graph within the discussion.*

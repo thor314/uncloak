@@ -43,10 +43,10 @@
       }
     },
     {
-      "query": "",
+      "query": "file: course",
       "color": {
         "a": 1,
-        "rgb": 5419488
+        "rgb": 10605032
       }
     }
   ],
@@ -60,6 +60,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 152,
-  "scale": 0.3134074763844509,
-  "close": false
+  "scale": 0.1531139620871588,
+  "close": true
 }

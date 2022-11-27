@@ -3,20 +3,19 @@ creation-date: 2022-11-26
 publish: true
 audience: all
 completion: .1
-tags: type/object/attack, encryption/attacks
+tags: type/topic, encryption/attacks
 ---
 # Topic-Attacks on Encryption
-
+The adversary can choose plaintexts to encrypt and observe the outputs, but not analyze the execution of the algorithm within the black-box.
 
 ## Alice and Bob attack encryption
 
 ## Recommended Paths through this topic
-- 
-- [[Term-Black-box Model]]
-- [[Attack-Ciphertext Only Attack (COA)]]
-- [[Attack-Known Plaintext Attack (KPA)]]
-- [[Attack-Chosen Plaintext Attack (CPA)]]
-- [[Attack-Chosen Ciphertext Attack (CCA)]]
+- [[Security Model-Black-box Model]]
+- [[Security Model-Ciphertext-Only Attack (COA)]]
+- [[Security Model-Known Plaintext Attack (KPA)]]
+- [[Security Model-Chosen-Plaintext Attack (CPA)]]
+- [[Security Model-Chosen Ciphertext Attack (CCA)]]
 
 ## Applications
 

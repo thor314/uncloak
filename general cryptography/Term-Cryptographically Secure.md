@@ -10,5 +10,5 @@ A cryptosystem is typically said to be cryptographically secure if there exists 
 
 ---
 ## Related Pages
-- primary-topic:: [[Topic-Cryptography]]
+- primary-topic:: [[general cryptography/Topic-Cryptography]]
 - term:: [[Term-Adversary, Security Model]]

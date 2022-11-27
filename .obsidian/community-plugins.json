@@ -42,5 +42,6 @@
   "obsidian-tagfolder",
   "dataview",
   "obsidian-languagetool-plugin",
-  "obsidian-auto-link-title"
+  "obsidian-auto-link-title",
+  "persistent-graph"
 ]

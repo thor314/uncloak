@@ -44,7 +44,7 @@ todo: something about the 90s crypto wars
 
 ---
 ## Related Pages
-- primary-topic:: [[Topic-Cryptography]]
+- primary-topic:: [[general cryptography/Topic-Cryptography]]
 
 ## External Resources
 *The sources section is for recommending resources on other sites*.

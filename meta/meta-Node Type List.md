@@ -24,6 +24,7 @@ Note that this ontology is growing and changing. I find the current separation a
     - Set
     - Algebraic Structure (todo)
     - Complexity Class (todo)
+- Abstraction - an abstract, platonic ideal of an existing object
 - Software: written by monkeys like you, me, and GPT-3
     - Library (todo)
     - Binary (todo)
@@ -33,10 +34,9 @@ Note that this ontology is growing and changing. I find the current separation a
     - Programming Language (todo)
         - Compiler (todo)
         - DSL (todo)
-- Physical: stuff that physically exists 
-    - Man-made 
-        - Hardware 
-    - Natural: something a physicist might study. Is this even needed for cryptography? (todo)
+- Physical - stuff that physically exists 
+    - Hardware - computing infrastructure 
+    - Natural - something a physicist might study. Is this even needed for cryptography? (todo)
 - Phenomena: stuff that happens 
 - Other Objects
     - Methodology: nodes describing methods (todo)

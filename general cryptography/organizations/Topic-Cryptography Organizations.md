@@ -1,20 +1,17 @@
 ---
-creation-date: 2022-11-03
+creation-date: 2022-11-26
 publish: true
 audience: all
-completion: .2
-tags: type/topic, cryptanalysis
+completion: .1
+tags: type/topic, organizations
 ---
-# Topic-Cryptanalysis
-
-## Sections of your choosing start here
+# Topic-Cryptography Organizations
 
 ---
 ## Related Pages
 - primary-topic:: [[general cryptography/Topic-Cryptography]]
 
 ## External Resources
-- wikipedia:: [Cryptanalysis](https://en.wikipedia.org/wiki/Cryptanalysis)
 
 ## References
 *This section is for citations of any claims made in the page*.

@@ -10,4 +10,4 @@ One who develops cryptographic protocols and systems. Though the term would appe
 
 ---
 ## Related Pages
-- primary-topic:: [[Topic-Cryptography]]
+- primary-topic:: [[general cryptography/Topic-Cryptography]]

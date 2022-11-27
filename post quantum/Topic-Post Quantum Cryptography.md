@@ -12,7 +12,7 @@ tags: type/topic, post-quantum
 ---
 ## Related Pages
 *The related pages section is for linking this page other the rest of the graph, press F11 for details. If applicable, replace the following dummy links.*
-- primary-topic:: [[Topic-Cryptography]]
+- primary-topic:: [[general cryptography/Topic-Cryptography]]
 - context:: \[\[context\]\]
 
 ## External Resources
