@@ -34,11 +34,11 @@ To sidestep these costs, Alice and Bob may use [[Term-Key Encapsulation Mechanis
 Todo: [[Attack-Man In The Middle (MITM)]]
 
 ## History
-Symmetric key encryption is at least as old as Julius Caesar, who was said to use a rotation cipher, termed the [[Algorithm-Caesar Cipher|Caesar Cipher]], to conceal his messages from enemy soldiers circa 69 BCE[^2].
+Symmetric key encryption is at least as old as Julius Caesar, who was said to use a rotation cipher, termed the [[Algorithm-Caesar Cipher|Caesar Cipher]], to conceal his messages from enemy soldiers circa 69 BCE[^1].
 
 todo: say something about world war two
 
-Asymmetric Key encryption is a significantly more recent invention: it was simultaneously conceived of by [James H. Ellis](https://en.wikipedia.org/wiki/James_H._Ellis) of the British intelligence agency GCHQ between 1970-1974, and by [Whitfield Diffie](https://en.wikipedia.org/wiki/Whitfield_Diffie) and [Martin Hellman](https://en.wikipedia.org/wiki/Martin_Hellman) in their 1976 paper [New Directions in Cryptography](https://ieeexplore.ieee.org/document/1055638). The discovery by GCHQ was not disclosed until 1997[^3].
+Asymmetric Key encryption is a significantly more recent invention: it was simultaneously conceived of by [James H. Ellis](https://en.wikipedia.org/wiki/James_H._Ellis) of the British intelligence agency GCHQ between 1970-1974, and by [Whitfield Diffie](https://en.wikipedia.org/wiki/Whitfield_Diffie) and [Martin Hellman](https://en.wikipedia.org/wiki/Martin_Hellman) in their 1976 paper [New Directions in Cryptography](https://ieeexplore.ieee.org/document/1055638). The discovery by GCHQ was not disclosed until 1997[^2].
 
 todo: something about the 90s crypto wars
 
@@ -62,5 +62,5 @@ time gpg -d plain.txt.gpg
 ```
 
 ## References
-[^2]: [Suetonius, Vita Divi Julii](http://thelatinlibrary.com/suetonius/suet.caesar.html#56)
-[^3]: [GCHQ: James Ellis](https://www.gchq.gov.uk/person/james-ellis)
+[^1]: [Suetonius, Vita Divi Julii](http://thelatinlibrary.com/suetonius/suet.caesar.html#56)
+[^2]: [GCHQ: James Ellis](https://www.gchq.gov.uk/person/james-ellis)
