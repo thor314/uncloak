@@ -18,17 +18,15 @@ set clipboard=unnamed
 imap jj <Esc> 
 imap kk <Esc>
 
-" Bind C-u, C-d (up, down) to Shift-U and shift-D, so that C-u and C-d can be used for normal Obsidian hotkeys.
-" Use C-z, C-S-z for undo/redo.
-nmap U <C-u>
-nmap D <C-d>
-" free up C-r for search-replace, set redo to vim-redo
-nmap <C-Z> <C-r> 
-" Bind C-o, C-i (jump back, forward) to Shift-E and shift-B for same
-nmap E <C-i>
-nmap B <C-o>
+" The following vim keys are very useful, keep them available:
+" Don't overwrite <C-u> or <C-d> for file movement.
+" C-i - jump forward, also map to Alt-i for convenience 
+nmap <C-i> <A-i>
+" C-o is taken by open file. Use Alt-o instead.
+nmap <C-o> <A-o>
+" <C-r> is for search-replace. u/U for undo/redo. Also Ctrl-z/Z native app.
+nmap U :redo
 
-" Since C-o is taken, use the following for go-back/forward.
 " This mapping repeats a mapping in the in-app hotkeys menu for demonstration; the in-app menu overwrites mappings here.
 exmap back obcommand app:go-back
 nmap <A-,> :back
