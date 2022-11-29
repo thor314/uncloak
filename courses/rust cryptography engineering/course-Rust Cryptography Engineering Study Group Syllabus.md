@@ -7,7 +7,7 @@ tags: type/context/course
 ---
 # course-Rust Cryptography Engineering Study Group Syllabus
 ## What
-A 4-month, open to the public, Rust Cryptography Engineering weekly study group, covering topics in [*Cryptography Engineering: Design Principles and Practical Applications*](https://drive.google.com/drive/folders/1506sz7G5o6ATeGObP1AEwMV4msaLK3HD?usp=sharing), and other materials as necessary. The group will have optional weekly programming assignments for practice. We will meet in the [Uncloak Discord](https://discord.gg/TYwr4pMS2h) and record lectures weekly on [Youtube](https://www.youtube.com/@uncloakcrypto).
+A 4-month, open to the public, Rust Cryptography Engineering weekly study group, covering topics in [*Cryptography Engineering: Design Principles and Practical Applications*](https://drive.google.com/drive/folders/1506sz7G5o6ATeGObP1AEwMV4msaLK3HD?usp=sharing), and other materials as necessary. The group will have optional weekly programming assignments for practice. We will meet in the [Uncloak Discord](https://discord.gg/TYwr4pMS2h) and record lectures weekly on [Youtube](https://youtube.com/playlist?list=PLzJmbuzo05ReLE7dqX3WRTYXfHsQYuag7).
 
 [Practical Cryptography for Developers](https://cryptobook.nakov.com/) and [Number Theory Explained From First Principles](https://explained-from-first-principles.com/number-theory/), and [Cryptography in Rust for Hackers](https://cryptographyinrustforhackers.com/index.html) are recommended as supplemental resources.
 
@@ -29,14 +29,14 @@ The study group will begin on November 18, 2022, running until roughly mid-March
 ## Syllabus
 We will approximately follow the structure laid out in the text. We have a lot of ground to cover, and this is our first time running the course, so regard this syllabus as approximate, while we gather feedback. We will aim for roughly 2 hours of weekly reading, with optional programming exercises for members who would like to get hands on practice.
 
-Sessions will be recorded and posted to [youtube](https://www.youtube.com/@uncloakcrypto).
+Sessions will be recorded and posted to [youtube](https://youtube.com/playlist?list=PLzJmbuzo05ReLE7dqX3WRTYXfHsQYuag7)
 
 - W1
   - Discussion: course structure, and cryptography engineering at a high level, as presented in chapters 1 and 2. Optional pre-study group reading: Chapter 1
   - Reading (assigned reading for before week 2's meeting on 2022-11-25): Chapter 2, bird's eye view of Cryptography, and chapter 23: Involving experts
   - Exercises: [[course-2022-11-18 Session 1 Notes]]
 - W2
-  - Reading: Ch 3-4 on block ciphers
+  - Reading: Ch 3-4 on block ciphers, and NIST: [Block Cipher Techniques | CSRC](https://csrc.nist.gov/Projects/block-cipher-techniques/BCM/current-modes)
   - Exercises: [[course-2022-11-25 Session 2 Notes]]
 - W3
   - Reading: Ch 5-6: Hash Functions and MACs
@@ -89,7 +89,9 @@ Sessions will be recorded and posted to [youtube](https://www.youtube.com/@unclo
 Show up for sessions, no sign up. See the Discord Event schedule. https://discord.gg/TYwr4pMS2h
 
 ### Will sessions be recorded? Can I take the course at my own pace?
-Yes and Yes. Sessions will be recorded, and notes will be published. The advantage of keeping up with the group is a deeper liquidity pool of people who are simultaneously thinking and learning about the same things as you, but you're welcome to keep your own pace. [Recordings Link](https://drive.google.com/drive/folders/1506sz7G5o6ATeGObP1AEwMV4msaLK3HD?usp=share_link).
+Yes and Yes. Sessions will be recorded, and notes will be published. The advantage of keeping up with the group is a deeper liquidity pool of people who are simultaneously thinking and learning about the same things as you, but you're welcome to keep your own pace.
+
+https://www.youtube.com/playlist?list=PLzJmbuzo05ReLE7dqX3WRTYXfHsQYuag7
 
 ### What time commitment?
 See above, you may pace yourself if the pacing doesn't suit you, but we will aim to assign 1-2 hours of reading per week, with an optional pool of development homework. The time taken to complete "development homework" is highly varying on skill level, but we will attempt to target 4-5 hours per week.

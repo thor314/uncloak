@@ -43,5 +43,6 @@
   "dataview",
   "obsidian-languagetool-plugin",
   "obsidian-auto-link-title",
-  "persistent-graph"
+  "persistent-graph",
+  "settings-search"
 ]
