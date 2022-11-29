@@ -27,7 +27,7 @@ tags: type/context/course
 
 5; Suppose you have a processor that can perform a single DES encryption or decryption operation in $2^{-26}$ seconds. Suppose you also have a large number of plaintext-ciphertext pairs for $DES$ under a single unknown key. How many hours would it take, on average, to find that $DES$ key, using an exhaustive search approach and a single processor? How many hours would it take, with a collection of $2^{14}$ processors?
 
-6. Consider a new block cipher, *DES2*, that consists only of two rounds of the *DES* block cipher. *DES2* has the same block and key size as *DES*. For this question you should consider the *DES* $F$ function as a black box that takes two inputs, a 32-bit data segment and a 48-bit round key, and that produces a 32-bit output. Suppose you have a large number of plaintext-ciphertext pairs for *DES2* under a single, unknown key. Give an algorithm for recovering the 48-bit round key for round 1 and the 48-bit round key for round 2. Your algorithm should require fewer operations than an exhaustive search for an entire 56-bit *DES* key. Can your algorithm be converted into a distinguishable attack against *DES2*?
+6; Consider a new block cipher, *DES2*, that consists only of two rounds of the *DES* block cipher. *DES2* has the same block and key size as *DES*. For this question you should consider the *DES* $F$ function as a black box that takes two inputs, a 32-bit data segment and a 48-bit round key, and that produces a 32-bit output. Suppose you have a large number of plaintext-ciphertext pairs for *DES2* under a single, unknown key. Give an algorithm for recovering the 48-bit round key for round 1 and the 48-bit round key for round 2. Your algorithm should require fewer operations than an exhaustive search for an entire 56-bit *DES* key. Can your algorithm be converted into a distinguishable attack against *DES2*?
 
 8; Familiarize yourself with a cryptographic CLI tools. A popular open source package is [*OpenSSL*](https://docs.rs/openssl/latest/openssl/aes/index.html). Using an existing cryptographic library, decrypt the following ciphertext (in hex)
 ```hex
@@ -71,8 +71,7 @@ What information, if any, can you infer about the plaintext $P$ corresponding
 to $C'$?
 
 4; The ciphertext (in hex):
-```
-ex
+```hex
 87 F3 48 FF 79 B8 11 AF 38 57 D6 71 8E 5F 0F 91
 7C 3D 26 F7 73 77 63 5A 5E 43 E9 B5 CC 5D 05 92
 6E 26 FF C5 22 0D C7 D4 05 F1 70 86 70 E6 E0 17
