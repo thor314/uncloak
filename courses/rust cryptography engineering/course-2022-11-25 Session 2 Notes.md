@@ -67,7 +67,7 @@ Suppose you know these ciphertexts were generated using CTR mode with the same n
 43 72 79 70 74 6F 67 72 61 70 68 79 20 43 72 79
 70 74 6F 67 72 61 70 68 79 20 43 72 79 70 74 6F.
 ```
-What information, if any, can you infer about the plaintext $P$ corresponding
+What information, if any, can you infer about the plaintext $P'$ corresponding
 to $C'$?
 
 4; The ciphertext (in hex):
