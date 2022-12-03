@@ -50,18 +50,21 @@ with the following 256-bit key from problem 8, using *AES*. Then re-encrypt and 
 
 ### Chapter 4 (p. 107)
 1; Let $P$ be a plaintext and let $\ell(P)$ be the length of $P$ in bytes. Let $b$ be the block size of the block cipher in bytes. Explain why the following is not a good padding scheme:
-- Determine the minimum number of padding bytes necessary in order to pad the plaintext to a block boundary. This is a number $n$ which satisfies $0 ≤ n ≤ b − 1$ and $n + l(P)$ is a multiple of $b$. Pad the plaintext by appending $n$ bytes, each with value $n$.
+
+Determine the minimum number of padding bytes necessary in order to pad the plaintext to a block boundary. This is a number $n$ which satisfies $0 ≤ n ≤ b − 1$ and $n + l(P)$ is a multiple of $b$. Pad the plaintext by appending $n$ bytes, each with value $n$.
 
 3; Suppose you, as an attacker, observe the following 32-byte ciphertext $C$ (in hex)
 ```hex
 46 64 DC 06 97 BB FE 69 33 07 15 07 9B A6 C2 3D
 2B 84 DE 4F 90 8D 7D 34 AA CE 96 8B 64 F3 DF 75
 ```
+
 and the following 32-byte ciphertext $C'$ (also in hex)
 ```hex
 51 7E CC 05 C3 BD EA 3B 33 57 0E 1B D8 97 D5 30
 7B D0 91 6B 8D 82 6B 35 B7 8B BB 8D 74 E2 C7 3B.
 ```
+
 Suppose you know these ciphertexts were generated using CTR mode with the same nonce. The nonce is implicit, so it is not included in the ciphertext. You also know that the plaintext $P$ corresponding to $C$ is
 ```hex
 43 72 79 70 74 6F 67 72 61 70 68 79 20 43 72 79
@@ -83,8 +86,9 @@ was generated with the 256-bit AES key (also in hex)
 ```
 using CBC mode with a random IV. The IV is included at the beginning of the ciphertext. Decrypt this ciphertext. You may use an existing cryptography library for this exercise.
 
-6; Let $P_1$, $P_2$ be a message that is two blocks long, and let $P'_1$ be a message that is one block long. Let $C_0, C_1, C_2$ be the encryption of $P_1, P_2$ using CBC mode with a random IV and a random key, and let $C'_0, C'_1$ be the encryption of $P'_1$ using CBC mode with a random IV and the same key. Suppose an attacker knows $P_1, P_2$ and suppose the attacker intercepted and thus know $C_0, C_1, C_2$ and $C'_0, C'_1$. Further suppose that, by random chance, $C'_1 = C_2$. Show that the attacker can compute $P'_1$.
-- Implement a pair of functions: A [PKCS](https://en.wikipedia.org/wiki/PKCS_7) message padding function, and a padding validation function that takes a message and validates whether it has a correct padding.
+6; Let $P_1$, $P_2$ be a message that is two blocks long, and let $P'_1$ be a message that is one block long. Let $C_0, C_1, C_2$ be the encryption of $P_1, P_2$ using CBC mode with a random IV and a random key, and let $C'_0, C'_1$ be the encryption of $P'_1$ using CBC mode with a random IV and the same key. Suppose an attacker knows $P_1, P_2$ and suppose the attacker intercepted and thus knows $C_0, C_1, C_2$ and $C'_0, C'_1$. Further suppose that, by random chance, $C'_1 = C_2$. Show that the attacker can compute $P'_1$.
+
+- Implement a pair of functions: A [PKCS 7](https://en.wikipedia.org/wiki/PKCS_7) message padding function, and a padding validation function that takes a message and validates whether it has a correct padding.
 
 ### Extra Reading:
 Concurrently to *New Directions in Cryptography*, IBM published what would become the Data Encryption Standard in 1975, which would become standardized three years later in 1978. IBM originally targeted 64 bits of security, but the NSA offered to disclose vulnerabilities in the algorithm to IBM, in exchange for a lower bit security, 48 bits, so that the NSA would have an easier time breaking encryption by brute force. IBM and the NSA agreed on a midway, 56 bit security, and the NSA patched vulnerabilities in the DES algorithm. The precise contributions of the NSA were kept private, in part to maintain the secrecy of differential cryptanalysis techniques. However, the existence of the collaboration was publicly known and heavily scrutinized by cryptographers, including Whitfield Diffie and Martin Hellman, who argued for the necessity of a 128-bit key.
