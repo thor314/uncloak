@@ -55,7 +55,7 @@ Further, if we can obtain $r_0$, and we have the evaluation $f_0(r_0)$ in storag
 
 Given a large enough set of pairs, this attack against *DES2* is quite efficient! If the attacker is able to *choose* messages, they can obtain a full plaintext-ciphertext table for this attack in $O(2^{32})$ pairs. 
 
-However, an even more efficient probabilistic attack exists. Though the ciphertext space for $l_2$ may be $2^{16}$, the common plaintext space for the first 2 bytes is much smaller, perhaps on the order of $2^8$. Suppose $l_0=L_0$. Then:
+However, an even more efficient probabilistic attack exists. Though the ciphertext space for $l_2$ may be $2^{32}$, the common plaintext space for the first 4 bytes is much smaller, perhaps on the order of $2^10$. Suppose $l_0=L_0$. Then:
 $$l_2\oplus L_2\oplus f_0(R_0)=(f_0(r_0)\oplus l_0) \oplus  L_0=f_0(r_0)$$
 
 And we may check: $f_0(r_0)=_?l_2\oplus l_1$; if the equality is satisfied, then $l_0=L_0$. By a similar argument, we may check if $r_1=R_1$. 
@@ -81,7 +81,7 @@ $ echo "539B333B39706D149028CFE1D9D4A407" | xxd -r -p | openssl enc -aes-256-ecb
 - rust:
     - https://github.com/thor314/uncloak-hw/tree/main/hw2
 
-9 Using an existing cryptography library, encrypt the following plaintext (in hex)
+9; Using an existing cryptography library, encrypt the following plaintext (in hex)
 
 ```hex
 	29 6C 93 FD F4 99 AA EB 41 94 BA BC 2E 63 56 1D
@@ -99,7 +99,7 @@ using *AES*.
 ```bash
 $ echo "296C93FDF499AAEB4194BABC2E63561D" | xxd -r -p | openssl enc -aes256 -e -K "8000000000000000000000000000000000000000000000000000000000000001" -iv 0 -nopad | xxd
 ```
-10 Write a program that experimentally demonstrates the complementation property for *DES*. This program should take as input a key $K$ and a plaintext $P$ and demonstrate that the $DES$ complementation property holds for this key and plaintext. You may use an existing cryptography library for this exercise.  
+10; Write a program that experimentally demonstrates the complementation property for *DES*. This program should take as input a key $K$ and a plaintext $P$ and demonstrate that the $DES$ complementation property holds for this key and plaintext. You may use an existing cryptography library for this exercise.  
 - https://github.com/thor314/uncloak-hw/tree/main/hw2
 
 ## Chapter 4 (p. 107)
