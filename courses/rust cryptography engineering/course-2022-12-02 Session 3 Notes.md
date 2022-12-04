@@ -25,6 +25,7 @@ tags: type/context/course
         - On padding attacks on CBC mode, in a variation of the CCA model: If the attacker has access to an oracle who will attempt to decrypt ciphertexts, and inform the attacker whether the padding on the decrypted plaintext is valid, (eg. some server to decrypt messages), the attacker can obtain messages with a padding oracle attack! See the above Wikipedia article for details. These attacks can be avoided by denying the attacker access to whether the ciphertext decrypted successfully, or more simply, avoiding CBC mode.
     - Behold the ECB Penguin [Exploring an Encrypted Penguin with AES-ECB](https://tonybox.net/posts/ecb-penguin/)
     - "What modes should I use?" Unless you are implementing a cipher yourself, You will rarely use a block cipher mode directly. You will more likely use an Authenticated Encryption with Associated Data (AEAD) cipher, to authenticate yourself to the corresponding party and vice versa. This week's reading covers several Message Authentication Code techniques, used in conjunction with a block cipher to construct a *secure channel* (an encrypted and authenticated chanel). See: [AEADs/aes-gcm at master · RustCrypto/AEADs · GitHub](https://github.com/RustCrypto/AEADs/tree/master/aes-gcm), though any TLS library should also include AEADs.
+    - "When should I use the standard?" Very hard to answer! Often when you would like to use a standardized algorithm, there are new and vastly improved performance constructions! Sometimes there isn't a standard at all, and sometimes the standard is crap or out of date. NIST has been reasonably swift about keeping standards for the last several decades, but no standards body will ever be able to meet the needs of developers rapidly changing environments. If it's not obvious, ask around. If you need non-standard cryptography, the authors of that cryptography may have input on whether it is production-ready. It may also be the case that standard cryptography can be used in ways you didn't expect. Cryptographers tend to be open to receiving (well-posed, grammatically correct) questions about their work.
 
 ## Extra reading for this week
 The reading is somewhat outdated this week. Several additional reading assignments to cover bases on hash functions:
@@ -46,6 +47,24 @@ The reading is somewhat outdated this week. Several additional reading assignmen
 - Exercise 6.1 Describe a realistic system that uses CBC-MAC for message authentication and that is vulnerable to a length extension attack against CBC-MAC.
 - Exercise 6.3 Suppose a and b are both one block long, and suppose the sender MACs a, b, and $a || b$ with CBC-MAC. An attacker who intercepts the MAC tags for these messages can now forge the MAC for the message $b || (M(b) ⊕ M(a) ⊕ b)$, which the sender never sent. The forged tag for this message is equal to $M(a || b)$, the tag for $a || b$. Justify mathematically why this is true.
 - Exercise 6.4 Suppose message $a$ is one block long. Suppose that an attacker has received the MAC $t$ for a using CBC-MAC under some random key unknown to the attacker. Explain how to forge the MAC for a two-block message of your choice. What is the two-block message that you chose? What is the tag that you chose? Why is your chosen tag a valid tag for your two-block message?
+This problem outlines a length extension attack. As specified in CBC-MAC:
+$$
+\begin{align}
+H_{0}:=& IV=0 \\
+t = H_{1}:=& E_K(P_{i}\oplus H_{i-1})=E_{K}(a\oplus 0) \\
+\end{align}
+$$
+As the attacker, choose some second block $b$, and compute MAC $t'$:
+$$
+\begin{align}
+t' = H_{2}:=&E_{K}(b\oplus t) \\
+\end{align}
+$$
+But
+
+
+   Let mac $t=h()$
+
 - Exercise 6.5 Using an existing cryptography library, compute the MAC of the message:
 ```hex
 4D 41 43 73 20 61 72 65 20 76 65 72 79 20 75 73 65 66 75 6C 20 69 6E 20 63 72 79 70 74 6F 67 72 61 70 68 79 21 20 20 20 20 20 20 20 20 20 20 20
@@ -55,4 +74,19 @@ using CBC-MAC with AES and the 256-bit key:
 ```hex
 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01
 ```
+
+- solution:
+```sh
+~ ❯ echo $msg | openssl dgst -hmac $key -hex
+SHA256(stdin)= f2d6d1c954bcd62df5a3c6611cb56b21d3f96f5681abd5b13f0b398499f9894c
+~ ❯ echo $key
+8000000000000000000000000000000000000000000000000000000000000001
+~ ❯ echo $msg
+4D4143732061726520766572792075736566756C20696E2063727970746F677261706879212020202020202020202020
+```
+
 - For message authentication, when would you use TupleHash? ParallelHash? KMAC?
+    - These three algorithms are specified in NIST 800-185, published after the SHA3 standards competition. [https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-185.pdf](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-185.pdf). All three are designed for use with SHA3.
+    - TupleHash is takes a tuple of messages and produces a message authentication code. It's useful when you want to create a MAC on multiple messages simultaneously, for instance, on a key-value pairing.
+    - ParallelHash is a multithreaded algorithm for computing the hash of a long message, instead of hashing each bite of the long message sequentially.
+    - KMAC is designed for use with SHA3 (K is for Keccak), and avoids the need, as in HMAC, to hash messages twice; thus, KMAC is faster than HMAC.
