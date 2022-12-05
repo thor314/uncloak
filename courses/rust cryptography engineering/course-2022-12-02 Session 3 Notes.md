@@ -44,27 +44,8 @@ The reading is somewhat outdated this week. Several additional reading assignmen
 - With command line tools or Criterion, benchmark the [blake3 hash](https://docs.rs/blake3/latest/blake3/) (default is 256 bit output), and compare it to benches of [SHA3-256](https://docs.rs/sha3/latest/sha3/) and [SHA-256](https://docs.rs/sha2/latest/sha2/) (when written without a number, SHA is assumed to be SHA2).
 
 ## ch 6 exercises
-- Exercise 6.1 Describe a realistic system that uses CBC-MAC for message authentication and that is vulnerable to a length extension attack against CBC-MAC.
-- Exercise 6.3 Suppose a and b are both one block long, and suppose the sender MACs a, b, and $a || b$ with CBC-MAC. An attacker who intercepts the MAC tags for these messages can now forge the MAC for the message $b || (M(b) ⊕ M(a) ⊕ b)$, which the sender never sent. The forged tag for this message is equal to $M(a || b)$, the tag for $a || b$. Justify mathematically why this is true.
+- Exercise 6.3 Suppose a and b are both one block long, and suppose the sender MACs a, b, and $a || b$ with CBC-MAC. An attacker who intercepts the MAC tags for these messages can now forge the MAC for the message $m=b || (M(b) ⊕ M(a) ⊕ b)$, which the sender never sent. The forged tag for this message is equal to $M(a || b)$, the tag for $a || b$. Justify mathematically why this is true.
 - Exercise 6.4 Suppose message $a$ is one block long. Suppose that an attacker has received the MAC $t$ for a using CBC-MAC under some random key unknown to the attacker. Explain how to forge the MAC for a two-block message of your choice. What is the two-block message that you chose? What is the tag that you chose? Why is your chosen tag a valid tag for your two-block message?
-This problem outlines a length extension attack. As specified in CBC-MAC:
-$$
-\begin{align}
-H_{0}:=& IV=0 \\
-t = H_{1}:=& E_K(P_{i}\oplus H_{i-1})=E_{K}(a\oplus 0) \\
-\end{align}
-$$
-As the attacker, choose some second block $b$, and compute MAC $t'$:
-$$
-\begin{align}
-t' = H_{2}:=&E_{K}(b\oplus t) \\
-\end{align}
-$$
-But
-
-
-   Let mac $t=h()$
-
 - Exercise 6.5 Using an existing cryptography library, compute the MAC of the message:
 ```hex
 4D 41 43 73 20 61 72 65 20 76 65 72 79 20 75 73 65 66 75 6C 20 69 6E 20 63 72 79 70 74 6F 67 72 61 70 68 79 21 20 20 20 20 20 20 20 20 20 20 20
@@ -75,18 +56,4 @@ using CBC-MAC with AES and the 256-bit key:
 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01
 ```
 
-- solution:
-```sh
-~ ❯ echo $msg | openssl dgst -hmac $key -hex
-SHA256(stdin)= f2d6d1c954bcd62df5a3c6611cb56b21d3f96f5681abd5b13f0b398499f9894c
-~ ❯ echo $key
-8000000000000000000000000000000000000000000000000000000000000001
-~ ❯ echo $msg
-4D4143732061726520766572792075736566756C20696E2063727970746F677261706879212020202020202020202020
-```
-
 - For message authentication, when would you use TupleHash? ParallelHash? KMAC?
-    - These three algorithms are specified in NIST 800-185, published after the SHA3 standards competition. [https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-185.pdf](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-185.pdf). All three are designed for use with SHA3.
-    - TupleHash is takes a tuple of messages and produces a message authentication code. It's useful when you want to create a MAC on multiple messages simultaneously, for instance, on a key-value pairing.
-    - ParallelHash is a multithreaded algorithm for computing the hash of a long message, instead of hashing each bite of the long message sequentially.
-    - KMAC is designed for use with SHA3 (K is for Keccak), and avoids the need, as in HMAC, to hash messages twice; thus, KMAC is faster than HMAC.

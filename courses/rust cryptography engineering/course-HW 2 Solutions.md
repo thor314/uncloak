@@ -10,24 +10,9 @@ tags: type/context/course
 
 ## Chapter 3 (p. 61)
 1; How much space would be required to store a table for an entire idealized block cipher that operates on 64-bit blocks and has 80-bit keys?
-- How many possible keys are there? $2^{80}$. 
-- How many possible blocks are there? $2^{60}$
+- How many possible keys are there? $2^{80}$.
+- How many possible blocks are there? $2^{64}$
 - There will be $2^{144}=2^{64}*2^{80}$ entries, with 64 bits per block, so $2^{150}=2^{144}*2^6$ bits total, or $2^{147}$ bytes.
-
-5; Suppose you have a processor that can perform a single $DES$ encryption or decryption operation in $2^{-26}$  seconds. Suppose you also have a large number of plaintext-ciphertext pairs for $DES$ under a single unknown key. How many hours would it take, on average, to find that $DES$ key, using an exhaustive search approach and a single processor? How many hours would it take, with a collection of $2^{14}$ processors? 
-- note: "a large number" is weird, they should have just given a number. But w/e, *ahem* I mean, I assigned this for an opportunity to practice symbolic reasoning.
-- Let:
-    -  the number of owned plaintext-ciphertext pairs be $n$
-    -  the time per (en|de)cryption be $t$ seconds
-    -  the total number of possible DES keys be $N$
-    -  the number of parallel processors be $d$
-    -  the number of attempts to be $a$
-- For any independent attempt[^1], the probability of key-discovery can be expressed: $P[\text{key discovery}]=n/N$. We make the assumption attempts approximately independent, and solve $na/N=.5$:
-$$0.5 = na/N = \frac{na}{2^{56}}$$
-$$a=2^{55}/n$$
-and the time to obtain a collision can be expressed:
-$$T := \frac{at}{d} = \frac{2^{55}2^{-26}}{n*2^{14}}$$
-$$=2^{15}/n \text{ seconds}$$
 
 6; Consider a new block cipher, *DES2*, that consists only of two rounds of the *DES* block cipher. *DES2* has the same block and key size as *DES*. For this question you should consider the *DES* $F$ function as a black box that takes two inputs, a 32-bit data segment and a 48-bit round key, and that produces a 32-bit output. Suppose you have a large number of plaintext-ciphertext pairs for *DES2* under a single, unknown key. Give an algorithm for recovering the 48-bit round key for round 1 and the 48-bit round key for round 2. Your algorithm should require fewer operations than an exhaustive search for an entire 56-bit *DES* key. Can your algorithm be converted into a distinguishable attack against *DES2*?
 
@@ -53,23 +38,23 @@ $$r_0=l_1= r_2 \oplus f_1(r_1)$$
 
 Further, if we can obtain $r_0$, and we have the evaluation $f_0(r_0)$ in storage, we likewise may obtain $l_0$.
 
-Given a large enough set of pairs, this attack against *DES2* is quite efficient! If the attacker is able to *choose* messages, they can obtain a full plaintext-ciphertext table for this attack in $O(2^{32})$ pairs. 
+Given a large enough set of pairs, this attack against *DES2* is quite efficient! If the attacker is able to *choose* messages, they can obtain a full plaintext-ciphertext table for this attack in $O(2^{32})$ pairs.
 
 However, an even more efficient probabilistic attack exists. Though the ciphertext space for $l_2$ may be $2^{32}$, the common plaintext space for the first 4 bytes is much smaller, perhaps on the order of $2^10$. Suppose $l_0=L_0$. Then:
 $$l_2\oplus L_2\oplus f_0(R_0)=(f_0(r_0)\oplus l_0) \oplus  L_0=f_0(r_0)$$
 
-And we may check: $f_0(r_0)=_?l_2\oplus l_1$; if the equality is satisfied, then $l_0=L_0$. By a similar argument, we may check if $r_1=R_1$. 
+And we may check: $f_0(r_0)=_?l_2\oplus l_1$; if the equality is satisfied, then $l_0=L_0$. By a similar argument, we may check if $r_1=R_1$.
 
 
 8; Using an existing cryptographic library, decrypt the following ciphertext (in hex)
-```hex 
+```hex
 	53 9B 33 3B 39 70 6D 14 90 28 CF E1 D9 D4 A4 07
 ```
 
 with the following 256-bit key (also in hex)
 
 ```hex
-	80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+	80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01
 ```
 
@@ -81,54 +66,16 @@ $ echo "539B333B39706D149028CFE1D9D4A407" | xxd -r -p | openssl enc -aes-256-ecb
 - rust:
     - https://github.com/thor314/uncloak-hw/tree/main/hw2
 
-9; Using an existing cryptography library, encrypt the following plaintext (in hex)
-
-```hex
-	29 6C 93 FD F4 99 AA EB 41 94 BA BC 2E 63 56 1D
-```
-
-with the following 256-bit key (also in hex)
-
-```hex
-	80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
-	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01
-```
-using *AES*.
-- rust: https://github.com/thor314/uncloak-hw/tree/main/hw2
-- bash:
-```bash
-$ echo "296C93FDF499AAEB4194BABC2E63561D" | xxd -r -p | openssl enc -aes256 -e -K "8000000000000000000000000000000000000000000000000000000000000001" -iv 0 -nopad | xxd
-```
-10; Write a program that experimentally demonstrates the complementation property for *DES*. This program should take as input a key $K$ and a plaintext $P$ and demonstrate that the $DES$ complementation property holds for this key and plaintext. You may use an existing cryptography library for this exercise.  
-- https://github.com/thor314/uncloak-hw/tree/main/hw2
-
 ## Chapter 4 (p. 107)
-1; Let $P$ be a plaintext and let $\ell(P)$ be the length of $P$ in bytes. Let $b$ be the block size of the block cipher in bytes. Explain why the following is not a good padding scheme: 
+1; Let $P$ be a plaintext and let $\ell(P)$ be the length of $P$ in bytes. Let $b$ be the block size of the block cipher in bytes. Explain why the following is not a good padding scheme:
 
 Determine the minimum number of padding bytes necessary in order to pad the plaintext to a block boundary. This is a number n which satisfies $0 ≤ n ≤ b − 1$ and $n +l (P)$ is a multiple of $b$. Pad the plaintext by appending $n$ bytes, each with value $n$.
 - The above is not a good padding scheme because it allows for the padding to be 0 bytes long ($n = 0$). If $n=0$, and the plaintext $P$ is exactly the same length as the block ($b$), the block cipher will not know how much padding to remove and might remove some of the message. Generally $n$ should be $>0$ so that the block cipher knows how to deal with $P$. If $P$ is exactly the same length as the $b$, then an additional block of padding can be added ($\ell(P) = \ell(b)$).
 
-3; Suppose you, as an attacker, observe the following 32-byte ciphertext $C$ (in hex)
-```hex
-46 64 DC 06 97 BB FE 69 33 07 15 07 9B A6 C2 3D
-2B 84 DE 4F 90 8D 7D 34 AA CE 96 8B 64 F3 DF 75
-```
+3; Suppose you, as an attacker, observe a pair of  32-byte ciphertexts $C, C'$, and you know these ciphertexts were generated using CTR mode with the same nonce. By chance, you obtain $P$ corresponding to $C$. What information, if any, can you infer about the plaintext $P'$ corresponding to $C'$?
 
-and the following 32-byte ciphertext $C'$ (also in hex)
-```hex
-51 7E CC 05 C3 BD EA 3B 33 57 0E 1B D8 97 D5 30
-7B D0 91 6B 8D 82 6B 35 B7 8B BB 8D 74 E2 C7 3B.
-```
-
-Suppose you know these ciphertexts were generated using CTR mode with the same nonce. The nonce is implicit, so it is not included in the ciphertext. You also know that the plaintext $P$ corresponding to $C$ is
-```hex
-43 72 79 70 74 6F 67 72 61 70 68 79 20 43 72 79
-70 74 6F 67 72 61 70 68 79 20 43 72 79 70 74 6F.
-```
-What information, if any, can you infer about the plaintext $P'$ corresponding
-to $C'$?
 - Since we know $P$, $C$, & $C'$, we obtain $P'$:
-    - $P' = P \oplus C \oplus C'$ 
+    - $P' = P \oplus C \oplus C'$
 
 If $C$ & $C'$ used a different nonce, this equality would not hold.
 
@@ -151,6 +98,53 @@ $ echo "7C3D26F77377635A5E43E9B5CC5D05926E26FFC5220DC7D405F1708670E6E017" | xxd 
 ```
 - Since The IV is included at the beginning of the ciphertext we know that "87F348FF79B811AF3857D6718E5F0F91" is the IV and can decrypt the ciphertext using the 256-bit AES key and this IV.
 
+
+6; Let $P_1$, $P_2$ be a message that is two blocks long, and let $P'_1$ be a message that is one block long. Let $C_0, C_1, C_2$ be the encryption of $P_1, P_2$ using CBC mode with a random IV and a random key, and let $C'_0, C'_1$ be the encryption of $P'_1$ using CBC mode with a random IV and the same key. Suppose an attacker knows $P_1, P_2$ and suppose the attacker intercepted and thus knows $C_0, C_1, C_2$ and $C_0', C_1'$. Further suppose that, by random chance, $C_1' = C_2$. Show that the attacker can compute $P'_1$.
+- Given that $C_i=E(K,P_i\oplus C_{i-1})$, we have:
+$$C_2=E(K,P_2\oplus C_{1})=C'_1=E(K,P'_1\oplus C'_0)$$
+it's extremely likely that $P'_1 = P_2\oplus C_1\oplus C'_0$.
+
+
+
+# Extended Exercises
+## Chapter 3
+5; Suppose you have a processor that can perform a single $DES$ encryption or decryption operation in $2^{-26}$  seconds. Suppose you also have a large number of plaintext-ciphertext pairs for $DES$ under a single unknown key. How many hours would it take, on average, to find that $DES$ key, using an exhaustive search approach and a single processor? How many hours would it take, with a collection of $2^{14}$ processors?
+- note: "a large number" is weird, they should have just given a number. But w/e, *ahem* I mean, I assigned this for an opportunity to practice symbolic reasoning.
+- Let:
+    -  the number of owned plaintext-ciphertext pairs be $n$
+    -  the time per (en|de)cryption be $t$ seconds
+    -  the total number of possible DES keys be $N$
+    -  the number of parallel processors be $d$
+    -  the number of attempts to be $a$
+- For any independent attempt[^1], the probability of key-discovery can be expressed: $P[\text{key discovery}]=n/N$. We make the assumption attempts approximately independent, and solve $na/N=.5$:
+$$0.5 = na/N = \frac{na}{2^{56}}$$
+$$a=2^{55}/n$$
+and the time to obtain a collision can be expressed:
+$$T := \frac{at}{d} = \frac{2^{55}2^{-26}}{n*2^{14}}$$
+$$=2^{15}/n \text{ seconds}$$
+
+9; Using an existing cryptography library, encrypt the following plaintext (in hex)
+
+```hex
+	29 6C 93 FD F4 99 AA EB 41 94 BA BC 2E 63 56 1D
+```
+
+with the following 256-bit key (also in hex)
+
+```hex
+	80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+	00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01
+```
+using *AES*.
+- rust: https://github.com/thor314/uncloak-hw/tree/main/hw2
+- bash:
+```bash
+$ echo "296C93FDF499AAEB4194BABC2E63561D" | xxd -r -p | openssl enc -aes256 -e -K "8000000000000000000000000000000000000000000000000000000000000001" -iv 0 -nopad | xxd
+```
+10; Write a program that experimentally demonstrates the complementation property for *DES*. This program should take as input a key $K$ and a plaintext $P$ and demonstrate that the $DES$ complementation property holds for this key and plaintext. You may use an existing cryptography library for this exercise.
+- https://github.com/thor314/uncloak-hw/tree/main/hw2
+
+## Chapter 4
 5; Encrypt the plaintext
 ```hex
 62 6C 6F 63 6B 20 63 69 70 68 65 72 73 20 20 20
@@ -167,20 +161,15 @@ You may use an existing cryptography library for this exercise.
 ```bash
 echo "626C6F636B2063697068657273202020686173682066756E6374696F6E732078626C6F636B2063697068657273202020" | xxd -r -p | openssl enc -aes-256-ecb -e -K "8000000000000000000000000000000000000000000000000000000000000001" -nopad | xxd
 ```
-
-6; Let $P_1$, $P_2$ be a message that is two blocks long, and let $P'_1$ be a message that is one block long. Let $C_0, C_1, C_2$ be the encryption of $P_1, P_2$ using CBC mode with a random IV and a random key, and let $C'_0, C'_1$ be the encryption of $P'_1$ using CBC mode with a random IV and the same key. Suppose an attacker knows $P_1, P_2$ and suppose the attacker intercepted and thus knows $C_0, C_1, C_2$ and $C_0', C_1'$. Further suppose that, by random chance, $C_1' = C_2$. Show that the attacker can compute $P'_1$.
-- Given that $C_i=E(K,P_i\oplus C_{i-1})$, we have:
-$$C_2=E(K,P_2\oplus C_{1})=C'_1=E(K,P'_1\oplus C'_0)$$
-it's extremely likely that $P'_1 = P_2\oplus C_1\oplus C'_0$.
-
-- Implement a pair of functions: A PKCS message padding function, and a padding validation function that takes a message and validates whether it has a correct padding.
+- Implement a pair of functions: A [PKCS 7](https://en.wikipedia.org/wiki/PKCS_7) message padding function, and a padding validation function that takes a message and validates whether it has a correct padding.
     - https://github.com/thor314/uncloak-hw/tree/main/hw2
+
 
 ----
 
-[^1]: these attempts aren't precisely independent, but we can model them as such for simplicity, though in reality the attacker would be slightly more powerful. The actual probability for attempt $m$ to obtain the key would be $P[E_m] = \frac{n}{N-m}$, and the probability that the key is discovered on or before attempt $m$ would be: 
+[^1]: per question 3.6; these attempts aren't precisely independent, but we can model them as such for simplicity, though in reality the attacker would be slightly more powerful. The actual probability for attempt $m$ to obtain the key would be $P[E_m] = \frac{n}{N-m}$, and the probability that the key is discovered on or before attempt $m$ would be:
 $$P[\bigcup_i E_i=1]= P[E_1=1 \lor (E_1=0 \land \bigcup_i=E_i=1)] |$$
 We can recursively repeat the above move, and separate the probabilities by mutual independence:
 $$=P[E_1=1]+ P[E_1=0 \land E_2=1]+...$$
 $$= \frac{n}{N} + \frac{N-n}{N}\frac{n}{N-1}+...+(\prod_{i=0}^{m-1} \frac{N-i-n}{N-i})\frac n {N-m}$$
-This expression can be simplified further, but is left as an exercise for the reader. 
+This expression can be simplified further, but is left as an exercise for the reader.
