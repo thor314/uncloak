@@ -12,7 +12,7 @@ tags: type/context/course
 1; How much space would be required to store a table for an entire idealized block cipher that operates on 64-bit blocks and has 80-bit keys?
 - How many possible keys are there? $2^{80}$.
 - How many possible blocks are there? $2^{64}$
-- There will be $2^{144}=2^{64}*2^{80}$ entries, with 64 bits per block, so $2^{150}=2^{144}*2^6$ bits total, or $2^{147}$ bytes.
+- There will be $2^{144}=2^{64}*2^{80}$ entries, with 64 bits per block, so $2^{208}=2^{144}*2^64$ bits total, or $2^{205}$ bytes.
 
 6; Consider a new block cipher, *DES2*, that consists only of two rounds of the *DES* block cipher. *DES2* has the same block and key size as *DES*. For this question you should consider the *DES* $F$ function as a black box that takes two inputs, a 32-bit data segment and a 48-bit round key, and that produces a 32-bit output. Suppose you have a large number of plaintext-ciphertext pairs for *DES2* under a single, unknown key. Give an algorithm for recovering the 48-bit round key for round 1 and the 48-bit round key for round 2. Your algorithm should require fewer operations than an exhaustive search for an entire 56-bit *DES* key. Can your algorithm be converted into a distinguishable attack against *DES2*?
 
