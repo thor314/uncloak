@@ -39,10 +39,12 @@ Sessions will be recorded and posted to [youtube](https://youtube.com/playlist?l
   - Reading: Ch 3-4 on block ciphers, and NIST: [Block Cipher Techniques | CSRC](https://csrc.nist.gov/Projects/block-cipher-techniques/BCM/current-modes)
   - Exercises: [[course-2022-11-25 Session 2 Notes]]
 - W3
-  - Reading: Ch 5-6: Hash Functions and MACs
+  - Reading: Ch 5-6: Hash Functions and MACs, and more; see notes.
   - Exercises: [[course-2022-12-02 Session 3 Notes]]
 - W4:
-  - Reading: Ch 7 Secure Channels
+  - Focus: Authenticated Encryption, AEADs, GCM, and ChaCha20-Poly1305
+  - Reading: see notes for a list of adjacent reading.
+      - Reader note: ch 7 on Secure Channels is now obsolete. The book predates the general rise of Authenticated Encryption schemes, including GCM and ChaCha20-Poly1305.
   - Exercises: [[course-2022-12-09 Session 4 Notes]]
 - W5:
   - Discussion: scheduled Code Review
