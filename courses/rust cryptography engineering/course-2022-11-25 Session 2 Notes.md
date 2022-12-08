@@ -7,7 +7,7 @@ tags: type/context/course
 ---
 # course-2022-11-25 Session 2 Notes
 - next:: [[course-2022-12-02 Session 3 Notes]]
-- solutions:: [[course-HW 2 Solutions]]
+- solns:: [[course-HW 2 Solutions]]
 
 ## Notes
 - Covering chapter 2. Assigned reading for next week: chapters 3 and 4, and familiarize yourself with NIST's standard: [Block Cipher Techniques | CSRC](https://csrc.nist.gov/Projects/block-cipher-techniques/BCM/current-modes)
