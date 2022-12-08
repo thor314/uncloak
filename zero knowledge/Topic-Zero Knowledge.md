@@ -20,6 +20,8 @@ tags: type/topic, related/zero-knowledge
 - explainer-mathematician:: [Proofs, Arguments, and Zero-Knowledge, by Justin Thaler](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf)
 - knowledge-base:: [Delendum ZKP Knowledge Base](https://kb.delendum.xyz/zk-knowledge#foundations-of-zksnarks)
 - developer:: [ZK SNARKS: The Low level working, by Rabia Fatima](https://xord.com/research/the-low-level-working-of-zk-snarks/)
+- developer:: [0xPARC Learning Group Sessions](https://learn.0xparc.org/)
+- all-things-zk:: [ZK Whiteboard Sessions](https://zkhack.dev/whiteboard/)
 
 ## References
 *This section is for citations of any claims made in the page*.
