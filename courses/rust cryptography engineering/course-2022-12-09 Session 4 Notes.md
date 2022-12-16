@@ -6,6 +6,10 @@ completion: 1
 tags: type/context/course
 ---
 # course-2022-12-09 Session 4 Notes
+- prev:: [[course-2022-12-02 Session 3 Notes]]
+- next:: [[course-2022-12-30 Session 5 Notes]]
+- solns:: [[course-2022-12-09 HW 4 Solutions]]
+
 ## Notes
 - Review of chapter 5-6 and exercise solutions
 - Chapter 7 is heavily obsolete. This weeks reading will focus on Authenticated Encryption, the TLS Handshake, AEADs, GCM, and ChaCha20-Poly1305. Reading this week will be external to the book.
