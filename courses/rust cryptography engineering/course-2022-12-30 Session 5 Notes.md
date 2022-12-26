@@ -58,7 +58,7 @@ This weeks notes are longer than usual. We will be taking December 23 off, and r
 This week introduced many tools, and we're heading into the holidays. Get your hands dirty with them.
 - Write an Error type with `anyhow` and `thiserror`.
 - Implement a type-level program using `PhantomData` to parameterize the state of a struct.
-- Put CI on a project. Deny lints, failing tests, and failing formatting.
+- Put CI on a project. Deny failing lints, failing tests, and failing formatting.
 - Compile your codebase with a malicious feature. Test against it in an integration test.
 - Write an implementation failing one
 - implement a program that loops 1000 times, repeatedly branching on secret data (say, equality to number 123456789012345678), taking the left path in execution A and the right path in execution B. Benchmark your program. Determine if your benchmarks are stastically different. Try this first with a single u64, then repeat the experiment making your secret data a vector of length 100 u64's.
