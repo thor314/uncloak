@@ -51,38 +51,43 @@ Sessions will be recorded and posted to [youtube](https://youtube.com/playlist?l
   - Reading: Ch 8 Implementation Issues
   - Exercises: [[course-2022-12-16 Session 5 Notes]]
 - W6
-  - Reading: Chapter 9-10 Randomness and Primes
-  - Exercises: [[course-2022-12-23 Session 6 Notes]]
+  - Expected Date: 2022-01-06
+  - Reading: Implementation details revisited
+  - Exercises: TBD
 - W7
-  - Reading: Ch 11 Diffie Helman
-  - Exercises: [[course-2023-01-06 Session 7 Notes]]
+  - Reading: Chapter 9-10 Randomness and Primes
+  - Exercises:
 - W8
-  - Reading: Ch 12 RSA
-  - Exercises: [[course-2023-01-13 Session 8 Notes]]
+  - Reading: Ch 11 Diffie Hellman, Ch 12 RSA
+  - Exercises:
 - W9
   - Reading: Ch 13-14 Cryptographic Protocols and Key Negotiation
-  - Exercises: [[course-2023-01-20 Session 9 Notes]]
+  - Exercises:
 - W10
   - Discussion: scheduled Code Review
   - Reading: Ch 15 Implementation Issues II
-  - Exercises: [[course-2023-01-27 Session 10 Notes]]
+  - Exercises
 - W11
+- Expected Date: 2023-02-11
   - Reading: ch 16-17, 21 Clocks, Key Servers, and Secret Sharing
-  - Exercises: [[course-2023-02-03 Session 11 Notes]]
+  - Exercises:
 - W12
   - Reading: Miscellaneous Topics (Zero Knowledge)
-  - Exercises: [[course-2023-02-10 Session 12 Notes]]
+  - Exercises:
 - W13
+  - Note the first week of March will be off.
   - Reading: Miscellaneous Topics (Multi Party Computation)
-  - Exercises: [[course-2023-02-17 Session 13 Notes]]
+  - Exercises:
 - W14
+- Expected Date: 2023-03-11
   - Reading: Miscellaneous Topics: (Fully Homomorphic Encryption)
-  - Exercises: [[course-2023-02-23 Session 14 Notes]]
+  - Exercises:
 - W15
   - scheduled Code Review
   - Reading: Miscellaneous Topics
-  - Exercises: [[course-2023-02-30 Session 15 Notes]]
+  - Exercises:
 - W16
+- Expected Date: 2023-03-25
   - Course Review
 
 

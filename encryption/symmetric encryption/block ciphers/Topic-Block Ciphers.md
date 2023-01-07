@@ -18,7 +18,7 @@ tags: type/topic, encryption/symmetric/block
 
 ## External Resources
 *The sources section is for recommending resources on other sites*.
-- Wikipedia:: [Block Cipher](https://en.wikipedia.org/wiki/https://en.wikipedia.org/wiki/Block_cipher)
+- Wikipedia:: [Block cipher - Wikipedia](https://en.wikipedia.org/wiki/Block_cipher)
 
 ## References
 *This section is for citations of any claims made in the page*.
