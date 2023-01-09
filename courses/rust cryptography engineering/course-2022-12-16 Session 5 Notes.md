@@ -5,23 +5,21 @@ audience: developer
 completion: 1
 tags: type/context/course
 ---
-# course-2022-12-30 Session 5 Notes
+# course-2022-12-16 Session 5 Notes
 - prev:: [[course-2022-12-09 Session 4 Notes]]
-%% - next:: [[course-2023-01-05 Session 6 Notes] %%]
-%% - solns:: [[course-2022-12-16 HW 5 Solutions] %%]
+- next:: [[course-2022-01-06 Session 6 Notes]]
+- solns:: [[course-2022-12-16 HW 5 Solutions]]
 
 ## Ch 8 notes
-This weeks notes are longer than usual. We will be taking December 23 off, and resuming Dec 30th. There's a larger than usual degree of reading this week, we will be revisiting these topics on Dec 30th. These exercises target practical techniques you may use in cryptographic codebases.
+This weeks notes are longer than usual. We will be taking December 23 and Dec 30 off. This week's exercises target practical techniques and libraries you may use in cryptographic codebases.
 
 - Chapter 8 discusses implementation practices at a high level. These notes aim to extend the coverage with extra details pertaining to current.
 - The introduction discusses what is know referred to by "cryptographic agility" - ability to quickly adapt to discovered insecurities protocols. [SGX.Fail](http://sgx.fail/) demonstrates what may be at stake for a security product that fails to quickly adapt to announced security vulnerabilities. Andrew Miller, one of the authors of sgx.fail expands on what went wrong in [this blog post](https://medium.com/initc3org/tee-based-smart-contracts-and-sealing-pitfalls-eccd5d751329).
 - "we don't know how to write a correct program" - Hello, Rust! This is much less true today than it was in 2010. Rust's compiler enforces, by default, correctness in many ways. [NSA urges orgs to use memory-safe programming languages](https://www.theregister.com/2022/11/11/nsa_urges_orgs_to_use/).
 - Type level programming techniques can be applied to further prevent common correctness issues at compile-time, but is a bit beyond the scope of this lecture, see [Type-level Programming in Rust | Will Crichton](https://willcrichton.net/notes/type-level-programming/) for an introduction. Spoiler, Rust's type system is Turing-complete: traits can be seen as compile-time analogues of runtime functions, operating over types, as opposed to data. This is under rapid development now that Generic Associated Types have landed in Rust's nightly toolchain.
-|         | Traits at Compile time                                           | Functions at runtime |
-| ------- | ---------------------------------------------------------------- | -------------------- |
-| Inputs  | Generic Types; eg `MyTrait<I1,I2>`                               | Data                 |
-| Outputs | Associated Types; eg `impl MyTrait ... { type O1; type O2; ...}` | Data                 |
-
+    -  TLDR, Traits at Compile time are type-level operators (like functions on types instead of data):
+        - Inputs: Generic Types; eg `MyTrait<I1,I2>`
+        - Outputs: Associated Types; eg `impl MyTrait ... { type O1; type O2; ...}`
 - 8.1 provides an overview of how to spec a codebase before implementation. But as any developer knows, spec's always evolve in parallel with the development of a program, as areas of uncertainty are fleshed out. The authors give three types of spec's. See the recently announced [Ethereum Foundation KZG spec](https://github.com/ethereum/kzg-ceremony-specs/) for an example of a well developed spec.
 - Section 8.3 can largely be replaced in context by [this blog post on the Zeroize library](https://benma.github.io/2020/10/16/rust-zeroize-move.html). Familiarize yourself with the [Zeroize](https://docs.rs/zeroize/latest/zeroize/index.html) and [Secrecy](https://docs.rs/secrecy/latest/secrecy/) libraries for handling secret information.
 - Section 8.4 should be a familiar review of high level best development practices.
@@ -58,8 +56,7 @@ This weeks notes are longer than usual. We will be taking December 23 off, and r
 This week introduced many tools, and we're heading into the holidays. Get your hands dirty with them.
 - Write an Error type with `anyhow` and `thiserror`.
 - Implement a type-level program using `PhantomData` to parameterize the state of a struct.
-- Put CI on a project. Deny failing lints, failing tests, and failing formatting.
-- Compile your codebase with a malicious feature. Test against it in an integration test.
-- Write an implementation failing one
-- implement a program that loops 1000 times, repeatedly branching on secret data (say, equality to number 123456789012345678), taking the left path in execution A and the right path in execution B. Benchmark your program. Determine if your benchmarks are stastically different. Try this first with a single u64, then repeat the experiment making your secret data a vector of length 100 u64's.
+- Put CI on a project. Deny lints, failing tests, and failing formatting.
+- Compile your codebase with a malicious feature. Test against it in a unit or integration test.
+- implement a program that loops 1000 times, repeatedly branching on secret data (say, equality to number 123456789012345678), taking the left path in execution A and the right path in execution B. Benchmark your program. Determine if your benchmarks are statistically different. Try this first with a single u64, then repeat the experiment making your secret data a vector of length 100 u64's.
 - Perform the test demonstrated in the zeroize blog post. For bonus credit, use a debugger [lldb](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) for instance, to insert break points into your code. See if you can determine where the secret value remains within memory, either with `lldb`, or even with `dd`. See [this](https://rustc-dev-guide.rust-lang.org/debugging-support-in-rustc.html) documentation page for the state of debugger support in Rust.
