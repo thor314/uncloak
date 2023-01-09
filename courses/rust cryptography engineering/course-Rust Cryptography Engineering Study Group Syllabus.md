@@ -53,7 +53,7 @@ Sessions will be recorded and posted to [youtube](https://youtube.com/playlist?l
 - W6
   - Expected Date: 2022-01-06
   - Reading: Implementation details revisited
-  - Exercises: TBD
+  - Exercises: [[course-2022-01-06 Session 6 Notes]]
 - W7
   - Reading: Chapter 9-10 Randomness and Primes
   - Exercises:
