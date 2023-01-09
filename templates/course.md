@@ -11,5 +11,5 @@ tags: type/context/course
 ## Exercises
 
 ---
-## Topic(s)
-- primary-topic:: [[course-Rust Cryptography Engineering Study Group Syllabus
+## Topic
+- primary-topic:: [[course-Rust Cryptography Engineering Study Group Syllabus]]

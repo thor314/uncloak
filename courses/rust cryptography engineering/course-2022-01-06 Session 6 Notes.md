@@ -6,6 +6,9 @@ tags: type/context/course
 ---
 # course-2022-01-06 Session 6 Notes
 - prev:: [[course-2022-12-16 Session 5 Notes]]
+- next:: [[course-2022-01-13 Session 7 Notes]]
+- solns:: [[course-2023-01-06 Session 6 Solutions]]
+
 This week's focus: is a review of techniques from session 5, with a focus on techniques to obtain compile-time guarantees with Rust. Next week we will be returning to the book, chapter 9 and 10, to discuss randomness and primes. We may take 2 weeks to cover chapter 10 on primes, depending on group sentiment.
 
 More implementation techniques
@@ -27,7 +30,7 @@ More implementation techniques
     - A fun read: [The Grug Brained Developer](https://grugbrain.dev/)
 
 Notes for Chapter 9:
-- Be familiar with the difference between a PRNG and a [CSPRNG](https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator), and how the latter can be generated from any secure block cipher. Aim to understand the Fortuna construction, now standard in Apple devices. A Rust implementation can be found here: [crypto::fortuna - Rust](https://nicolasdp.github.io/git/crypto/fortuna/) , also see [wikipedia](https://en.wikipedia.org/wiki/Fortuna_(PRNG)).
+- Be familiar with the difference between a PRNG and a [CSPRNG](https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator), and how the latter can be generated from any secure block cipher. Aim to understand the Fortuna construction, now standard in Apple devices. A Rust implementation can be found here: [crypto::fortuna - Rust](https://nicolasdp.github.io/git/crypto/fortuna/) , also see [wikipedia](https://en.wikipedia.org/wiki/Fortuna_(PRNG)). Note that 9.5-9.7 are information-light, and can be skimmed.
 Notes for Chapter 10:
 - Be familiar with the definition of a [Sophie Germain Prime](https://en.wikipedia.org/wiki/Safe_and_Sophie_Germain_primes#Sophie_Germain_prime), and [Schnorr](https://en.wikipedia.org/wiki/Schnorr_group) group. We may take 2 weeks to cover chapter 10 on primes, depending on group sentiment. As an extra resource, also see [this](https://medium.com/snips-ai/prime-number-generation-2a02f28508ff) blog post.
 

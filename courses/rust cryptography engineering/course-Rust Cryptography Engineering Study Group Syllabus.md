@@ -56,10 +56,10 @@ Sessions will be recorded and posted to [youtube](https://youtube.com/playlist?l
   - Exercises: [[course-2022-01-06 Session 6 Notes]]
 - W7
   - Reading: Chapter 9-10 Randomness and Primes
-  - Exercises:
+  - Notes: [[course-2022-01-13 Session 7 Notes]]
 - W8
   - Reading: Ch 11 Diffie Hellman, Ch 12 RSA
-  - Exercises:
+  - Notes:
 - W9
   - Reading: Ch 13-14 Cryptographic Protocols and Key Negotiation
   - Exercises:
