@@ -1,10 +1,10 @@
 ---
-creation-date: 2022-12-29
+creation-date: 2023-12-29
 audience: developer
 completion: 1
 tags: type/context/course
 ---
-# course-2022-01-06 Session 6 Notes
+# course-2023-01-06 Session 6 Notes
 - prev:: [[course-2022-12-16 Session 5 Notes]]
 This week's focus: is a review of techniques from session 5, with a focus on techniques to obtain compile-time guarantees with Rust. Next week we will be returning to the book, chapter 9 and 10, to discuss randomness and primes. We may take 2 weeks to cover chapter 10 on primes, depending on group sentiment.
 
