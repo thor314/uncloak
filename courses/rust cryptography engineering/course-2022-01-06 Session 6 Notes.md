@@ -28,6 +28,7 @@ More implementation techniques
 
 Notes for Chapter 9:
 - Be familiar with the difference between a PRNG and a [CSPRNG](https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator), and how the latter can be generated from any secure block cipher. Aim to understand the Fortuna construction, now standard in Apple devices. A Rust implementation can be found here: [crypto::fortuna - Rust](https://nicolasdp.github.io/git/crypto/fortuna/) , also see [wikipedia](https://en.wikipedia.org/wiki/Fortuna_(PRNG)).
+
 Notes for Chapter 10:
 - Be familiar with the definition of a [Sophie Germain Prime](https://en.wikipedia.org/wiki/Safe_and_Sophie_Germain_primes#Sophie_Germain_prime), and [Schnorr](https://en.wikipedia.org/wiki/Schnorr_group) group. We may take 2 weeks to cover chapter 10 on primes, depending on group sentiment. As an extra resource, also see [this](https://medium.com/snips-ai/prime-number-generation-2a02f28508ff) blog post.
 
