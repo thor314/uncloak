@@ -7,7 +7,7 @@ tags: type/context/course
 ---
 # course-2022-12-16 Session 5 Notes
 - prev:: [[course-2022-12-09 Session 4 Notes]]
-- next:: [[course-2022-01-06 Session 6 Notes]]
+- next:: [[course-2023-01-06 Session 6 Notes]]
 - solns:: [[course-2022-12-16 HW 5 Solutions]]
 
 ## Ch 8 notes
