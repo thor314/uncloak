@@ -34,35 +34,33 @@ Sessions will be recorded and posted to [youtube](https://youtube.com/playlist?l
 - W1
   - Discussion: course structure, and cryptography engineering at a high level, as presented in chapters 1 and 2. Optional pre-study group reading: Chapter 1
   - Reading (assigned reading for before week 2's meeting on 2022-11-25): Chapter 2, bird's eye view of Cryptography, and chapter 23: Involving experts
-  - Exercises: [[course-2022-11-18 Session 1 Notes]]
+  - Notes: [[course-2022-11-18 Session 1 Notes]]
 - W2
   - Reading: Ch 3-4 on block ciphers, and NIST: [Block Cipher Techniques | CSRC](https://csrc.nist.gov/Projects/block-cipher-techniques/BCM/current-modes)
-  - Exercises: [[course-2022-11-25 Session 2 Notes]]
+  - Notes: [[course-2022-11-25 Session 2 Notes]]
 - W3
   - Reading: Ch 5-6: Hash Functions and MACs, and more; see notes.
-  - Exercises: [[course-2022-12-02 Session 3 Notes]]
+  - Notes: [[course-2022-12-02 Session 3 Notes]]
 - W4:
   - Focus: Authenticated Encryption, AEADs, GCM, and ChaCha20-Poly1305
   - Reading: see notes for a list of adjacent reading.
       - Reader note: ch 7 on Secure Channels is now obsolete. The book predates the general rise of Authenticated Encryption schemes, including GCM and ChaCha20-Poly1305.
-  - Exercises: [[course-2022-12-09 Session 4 Notes]]
+  - Notes: [[course-2022-12-09 Session 4 Notes]]
 - W5:
   - Discussion: scheduled Code Review
   - Reading: Ch 8 Implementation Issues
-  - Exercises: [[course-2022-12-16 Session 5 Notes]]
+  - Notes: [[course-2022-12-16 Session 5 Notes]]
 - W6
-  - Expected Date: 2022-01-06
   - Reading: Implementation details revisited
-  - Exercises: [[course-2023-01-06 Session 6 Notes]]
+  - Notes: [[course-2023-01-06 Session 6 Notes]]
 - W7
   - Reading: Chapter 9-10 Randomness and Primes
-  - Notes: [[course-2022-01-13 Session 7 Notes]]
+  - Notes: [[course-2023-01-13 Session 7 Notes]]
 - W8
   - Reading: Ch 11 Diffie Hellman, Ch 12 RSA
-  - Notes:
+  - Notes: [[course-2023-01-20 Session 8 Notes]]
 - W9
-  - Reading: Ch 13-14 Cryptographic Protocols and Key Negotiation
-  - Exercises:
+  - Reading: Ch 13.5.6 on Replay Attacks, 14.1-8 on Cryptographic Protocol Key Negotiation,
 - W10
   - Discussion: scheduled Code Review
   - Reading: Ch 15 Implementation Issues II

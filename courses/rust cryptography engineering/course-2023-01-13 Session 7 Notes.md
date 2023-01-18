@@ -4,8 +4,10 @@ audience: developer
 completion: .1
 tags: type/context/course
 ---
-# course-2022-01-13 Session 7 Notes
-- prev:: [[course-2022-01-06 Session 6 Notes]]
+# course-2023-01-13 Session 7 Notes
+- prev:: [[course-2023-01-06 Session 6 Notes]]
+- next:: [[course-2023-01-20 Session 8 Notes]]
+- solns:: [[course-2023-01-13 Session 7 Solutions]]
 
 This week's focus is a discussion of Randomness and Primes, centered around chapters 9 and 10 in Cryptography Engineering.
 
@@ -40,9 +42,11 @@ Read Chapters 11 and 12 on Diffie Helman and RSA.
 - Give a one-sentence explanation of the difference between a **PRNG** and a **CSPRNG** (non-correlation versus unpredictability)
 - Why can a CSPRNG can be constructed from a block cipher?
 ### Ch 10: Primes
-- Compute $397^{-1} \mod 2357$ by hand.
+- Compute $397^{-1} \mod 2357$ by hand. Page 18 of https://drive.google.com/drive/u/0/folders/1ILBHUZrDZDku3HfK1yyp6AbBD_F3nRm5 describes a convenient tabular method for calculating the EEA by hand.
 - Recursively implement the Extended Euclidean Algorithm. Use the above exercise as a test case.
+    - https://github.com/thor314/uncloak-hw/blob/main/hw7/src/lib.rs
 - Implement the Miller-Rabin primality check.[^1]
+    - https://github.com/thor314/uncloak-hw/blob/main/hw7/src/lib.rs
 
 ### Preview to Ch 11: Diffie Helman
 Using [common.rs.html -- source](https://docs.rs/pumpkin/2.0.1/src/pumpkin/common.rs.html#106), obtain a safe prime of $n>1000$ bits.
