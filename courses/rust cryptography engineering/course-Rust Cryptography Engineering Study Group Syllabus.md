@@ -32,61 +32,60 @@ We will approximately follow the structure laid out in the text. We have a lot o
 Sessions will be recorded and posted to [youtube](https://youtube.com/playlist?list=PLzJmbuzo05ReLE7dqX3WRTYXfHsQYuag7)
 
 - W1
-  - Discussion: course structure, and cryptography engineering at a high level, as presented in chapters 1 and 2. Optional pre-study group reading: Chapter 1
-  - Reading (assigned reading for before week 2's meeting on 2022-11-25): Chapter 2, bird's eye view of Cryptography, and chapter 23: Involving experts
-  - Notes: [[course-2022-11-18 Session 1 Notes]]
+    - Discussion: course structure, and cryptography engineering at a high level, as presented in chapters 1 and 2. Optional pre-study group reading: Chapter 1
+    - Reading (assigned reading for before week 2's meeting on 2022-11-25): Chapter 2, bird's eye view of Cryptography, and chapter 23: Involving experts
+    - Notes: [[course-2022-11-18 Session 1 Notes]]
 - W2
-  - Reading: Ch 3-4 on block ciphers, and NIST: [Block Cipher Techniques | CSRC](https://csrc.nist.gov/Projects/block-cipher-techniques/BCM/current-modes)
-  - Notes: [[course-2022-11-25 Session 2 Notes]]
+    - Reading: Ch 3-4 on block ciphers, and NIST: [Block Cipher Techniques | CSRC](https://csrc.nist.gov/Projects/block-cipher-techniques/BCM/current-modes)
+    - Notes: [[course-2022-11-25 Session 2 Notes]]
 - W3
-  - Reading: Ch 5-6: Hash Functions and MACs, and more; see notes.
-  - Notes: [[course-2022-12-02 Session 3 Notes]]
+    - Reading: Ch 5-6: Hash Functions and MACs, and more; see notes.
+    - Notes: [[course-2022-12-02 Session 3 Notes]]
 - W4:
-  - Focus: Authenticated Encryption, AEADs, GCM, and ChaCha20-Poly1305
-  - Reading: see notes for a list of adjacent reading.
-      - Reader note: ch 7 on Secure Channels is now obsolete. The book predates the general rise of Authenticated Encryption schemes, including GCM and ChaCha20-Poly1305.
-  - Notes: [[course-2022-12-09 Session 4 Notes]]
+    - Focus: Authenticated Encryption, AEADs, GCM, and ChaCha20-Poly1305
+    - Reading: see notes for a list of adjacent reading.
+        - Reader note: ch 7 on Secure Channels is now obsolete. The book predates the general rise of Authenticated Encryption schemes, including GCM and ChaCha20-Poly1305.
+- Notes: [[course-2022-12-09 Session 4 Notes]]
 - W5:
-  - Discussion: scheduled Code Review
-  - Reading: Ch 8 Implementation Issues
-  - Notes: [[course-2022-12-16 Session 5 Notes]]
+    - Reading: Ch 8 Implementation Issues
+    - Notes: [[course-2022-12-16 Session 5 Notes]]
 - W6
-  - Reading: Implementation details revisited
-  - Notes: [[course-2023-01-06 Session 6 Notes]]
+    - Reading: Implementation details revisited
+    - Notes: [[course-2023-01-06 Session 6 Notes]]
 - W7
-  - Reading: Chapter 9-10 Randomness and Primes
-  - Notes: [[course-2023-01-13 Session 7 Notes]]
+    - Reading: Chapter 9-10 Randomness and Primes
+    - Notes: [[course-2023-01-13 Session 7 Notes]]
 - W8
-  - Reading: Ch 11 Diffie Hellman, Ch 12 RSA
-  - Notes: [[course-2023-01-20 Session 8 Notes]]
+    - Reading: Ch 11 Diffie Hellman, Ch 12 RSA
+    - Notes: [[course-2023-01-20 Session 8 Notes]]
 - W9
-  - Reading: Ch 13.5.6 on Replay Attacks, 14.1-8 on Cryptographic Protocol Key Negotiation,
+    - Reading: Ch 13.5.6 on Replay Attacks, 14.1-8 on Cryptographic Protocol Key Negotiation, light read ch16 on Clocks.
+    - Notes: [[course-2023-01-27 Session 9 Notes]]
 - W10
-  - Discussion: scheduled Code Review
-  - Reading: Ch 15 Implementation Issues II
-  - Exercises
+    - Reading: [An Introduction to Mathematical Cryptography](https://drive.google.com/drive/u/0/folders/1ILBHUZrDZDku3HfK1yyp6AbBD_F3nRm5)  Chapter 1.2-1.7 Number Theory primitives
+    - Exercises
 - W11
-- Expected Date: 2023-02-11
-  - Reading: ch 16-17, 21 Clocks, Key Servers, and Secret Sharing
-  - Exercises:
+    - Expected Date: 2023-02-11
+    - Reading: [An Introduction to Mathematical Cryptography](https://drive.google.com/drive/u/0/folders/1ILBHUZrDZDku3HfK1yyp6AbBD_F3nRm5)  Chapter 2.1-2.4, 2.6, 2.7 A mathematical review of Discrete Log
+    - Exercises:
 - W12
-  - Reading: Miscellaneous Topics (Zero Knowledge)
-  - Exercises:
+    - Reading: [An Introduction to Mathematical Cryptography](https://drive.google.com/drive/u/0/folders/1ILBHUZrDZDku3HfK1yyp6AbBD_F3nRm5)  Chapter 4.6, 4.7 Information and Complexity Theory
+    - Exercises:
 - W13
-  - Note the first week of March will be off.
-  - Reading: Miscellaneous Topics (Multi Party Computation)
-  - Exercises:
+    - Note the first week of March will be off.
+    - Reading: [An Introduction to Mathematical Cryptography](https://drive.google.com/drive/u/0/folders/1ILBHUZrDZDku3HfK1yyp6AbBD_F3nRm5)  Chapter 4.3, 7.1-7.3 Probability and Signatures
+    - Exercises:
 - W14
-- Expected Date: 2023-03-11
-  - Reading: Miscellaneous Topics: (Fully Homomorphic Encryption)
-  - Exercises:
+    - Expected Date: 2023-03-11
+    - Reading: Miscellaneous Topics (Zero Knowledge)
+    - Exercises:
 - W15
-  - scheduled Code Review
-  - Reading: Miscellaneous Topics
-  - Exercises:
+    - Reading: Miscellaneous Topics: (Fully Homomorphic Encryption)
+    - Exercises:
 - W16
-- Expected Date: 2023-03-25
-  - Course Review
+    - Expected Date: 2023-03-25
+    - Reading: Misc
+    - Course Review
 
 
 ## FAQ

@@ -6,8 +6,8 @@ tags: type/context/course
 ---
 # course-2023-01-13 Session 7 Notes
 - prev:: [[course-2023-01-06 Session 6 Notes]]
-- next:: [[course-2023-01-20 Session 8 Notes]]
 - solns:: [[course-2023-01-13 Session 7 Solutions]]
+- next:: [[course-2023-01-20 Session 8 Notes]]
 
 This week's focus is a discussion of Randomness and Primes, centered around chapters 9 and 10 in Cryptography Engineering.
 
