@@ -7,8 +7,8 @@ tags: type/context/course
 ---
 # course-2022-12-02 Session 3 Notes
 - prev:: [[course-2022-11-25 Session 2 Notes]]
-- next:: [[course-2022-12-09 Session 4 Notes]]
 - solns:: [[course-2022-12-02 HW 3 Solutions]]
+- next:: [[course-2022-12-09 Session 4 Notes]]
 
 ## Notes
 - Review of Chapter 3 and 4

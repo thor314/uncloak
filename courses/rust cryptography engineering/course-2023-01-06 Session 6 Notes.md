@@ -6,12 +6,12 @@ tags: type/context/course
 ---
 # course-2023-01-06 Session 6 Notes
 - prev:: [[course-2022-12-16 Session 5 Notes]]
-- next:: [[course-2022-01-13 Session 7 Notes]]
 - solns:: [[course-2023-01-06 Session 6 Solutions]]
+- next:: [[course-2023-01-13 Session 7 Notes]]
 
 This week's focus: is a review of techniques from session 5, with a focus on techniques to obtain compile-time guarantees with Rust. Next week we will be returning to the book, chapter 9 and 10, to discuss randomness and primes. We may take 2 weeks to cover chapter 10 on primes, depending on group sentiment.
 
-More implementation techniques
+More implementation techniques:
 - [Why does cryptographic software fail?](https://people.csail.mit.edu/nickolai/papers/lazar-cryptobugs.pdf)  - In this short paper from 2014, the authors explore common vulnerabilities in cryptography implementations and APIs. The four main categories of vulnerabilities discussed are:
     - Plaintext disclosure - revealing plaintext in logging, storage, or directly sending the plaintext over the wire. The crates [secrecy](https://docs.rs/secrecy/latest/secrecy/) and [zeroize](https://docs.rs/zeroize/latest/zeroize/index.html), introduced last week, prevent the cryptography implementer from accidentally disclosing or insecurely storing secrets.
     - Man in the Middle Attacks - proper authentication techniques prevent MITM attacks. Using Authenticated Encryption protocols such as ChaCha20-Poly1305 or AES-GCM, (in combination with a [Certificate Authority](https://en.wikipedia.org/wiki/Certificate_authority)) avoid allowing an adversary to perform MITM attacks.
@@ -36,7 +36,7 @@ Notes for Chapter 10:
 
 ## Exercises
 Shorter exercises this week, as I was late to posting them. Exercises focus on using typenum, generating primes and randomness.
-- Using the typenum crate, modify the following struct to wrap a generically sized array. Implement a `new`, `len`, and `get_index` method for the array.
+- Using the `generic_array`, modify the following struct to wrap a generically sized array. Implement a `new`, `len`, and `get_index` method for the array. Instantiate your array in a test with the `typenum` crate. Repeat the exercise with const generics (without `generic_array` or `typenum`).
 ```rust
 struct GenArrayWrapper<T>{
     inner: Vec<T>

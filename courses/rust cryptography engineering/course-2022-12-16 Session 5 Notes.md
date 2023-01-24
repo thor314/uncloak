@@ -7,8 +7,8 @@ tags: type/context/course
 ---
 # course-2022-12-16 Session 5 Notes
 - prev:: [[course-2022-12-09 Session 4 Notes]]
-- next:: [[course-2023-01-06 Session 6 Notes]]
 - solns:: [[course-2022-12-16 HW 5 Solutions]]
+- next:: [[course-2023-01-06 Session 6 Notes]]
 
 ## Ch 8 notes
 This weeks notes are longer than usual. We will be taking December 23 and Dec 30 off. This week's exercises target practical techniques and libraries you may use in cryptographic codebases.
