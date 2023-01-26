@@ -62,18 +62,18 @@ Sessions will be recorded and posted to [youtube](https://youtube.com/playlist?l
     - Reading: Ch 13.5.6 on Replay Attacks, 14.1-8 on Cryptographic Protocol Key Negotiation, light read ch16 on Clocks.
     - Notes: [[course-2023-01-27 Session 9 Notes]]
 - W10
-    - Reading: [An Introduction to Mathematical Cryptography](https://drive.google.com/drive/u/0/folders/1ILBHUZrDZDku3HfK1yyp6AbBD_F3nRm5)  Chapter 1.2-1.7 Number Theory primitives
-    - Exercises
+    - Reading: [An Introduction to Mathematical Cryptography](https://drive.google.com/drive/u/0/folders/1ILBHUZrDZDku3HfK1yyp6AbBD_F3nRm5) Chapter 1.2-1.7 Number Theory primitives
+    - Notes: [[course-2023-02-03 Session 10 Notes]]
 - W11
     - Expected Date: 2023-02-11
-    - Reading: [An Introduction to Mathematical Cryptography](https://drive.google.com/drive/u/0/folders/1ILBHUZrDZDku3HfK1yyp6AbBD_F3nRm5)  Chapter 2.1-2.4, 2.6, 2.7 A mathematical review of Discrete Log
+    - Reading: [An Introduction to Mathematical Cryptography](https://drive.google.com/drive/u/0/folders/1ILBHUZrDZDku3HfK1yyp6AbBD_F3nRm5) Chapter 2.1-2.4, 2.6, 2.7 A mathematical review of Discrete Log
     - Exercises:
 - W12
-    - Reading: [An Introduction to Mathematical Cryptography](https://drive.google.com/drive/u/0/folders/1ILBHUZrDZDku3HfK1yyp6AbBD_F3nRm5)  Chapter 4.6, 4.7 Information and Complexity Theory
+    - Note the first week of March will be off.
+    - Reading: [An Introduction to Mathematical Cryptography](https://drive.google.com/drive/u/0/folders/1ILBHUZrDZDku3HfK1yyp6AbBD_F3nRm5) Chapter 4.3, 7.1-7.3 Probability and Signatures
     - Exercises:
 - W13
-    - Note the first week of March will be off.
-    - Reading: [An Introduction to Mathematical Cryptography](https://drive.google.com/drive/u/0/folders/1ILBHUZrDZDku3HfK1yyp6AbBD_F3nRm5)  Chapter 4.3, 7.1-7.3 Probability and Signatures
+    - Reading: [An Introduction to Mathematical Cryptography](https://drive.google.com/drive/u/0/folders/1ILBHUZrDZDku3HfK1yyp6AbBD_F3nRm5) Chapter 5.1-5.5, 5.8 Elliptic Curve Cryptography
     - Exercises:
 - W14
     - Expected Date: 2023-03-11
