@@ -10,7 +10,7 @@ tags: type/context/course
 
 This week we'll be shifting to a more mathematical coverage of cryptography. For the next 4 weeks, we'll be covering from sections from An Introduction to Mathematical Cryptography. This week's coverage is a partial review of chapters 12 and 13 of Cryptography Engineering, with a closer eye to detail.
 
-If you are inexperienced at reading mathematical texts, some advice. Of greatest importance are definitions. A thorough student will copy each definition into their notes. All the theorems and results follow directly from the definitions! Much of the difficulty mathematical development is simply obtaining the correct definitions. 
+If you are inexperienced at reading mathematical texts, some advice. Of greatest importance are definitions. A thorough student will copy each definition into their notes. All the theorems and results follow directly from the definitions! Much of the difficulty with mathematical development is simply obtaining the correct definitions. 
 
 Second, try to understand the crux of each algorithm, theorem, lemma, and proposition, and summarizing in a sentence for your reference. For instance, the Fundamental Theorem of Arithmetic (1.21, p 27) states that if $n>1 \in \mathbb Z$, then $n$ may be factored into the product of primes. That is, for all $n>1\in \mathbb Z$, there exists a unique factorization $\{p_i\}, \{e_i\}$ such that: 
 $$n = \prod_i p_i^{e_i}$$
