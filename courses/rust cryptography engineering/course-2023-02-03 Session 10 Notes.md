@@ -8,7 +8,7 @@ tags: type/context/course
 - prev:: [[course-2023-01-27 Session 9 Notes]]
 - solns:: [[course-2023-02-03 Session 10 Solutions]]
 
-This week we'll be shifting to a more mathematical coverage of cryptography. For the next 4 weeks, we'll be covering from sections from An Introduction to Mathematical Cryptography. This week's coverage is a partial review of chapters 12 and 13 of Cryptography Engineering, with a closer eye to detail.
+This week we'll be shifting to a more mathematical coverage of cryptography. For the next 4 weeks, we'll be covering from sections from [An Introduction to Mathematical Cryptography](https://drive.google.com/drive/u/0/folders/1ILBHUZrDZDku3HfK1yyp6AbBD_F3nRm5). This week's coverage is a partial review of chapters 12 and 13 of Cryptography Engineering, with a closer eye to detail.
 
 If you are inexperienced at reading mathematical texts, some advice. Of greatest importance are definitions. A thorough student will copy each definition into their notes. All the theorems and results follow directly from the definitions! Much of the difficulty with mathematical development is simply obtaining the correct definitions. 
 
