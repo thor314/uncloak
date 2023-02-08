@@ -4,7 +4,7 @@ audience: developer
 completion: 1
 tags: type/context/course
 ---
-# course-2022-12-16 HW 5 Solutions
+# course-2022-12-16 Session 5 Solutions
 - back:: [[course-2022-12-16 Session 5 Notes]]
 
 - Write an Error type with `anyhow` and `thiserror`.
