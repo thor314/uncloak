@@ -5,7 +5,7 @@ audience: developer
 completion: 1
 tags: type/context/course
 ---
-# course-2022-12-02 HW 3 Solutions
+# course-2022-12-02 Session 3 Solutions
 - back:: [[course-2022-12-02 Session 3 Notes]]
 
 ## ch5 exercises
