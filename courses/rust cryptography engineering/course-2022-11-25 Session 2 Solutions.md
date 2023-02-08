@@ -5,7 +5,7 @@ audience: developer
 completion: 1
 tags: type/context/course
 ---
-# course-HW 2 Solutions
+# course-Session 2 Solutions
 - back:: [[course-2022-11-25 Session 2 Notes]]
 
 ## Chapter 3 (p. 61)
