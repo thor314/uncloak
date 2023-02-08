@@ -5,7 +5,7 @@ audience: developer
 completion: 1
 tags: type/context/course
 ---
-# course-2022-12-09 HW 4 Solutions
+# course-2022-12-09 Session 4 Solutions
 - back:: [[course-2022-12-09 Session 4 Notes]]
 
 - Justify or disqualify each of the following schemes, with message $m$, tag $t$, and ciphertext $c$.
