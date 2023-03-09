@@ -65,25 +65,25 @@ Sessions will be recorded and posted to [youtube](https://youtube.com/playlist?l
     - Reading: [An Introduction to Mathematical Cryptography](https://drive.google.com/drive/u/0/folders/1ILBHUZrDZDku3HfK1yyp6AbBD_F3nRm5) Chapter 1.2-1.7 Number Theory primitives
     - Notes: [[course-2023-02-03 Session 10 Notes]]
 - W11
-    - Expected Date: 2023-02-11
     - Reading: [An Introduction to Mathematical Cryptography](https://drive.google.com/drive/u/0/folders/1ILBHUZrDZDku3HfK1yyp6AbBD_F3nRm5) Chapter 2.1-2.4, 2.6, 2.7 A mathematical review of Discrete Log
-    - Exercises:
+    - Notes: [[course-2023-02-10 Session 11 Notes]]
 - W12
     - Note the first week of March will be off.
     - Reading: [An Introduction to Mathematical Cryptography](https://drive.google.com/drive/u/0/folders/1ILBHUZrDZDku3HfK1yyp6AbBD_F3nRm5) Chapter 4.3, 7.1-7.3 Probability and Signatures
-    - Exercises:
+    - Notes: [[course-2023-02-17 Session 12 Notes]]
 - W13
     - Reading: [An Introduction to Mathematical Cryptography](https://drive.google.com/drive/u/0/folders/1ILBHUZrDZDku3HfK1yyp6AbBD_F3nRm5) Chapter 5.1-5.5, 5.8 Elliptic Curve Cryptography
     - Exercises:
+    - Notes: [[course-2023-02-24 Session 13 Notes]]
 - W14
-    - Expected Date: 2023-03-11
+    - Expected Date: 2023-03-10
     - Reading: Miscellaneous Topics (Zero Knowledge)
     - Exercises:
 - W15
     - Reading: Miscellaneous Topics: (Fully Homomorphic Encryption)
     - Exercises:
 - W16
-    - Expected Date: 2023-03-25
+    - Expected Date: 2023-03-24
     - Reading: Misc
     - Course Review
 

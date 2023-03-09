@@ -47,13 +47,15 @@ $$1=au+bv = d(a'u+b'v)$$
 But since $d>1$, this implies $0<(a'u+b'v)<1$, violating either that $d=\gcd(a,b)$, or that all variable take on integer values, thereby proving the statement by contradiction.
 
 - (1.18) Suppose $g^a\equiv 1\mod m, g^b\equiv 1 \mod m.$ Prove that $g^{\gcd(a,b)}\equiv 1\mod m$.
-By Fermat's Little Theorem, $a=u*\phi(m)$, $b=v*\phi(m)$, with $u,v\in \mathbb Z^+$. Therefore $\phi(m) | \gcd(a,b)$, so
-$$g^{\gcd(a,m)}\equiv g^{k*\phi(m)}\equiv(g^{\phi(m)})^k\equiv 1^k\equiv 1 \mod m$$
-for some positive integer $k$.
+Provided there is a generator for the elements mod $m$, the problem reduces to an application of [Euler's (totient) theorem](https://explained-from-first-principles.com/number-theory/#eulers-totient-function). However, consider the integers mod 8. Any element {1,3,5,7} (the coprimes of 8) has only order 2; no generator exists.
+
+Let $k=|g|$, that is, let $k$ be the least element such that $g^k\equiv 1\mod m$. We must show that $k$ exists and unique; then $\gcd(a,b)$ must be a multiple of $k$. Anticipating a contradiction, suppose $j$ is the *smallest* other minimal order of the element $g$, such that $g^{j}\equiv 1\mod m$, and $j$ is not a multiple of $k$ or vice versa. WLOG, let $k>j$ Then we may obtain $k-j$ as a yet-smaller order of $g$.
+$$g^k=g^j=1\implies g^{k-j}=1$$
+But this contradicts our premise that $j$ was the smallest other order of $g$. Therefore $j=k$. Now, any elements $a,b$ satisfying $g^a=1=g^b$ must each be multiples of $k$, guaranteeing that $\gcd(a,b)$ must also be a multiple of $k$. 
 
 - Using a program, obtain a generator for the group of integers in $\mathbb Z / 1009 \mathbb Z$ and $\mathbb Z / 2357 \mathbb Z$. Both values are prime. What method did you use to check if the candidate was a generator?
 
-Exploit Fermat's Little Theorem: if $g^{\frac{p-1}{2}}\equiv p-1\equiv -1\mod p$, then $g$ generates the group. Use the fast-powering algorithm allows you to calculate each check in $O(\log p/2)$ exponentiations.
+Exploit Fermat's Little Theorem: if $g^{\frac{p-1}{2}}\equiv p-1\equiv -1\mod p$, then $g$ generates the group. Using the fast-powering algorithm allows you to calculate each check in $O(\log_2 p)$ exponentiations.
 
 ---
 ## Topic

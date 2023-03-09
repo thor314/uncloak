@@ -9,7 +9,7 @@ tags: type/context/course
 - solns:: [[course-2023-01-20 Sesson 8 Solutions]]
 - next:: [[course-2023-01-27 Session 9 Notes]]
 
-This week's focus is Diffie Hellman key key exchange and RSA, chapters 12 and 13. A brief announcement: This is the second-last session that will cover the book Cryptography Engineering. Next week's reading is posted in [[course-2023-01-27 Session 9 Notes]]. For sessions 10-13, we will be switching gears and covering several sections from [An introduction to mathematical cryptography](https://drive.google.com/drive/u/0/folders/1ILBHUZrDZDku3HfK1yyp6AbBD_F3nRm5) (henceforth, ItMC).  The course will finish with a set of special topic lectures on Zero Knowledge Proofs, Threshold Schemes, and if there is time, Fully Homomorphic Encryption.
+This week's focus is Diffie Hellman key exchange and RSA, chapters 12 and 13. A brief announcement: This is the second-last session that will cover the book Cryptography Engineering. Next week's reading is posted in [[course-2023-01-27 Session 9 Notes]]. For sessions 10-13, we will be switching gears and covering several sections from [An introduction to mathematical cryptography](https://drive.google.com/drive/u/0/folders/1ILBHUZrDZDku3HfK1yyp6AbBD_F3nRm5) (henceforth, ItMC).  The course will finish with a set of special topic lectures on Zero Knowledge Proofs, Threshold Schemes, and if there is time, Fully Homomorphic Encryption.
 
 Bonus reading for this week: [Don't use RSA.](https://github.com/trailofbits/publications/blob/master/papers/rsagtfo.pdf)
 
