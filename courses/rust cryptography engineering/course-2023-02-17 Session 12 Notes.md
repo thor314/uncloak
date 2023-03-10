@@ -36,6 +36,7 @@ $$\begin{align}
 r&= (g^k\mod p)&&\mod q \qquad  \text{r is a blind for the secret key}\\
 s&= k^{-1}(H(m)+xr)&&\mod q  \qquad   \text{(r,s) is the signature}
  \end{align}$$
+
 The $k^{-1}$ step makes ECDSA inflexible to many desirable adjustments in the algorithm.
 
 ### ECDSA verification:
@@ -61,7 +62,9 @@ $$\begin{align}
 r&=g^k&&\mod q\\
 e&=H(r||M) &&\mod q \quad \text{|| denotes bit-string concatenation}\\
 s&=k-xe && \mod q \quad \text{(e,s) is the signature}
- \end{align}$$ Note that $s$ is linear in $x$. This is what makes Schnorr flexible to algebraic adjustments.
+ \end{align}$$
+
+Note that $s$ is linear in $x$. This is what makes Schnorr flexible to algebraic adjustments.
 
 ### Schnorr verification
 With knowledge of public key $X$ and signature $(e,s)$, the verifier computes:
