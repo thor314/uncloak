@@ -59,9 +59,11 @@ With public parameters prime $q$, generator $g$, hash function $H$, and private 
 - Signer computes:
 $$\begin{align}
 r&=g^k&&\mod q\\
-e&=H(r||M) &&\mod q \quad \text{|| denotes bit-string concatenation}\\
 s&=k-xe && \mod q \quad \text{(e,s) is the signature}
- \end{align}$$ Note that $s$ is linear in $x$. This is what makes Schnorr flexible to algebraic adjustments.
+
+ \end{align}$$
+
+Note that $s$ is linear in $x$. This is what makes Schnorr flexible to algebraic adjustments.
 
 ### Schnorr verification
 With knowledge of public key $X$ and signature $(e,s)$, the verifier computes:
