@@ -77,10 +77,10 @@ Sessions will be recorded and posted to [youtube](https://youtube.com/playlist?l
     - Notes: [[course-2023-02-24 Session 13 Notes]]
 - W14
     - Expected Date: 2023-03-10
-    - Reading: Miscellaneous Topics (Zero Knowledge)
+    - Reading: Miscellaneous Topics (Multi Party Computation)
     - Exercises:
 - W15
-    - Reading: Miscellaneous Topics: (Fully Homomorphic Encryption)
+    - Reading: Miscellaneous Topics: (Zero Knowledge)
     - Exercises:
 - W16
     - Expected Date: 2023-03-24
