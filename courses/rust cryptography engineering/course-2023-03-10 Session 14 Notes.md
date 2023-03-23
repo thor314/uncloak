@@ -5,8 +5,8 @@ completion: .1
 tags: type/context/course
 ---
 # course-2023-03-10 Session 14 Notes
-- prev:: [[course-2023-02-17 Session 12 Notes]]
-- next:: [[course-2023-03-17 Session 14 Notes]]
+- prev:: [[course-2023-02-24 Session 13 Notes]]
+- next:: [[course-2023-03-17 Session 15 Notes]]
 
 ## Discussion
 - Shamir's secret sharing and the [Pedersen DKG](https://thork.net/posts/2022_4_21_dkg/)
