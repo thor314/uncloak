@@ -16,7 +16,7 @@ tags: type/topic, related/zero-knowledge
 ## External Resources
 *The sources section is for recommending resources on other sites*.
 - Wikipedia:: [Zero Knowledge Proof](https://en.wikipedia.org/wiki/Zero-knowledge_proof)
-- explainer-developer:: [The Moon Math Manual to zk-snarks by Anna Kaplan](https://raw.githubusercontent.com/LeastAuthority/moonmath-manual/main/main-moonmath.pdf)
+- explainer-developer:: [The Moon Math Manual to zk-snarks by Anna Kaplan](https://github.com/LeastAuthority/moonmath-manual/releases/latest/download/main-moonmath.pdf)
 - explainer-mathematician:: [Proofs, Arguments, and Zero-Knowledge, by Justin Thaler](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.pdf)
 - knowledge-base:: [Delendum ZKP Knowledge Base](https://kb.delendum.xyz/zk-knowledge#foundations-of-zksnarks)
 - developer:: [ZK SNARKS: The Low level working, by Rabia Fatima](https://xord.com/research/the-low-level-working-of-zk-snarks/)
